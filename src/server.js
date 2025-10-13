@@ -1,9 +1,12 @@
 import express from 'express'
+import 'dotenv/config'
+
 import exitHandler from './utils/exitHandler.js'
 
 
 const app = express()
-const port = 3000
+const host = process.env.HOST || "http://localhost:"
+const port = process.env.PORT || 3000
 
 // body parser middleware
 app.use(express.json())
@@ -13,5 +16,5 @@ exitHandler()
 
 // launch server
 app.listen(port, () => {
-    console.log(`server start :\nhttp://localhost:${port}`);
+    console.log(`server start :\n${host}${port}`);
 });

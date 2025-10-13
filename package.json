@@ -4,7 +4,7 @@
   "description": "backend of the stockemoise website project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node src/scripts/js/test.js",
     "dev": "node --watch src/server.js"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/JBLNgithub/stockemoise-backend#readme",
   "type": "module",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0"
   }
 }

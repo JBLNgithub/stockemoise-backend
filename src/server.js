@@ -1,6 +1,7 @@
 import express from 'express'
 import 'dotenv/config'
 
+import router from './routes/index.js'
 import exitHandler from './utils/exitHandler.js'
 
 
@@ -10,6 +11,9 @@ const port = process.env.PORT || 3000
 
 // body parser middleware
 app.use(express.json())
+
+// routes
+app.use(router)
 
 // exit processus
 exitHandler()

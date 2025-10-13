@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node src/scripts/js/test.js",
     "dev": "node --watch src/server.js",
-    "initDB": "node ./src/scripts/js/initDB.js"
+    "initDB": "node ./src/scripts/js/initDB.js",
+    "genDoc": "node ./src/scripts/swagger/swagger_jsdoc.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "swagger-jsdoc": "^6.2.8"
   }
 }

@@ -58,6 +58,8 @@ process.on("beforeExit", () => {
         if(err) {
             console.log("pool already closed ?? idk, some process shit going on there")
         }
-        console.log("pool closed")
+        else {
+            console.log("pool closed")
+        }
     })
 })

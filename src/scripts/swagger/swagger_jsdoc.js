@@ -6,7 +6,7 @@ const options = {
     definition: {
         openapi: "3.0.0",
         info: {
-            title: "La Stockemoie API",
+            title: "La Stockemoise API",
             version: "0.1.0"
         }
     },

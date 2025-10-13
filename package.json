@@ -24,7 +24,8 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "swagger-jsdoc": "^6.2.8"

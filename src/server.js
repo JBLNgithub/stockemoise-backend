@@ -20,5 +20,6 @@ exitHandler()
 
 // launch server
 app.listen(port, () => {
-    console.log(`server start :\n${host}${port}`);
+    console.log(`server start : ${host}${port}`);
+    console.log(`API docs : ${host}${port}/api-docs`)
 });

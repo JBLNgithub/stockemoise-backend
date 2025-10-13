@@ -90,8 +90,7 @@ erDiagram
         }
         
         Event {
-            date dateStart
-            time timeStart "optional"
+            datetime dateEvent
             bool isCanceled
         }
 

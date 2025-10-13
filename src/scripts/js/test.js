@@ -1,7 +1,4 @@
-import 'dotenv/config'
+import { nextConcerts } from "../../models/concerts.js"
+import {pool} from '../../databases/SQLite3.js'
 
-const production = process.env.NODE_ENV
-
-console.log(production, typeof(production))
-
-console.log(production === 'PRODUCTION' ? 'true' : 'false')
+console.log(await nextConcerts(pool))

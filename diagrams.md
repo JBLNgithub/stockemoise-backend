@@ -7,7 +7,6 @@
         Person_Ext(vis, "visitor")
         Person(op, "operator", "level: 2")
         %%Person(mod, "moderator", "level: 1")
-        Person(admin, "administrator", "level: 0")
 
         Enterprise_Boundary(website, "website") {
             System(login, "login")
@@ -34,13 +33,14 @@
             System(modifyOP, "modify operator password")
             System(deleteOP, "delete operator")
 
+            Person(admin, "administrator", "level: 0")
+
             Enterprise_Boundary(db, "database") {
                 System(sqlite, "SQLite3")
             }
         }
 
         Rel(op, vis, "Same rights except for login")
-        Rel(admin, op, "same rights")
 
         Rel(vis, pages, "visit")
         Rel(vis, login, "login")

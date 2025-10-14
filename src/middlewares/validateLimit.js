@@ -8,6 +8,13 @@ const schema = vine.object({
 const validator = vine.compile(schema)
 
 
+/**
+ * @swagger
+ * components:
+ *  responses:
+ *      validateLimit:
+ *          description: limit parameter not valid
+ */
 const validateLimit = async(req, res, next) => {
     const limit = req.query.limit
 

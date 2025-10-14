@@ -3,11 +3,12 @@ import {writeFileSync} from 'node:fs'
 
 
 const options = {
+    failOnErrors: true,
     definition: {
         openapi: "3.0.0",
         info: {
             title: "La Stockemoise API",
-            version: "0.1.0"
+            version: "0.2.0"
         }
     },
     apis: [

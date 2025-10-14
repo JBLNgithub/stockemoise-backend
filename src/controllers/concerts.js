@@ -4,7 +4,7 @@ import { nextConcerts as nextConcertsModel } from '../models/concerts.js'
 
 export const nextConcerts = async(req, res) => {
     try {
-        const concerts = await nextConcertsModel(pool)
+        const concerts = await nextConcertsModel(pool, req.query.limit)
         res.status(200).send(concerts)
     }
     catch(err) {

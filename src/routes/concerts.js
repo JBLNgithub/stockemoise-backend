@@ -6,7 +6,7 @@ const router = Router()
 
 /**
  * @swagger
- * /nextConcerts:
+ * /concerts/next:
  *  get:
  *      responses:
  *          200:
@@ -14,7 +14,7 @@ const router = Router()
  *          500:
  *              description : Error server
  */
-router.get('/nextConcerts', nextConcerts)
+router.get('/next', nextConcerts)
 
 
 export default router

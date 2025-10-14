@@ -1,5 +1,6 @@
 import {Router} from 'express'
 import {nextConcerts} from '../controllers/concerts.js'
+import validateLimit from '../middlewares/validateLimit.js'
 
 
 const router = Router()
@@ -14,7 +15,7 @@ const router = Router()
  *          500:
  *              description : Error server
  */
-router.get('/next', nextConcerts)
+router.get('/next', validateLimit, nextConcerts)
 
 
 export default router

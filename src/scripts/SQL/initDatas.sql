@@ -27,8 +27,8 @@ VALUES
     ("Stage d'éveil musical 2025", "TODO"),
     ("Stage d'éveil musical 2026", "TODO"),
     ("Brocante 2025 : les inscriptions sont ouvertes", "TODO"),
-    ("Notre nouveau directeur musical", "TODO"),
-    ("Situation géographique", "TODO");
+    ("Situation géographique", "TODO"),
+    ("Notre nouveau directeur musical", "TODO");
     -- ("", "")
 
 INSERT INTO eventNews(id, location, dateEvent)

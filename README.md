@@ -16,4 +16,5 @@ optional :
 ```
 HOST=<path>
 PORT=<port>
+NODE_ENV=<ENVIRONMENT>
 ```

@@ -3,14 +3,19 @@ import 'dotenv/config'
 
 import router from './routes/index.js'
 import exitHandler from './utils/exitHandler.js'
+import logger from './middlewares/logger.js'
 
 
 const app = express()
 const host = process.env.HOST || "http://localhost:"
 const port = process.env.PORT || 3000
+const node_env = process.env.NODE_ENV
 
 // body parser middleware
 app.use(express.json())
+
+// logger
+if(node_env === 'DEVELOPMENT') app.use(logger)
 
 // routes
 app.use(router)

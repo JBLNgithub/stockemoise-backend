@@ -11,27 +11,24 @@
         Enterprise_Boundary(website, "website") {
             System(login, "login")
             System(pages, "visit pages")
-            System(article, "article page")
             System(logout, "logout")
-            System(createFE, "create concert || article || eventArticle")
-            System(modifyFE, "modify concert || article || eventArticle")
-            System(deleteFE, "delete concert || article || eventArticle")
-            System(changePasswordFE, "modify self password")
+            System(article, "article page")
+            System(crudFE, "CRUD on concert & news")
+            System(changePasswordFE, "change own password")
+            System(articleFE, "get article")
         }
 
         Enterprise_Boundary(api, "API") {
             System(loginAPI, "login")
-            System(nextEvents, "next Events and most recent News")
-            System(articleAPI, "get article")
+            System(nextEvents, "next Events & recent News")
+            System(newsAPI, "get news")
+            System(concertAPI, "get concert")
             System(logoutAPI, "logout")
-            System(createAPI, "create concert || article || eventArticle")
-            System(modifyAPI, "modify concert || article || eventArticle")
-            System(deleteAPI, "delete concert || article || eventArticle")
-            System(changePasswordAPI, "modify self password")
+            System(crudAPI, "CRUD on concert & news")
+            System(changePasswordAPI, "update own password")
 
-            System(createOP, "create operator")
-            System(modifyOP, "modify operator password")
-            System(deleteOP, "delete operator")
+
+            System(crudOP, "CRUD on operators")
 
             Person(admin, "administrator", "level: 0")
 
@@ -40,30 +37,24 @@
             }
         }
 
-        Rel(op, vis, "Same rights except for login")
+        Rel(vis, pages, "")
+        Rel(op, pages, "")
+        BiRel(vis, login, "return JWT")
+        BiRel(op, logout, "delete JWT")
 
-        Rel(vis, pages, "visit")
-        Rel(vis, login, "login")
-        Rel(op, logout, "logout")
-
-        BiRel(login, loginAPI, "request, return JWT")
+        BiRel(login, loginAPI, "return JWT")
         Rel(pages, article, "visit")
-        BiRel(logout, logoutAPI, "request, delete JWT")
-        Rel(op, createFE, "uses")
-        Rel(op, modifyFE, "uses")
-        Rel(op, deleteFE, "uses")
-        Rel(op, changePasswordFE, "uses")
+        BiRel(logout, logoutAPI, "delete JWT")
+        Rel(op, changePasswordFE, "")
+        Rel(op, crudFE, "")
+        Rel(article, articleFE, "")
 
-        Rel(pages, nextEvents, "request")
-        Rel(article, articleAPI, "request")
-        Rel(createFE, createAPI, "create")
-        Rel(modifyFE, modifyAPI, "modify")
-        Rel(deleteFE, deleteAPI, "create")
-        Rel(deleteFE, deleteAPI, "modify")
-        Rel(changePasswordFE, changePasswordAPI, "uses")
-        Rel(admin, createOP, "uses")
-        Rel(admin, modifyOP, "uses")
-        Rel(admin, deleteOP, "uses")
+        Rel(pages, nextEvents, "")
+        Rel(articleFE, newsAPI, "")
+        Rel(articleFE, concertAPI, "")
+        Rel(crudFE, crudAPI, "")
+        Rel(changePasswordFE, changePasswordAPI, "")
+        Rel(admin, crudOP, "")
 
         UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
 

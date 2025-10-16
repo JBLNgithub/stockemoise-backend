@@ -1,5 +1,11 @@
 import {Router} from 'express'
-import {nextConcerts} from '../controllers/concerts.js'
+import {
+    nextConcerts, 
+    getConcert, 
+    addConcert,
+    updateConcert,
+    deleteConcert
+} from '../controllers/concerts.js'
 import validateLimit from '../middlewares/validateLimit.js'
 
 
@@ -26,6 +32,10 @@ const router = Router()
  *          
  */
 router.get('/next', validateLimit, nextConcerts)
+router.get('/:id', getConcert)
+router.post('/', addConcert)
+router.patch('/:id', addConcert)
+router.delete('/:id', deleteConcert)
 
 
 export default router

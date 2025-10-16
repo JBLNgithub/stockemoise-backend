@@ -1,0 +1,20 @@
+meta {
+  name: add concert
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/api/concerts
+  body: none
+  auth: inherit
+}
+
+assert {
+  res.status: eq 200
+  res.body: isArray
+}
+
+settings {
+  encodeUrl: true
+}

@@ -22,3 +22,23 @@ export const nextConcerts = async(req, res) => {
         res.sendStatus(500)
     }
 }
+
+export const getConcert = (req, res) => {
+    console.log("TODO")
+    res.send("TODO")
+}
+
+export const addConcert = (req, res) => {
+    console.log("TODO")
+    res.send("TODO")
+}
+
+export const updateConcert = (req, res) => {
+    console.log("TODO")
+    res.send("TODO")
+}
+
+export const deleteConcert = (req, res) => {
+    console.log("TODO")
+    res.send("TODO")
+}

@@ -1,0 +1,19 @@
+meta {
+  name: patch concert
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:3000/api/concerts/3
+  body: none
+  auth: inherit
+}
+
+assert {
+  res.status: eq 200
+}
+
+settings {
+  encodeUrl: true
+}

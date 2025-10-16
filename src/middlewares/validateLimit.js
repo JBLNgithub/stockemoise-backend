@@ -19,7 +19,7 @@ const validateLimit = async(req, res, next) => {
     const limit = req.query.limit
 
     if(!limit) {
-        req.val = {limit:undefined}
+        req.val = {limit:null}
         next()
     }
     else {

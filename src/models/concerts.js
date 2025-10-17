@@ -2,26 +2,22 @@
  * @swagger
  * components:
  *  schemas:
- *      concerts:
+ *      nextConcerts:
  *          type: object
  *          properties:
  *              id:
  *                  type: integer
  *              title:
  *                  type: string
- *              content:
- *                  type: string
- *              dateRedaction:
- *                  type: string
- *              cover:
- *                  type: string
  *              dateEvent:
  *                  type: string
  *              isCanceled:
  *                  type: boolean
+ *              locationName:
+ *                  type: string
  */
 export const nextConcerts = async(SQLClient, limit) => {
-    let query = "SELECT * FROM concert WHERE dateEvent > datetime('now') ORDER BY dateEvent ASC"
+    let query = "SELECT c.id, c.title, c.dateEvent, c.isCanceled, l.name AS locationName FROM concert c INNER JOIN location l ON (c.location = l.id) WHERE c.dateEvent > datetime('now') ORDER BY dateEvent ASC"
     const queryValues = []
 
     if(limit) {

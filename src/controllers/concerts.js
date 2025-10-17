@@ -10,7 +10,7 @@ import { nextConcerts as nextConcertsModel } from '../models/concerts.js'
  *          content:
  *              application/json:
  *                  schema: 
- *                      $ref : '#components/schemas/concerts'
+ *                      $ref : '#components/schemas/nextConcerts'
  */
 export const nextConcerts = async(req, res) => {
     try {

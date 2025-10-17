@@ -28,7 +28,7 @@ const router = Router()
  *          412:
  *              $ref : '#components/responses/validateLimit'
  *          500:
- *              description : Error server
+ *              description : error server
  *          
  */
 router.get('/next', validateLimit, nextConcerts)

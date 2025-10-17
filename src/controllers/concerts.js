@@ -1,5 +1,8 @@
 import {pool} from '../databases/SQLite3.js'
-import { nextConcerts as nextConcertsModel } from '../models/concerts.js'
+import { 
+    nextConcerts as nextConcertsModel,
+    readConcert
+} from '../models/concerts.js'
 
 /**
  * @swagger
@@ -18,14 +21,20 @@ export const nextConcerts = async(req, res) => {
         res.status(200).send(concerts)
     }
     catch(err) {
-        console.log(err)
+        console.error(err)
         res.sendStatus(500)
     }
 }
 
-export const getConcert = (req, res) => {
-    console.log("TODO")
-    res.send("TODO")
+export const getConcert = async(req, res) => {
+    try {
+        const concert = await readConcert(pool, req.params.id)
+        res.status(200).send(concert)
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
 }
 
 export const addConcert = (req, res) => {

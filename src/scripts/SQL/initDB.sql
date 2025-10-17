@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS concert;
 CREATE TABLE concert(
     id integer PRIMARY KEY AUTOINCREMENT,
     title varchar NOT NULL,
-    content varchar NOT NULL,
+    content text NOT NULL,
     dateRedaction date DEFAULT current_timestamp,
     cover varchar,
     dateEvent datetime NOT NULL,
@@ -37,7 +37,7 @@ DROP TABLE IF EXISTS news;
 CREATE TABLE news(
     id integer PRIMARY KEY AUTOINCREMENT,
     title varchar NOT NULL,
-    content varchar NOT NULL,
+    content text NOT NULL,
     dateRedaction date DEFAULT current_timestamp,
     cover varchar
 );

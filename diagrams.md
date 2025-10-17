@@ -88,9 +88,9 @@ erDiagram
         Location {
             int id "pk"
             string name
-            string rue
+            string street
             int number
-            string additionalAdress "optional"
+            string additionalAddress "optional"
         }
 
         Locality {

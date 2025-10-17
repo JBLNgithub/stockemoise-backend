@@ -34,7 +34,7 @@ const router = Router()
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', getConcert)
 router.post('/', addConcert)
-router.patch('/:id', addConcert)
+router.patch('/:id', updateConcert)
 router.delete('/:id', deleteConcert)
 
 

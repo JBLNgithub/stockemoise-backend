@@ -7,17 +7,19 @@ import {
     updateNews,
     deleteNews
 } from '../controllers/news.js'
+import validateLimit from '../middlewares/validateLimit.js'
+import validateId from '../middlewares/validateId.js'
 
 
 const router = Router()
 
 
 router.get('/', getAllNews)
-router.get('/next', nextEventNews)
-router.get('/:id', getSingleNews)
+router.get('/next', validateLimit, nextEventNews)
+router.get('/:id', validateId, getSingleNews)
 router.post('/', addNews)
-router.patch('/:id', updateNews)
-router.delete('/:id', deleteNews)
+router.patch('/:id', validateId, updateNews)
+router.delete('/:id', validateId, deleteNews)
 
 
 export default router

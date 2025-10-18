@@ -28,7 +28,7 @@ export const nextConcerts = async(req, res) => {
 
 export const getConcert = async(req, res) => {
     try {
-        const concert = await readConcert(pool, req.params.id)
+        const concert = await readConcert(pool, req.val.id)
         res.status(200).send(concert)
     }
     catch(err) {

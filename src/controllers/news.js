@@ -19,7 +19,7 @@ export const getAllNews = async(req, res) => {
 }
 
 export const getSingleNews = async(req, res) => {
-    const {id} = req.params
+    const {id} = req.val
     try {
         const news = await getSingleNewsModel(pool, id)
 
@@ -39,7 +39,7 @@ export const getSingleNews = async(req, res) => {
 
 export const nextEventNews = async(req, res) => {
     try {
-        const eventNews = await nexEventNewsModel(pool, req.query.limit)
+        const eventNews = await nexEventNewsModel(pool, req.val.limit)
         res.status(200).send(eventNews)
     }
     catch(err) {

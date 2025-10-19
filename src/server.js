@@ -13,7 +13,7 @@ const port = process.env.PORT || 3000
 const node_env = process.env.NODE_ENV
 
 // CORS
-if(node_env === 'DEVELOMENT') app.use(CORS)
+if(node_env === 'DEVELOPMENT') app.use(CORS)
 
 // body parser middleware
 app.use(express.json())

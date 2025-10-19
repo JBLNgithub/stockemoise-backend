@@ -13,7 +13,7 @@ export const getSingleNews = async(SQLClient, id) => {
 }
 
 export const getSingleEventNews = async(SQLClient, id) => {
-    const query = 'SELECT * FROM eventNews WHERE id = $1'
+    const query = 'SELECT en.dateEvent, en.isCanceled, l.name AS locationName, l.street AS locationStreet, l.number AS locationNumber, l.additionalAddress AS locationAdditionalAddress, ly.codePostal AS locationCodePostal, ly.city AS locationCity, ly.country AS locationCountry FROM eventNews en INNER JOIN location l ON en.location = l.id INNER JOIN locality ly ON l.locality = ly.codePostal WHERE en.id = $1'
 
     const rows = await SQLClient.query(query, [id])
     return rows[0]

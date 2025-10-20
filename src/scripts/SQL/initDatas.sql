@@ -36,3 +36,9 @@ VALUES
     ( 1, 1, "2025-07-21 09:00:00"),
     ( 2, 1, "2026-08-15 09:00:00");
     -- ( , , ""),
+
+INSERT INTO user(username, email, password, level)
+VALUES
+    ('admin', 'admin@test.test', '1234', 0),
+    ('moderator', 'mod@test.test', '1234', 1),
+    ('operator', 'op@test.test', '1234', 2);

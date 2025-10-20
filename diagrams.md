@@ -108,7 +108,9 @@ erDiagram
 
         User {
             int id "pk"
+            string username
             string email
+            string password
             int level
         }
 

@@ -57,6 +57,8 @@ DROP TABLE IF EXISTS user;
 
 CREATE TABLE user(
     id integer PRIMARY KEY AUTOINCREMENT,
+    username varchar NOT NULL,
     email varchar UNIQUE NOT NULL,
+    password varchar NOT NULL,
     level integer NOT NULL
 );

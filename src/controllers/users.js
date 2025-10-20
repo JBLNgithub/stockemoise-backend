@@ -1,5 +1,6 @@
 import {pool} from '../databases/SQLite3.js'
 import { readUserByEmail } from '../models/users.js'
+import {hash, verify} from 'argon2'
 
 
 export const login = (req, res) => {
@@ -13,7 +14,7 @@ export const loginGetUser = async(email, password) => {
     if(!user) {
         return null
     }
-    else if(user.password !== password) {
+    else if(!await verify(user.password, password)) {
         return null
     } 
     else {

@@ -39,6 +39,6 @@ VALUES
 
 INSERT INTO user(username, email, password, level)
 VALUES
-    ('admin', 'admin@test.test', '1234', 0),
-    ('moderator', 'mod@test.test', '1234', 1),
-    ('operator', 'op@test.test', '1234', 2);
+    ('admin', 'admin@test.test', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 0),       -- password = 1234
+    ('moderator', 'mod@test.test', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 1),
+    ('operator', 'op@test.test', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 2);

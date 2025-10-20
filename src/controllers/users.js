@@ -7,7 +7,7 @@ import 'dotenv/config'
 
 export const login = (req, res) => {
     console.log("Token :", jwt.sign(req.session, process.env.PRIVATE_KEY))
-    // TODO generate jsonwebtoken and send it back
+    // TODO send jsonwebtoken back
     res.send("TODO")
 }
 

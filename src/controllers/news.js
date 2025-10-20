@@ -9,7 +9,7 @@ import {
 
 export const getAllNews = async(req, res) => {
     try {
-        const news = await allNews(pool)
+        const news = await allNews(pool, req.val.limit)
         res.status(200).send(news)
     }
     catch(err) {

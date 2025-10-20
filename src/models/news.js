@@ -1,7 +1,13 @@
-export const allNews = async(SQLClient) => {
-    const query = "SELECT id, title, dateRedaction, cover FROM news ORDER BY dateRedaction DESC"
+export const allNews = async(SQLClient, limit) => {
+    let query = "SELECT id, title, dateRedaction, cover FROM news ORDER BY dateRedaction DESC"
+    const queryValues = []
 
-    const rows = await SQLClient.query(query)
+        if(limit) {
+        query += ' LIMIT $1'
+        queryValues.push(limit)
+    }
+
+    const rows = await SQLClient.query(query, queryValues)
     return rows
 }
 

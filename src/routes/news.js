@@ -14,7 +14,7 @@ import validateId from '../middlewares/validateId.js'
 const router = Router()
 
 
-router.get('/', getAllNews)
+router.get('/', validateLimit, getAllNews)
 router.get('/next', validateLimit, nextEventNews)
 router.get('/:id', validateId, getSingleNews)
 router.post('/', addNews)

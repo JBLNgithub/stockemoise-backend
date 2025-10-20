@@ -1,13 +1,13 @@
 import {Router} from 'express'
 import { login, logout, updatePassword } from '../controllers/users.js'
-import {BasicAuth} from '../middlewares/identify.js'
+import {basicAuth, bearerToken} from '../middlewares/identify.js'
 
 
 const router = Router()
 
 
-router.get('/login', BasicAuth, login)
-router.get('/logout', logout)
+router.get('/login', basicAuth, login)
+router.get('/logout',bearerToken, logout)
 router.get('change-password', updatePassword)
 
 

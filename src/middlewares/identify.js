@@ -1,7 +1,9 @@
+import 'dotenv/config'
+import jwt from 'jsonwebtoken'
 import {loginGetUser} from '../controllers/users.js'
 
 
-export const BasicAuth = async(req, res, next) => {
+export const basicAuth = async(req, res, next) => {
     const auth = req.get("Authorization")
 
     if(auth && auth.substring(0, 5) === 'Basic') {
@@ -18,6 +20,25 @@ export const BasicAuth = async(req, res, next) => {
         else {
             req.session = user
             next()
+        }
+    }
+    else {
+        res.sendStatus(500)
+    }
+}
+
+
+export const bearerToken = (req, res, next) => {
+    const auth = req.get('Authorization')
+    
+    if(auth && auth.substring(0,6) === 'Bearer') {
+        const authFields = auth.split(' ')
+        try {
+            const payload = jwt.verify(authFields[1], process.env.PRIVATE_KEY)
+            next()
+        }
+        catch(err) {
+            res.sendStatus(511)
         }
     }
     else {

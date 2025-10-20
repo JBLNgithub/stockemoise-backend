@@ -1,10 +1,13 @@
 import {pool} from '../databases/SQLite3.js'
 import { readUserByEmail } from '../models/users.js'
 import {hash, verify} from 'argon2'
+import jwt from 'jsonwebtoken'
+import 'dotenv/config'
 
 
 export const login = (req, res) => {
-    console.log("TODO")
+    console.log("Token :", jwt.sign(req.session, process.env.PRIVATE_KEY))
+    // TODO generate jsonwebtoken and send it back
     res.send("TODO")
 }
 

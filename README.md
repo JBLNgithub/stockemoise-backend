@@ -9,6 +9,7 @@ required :
 
 ```
 DATABASE=<path>
+PRIVATE_KEY=<key>
 ```
 
 optional :

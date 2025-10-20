@@ -35,6 +35,7 @@ export const bearerToken = (req, res, next) => {
         const authFields = auth.split(' ')
         try {
             const payload = jwt.verify(authFields[1], process.env.PRIVATE_KEY)
+            req.session(payload)
             next()
         }
         catch(err) {

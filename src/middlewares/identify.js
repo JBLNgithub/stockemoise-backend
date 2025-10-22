@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import jwt from 'jsonwebtoken'
 import {loginGetUser} from '../controllers/users.js'
+import cookies from '../utils/cookies.js'
 
 
 export const basicAuth = async(req, res, next) => {
@@ -15,7 +16,7 @@ export const basicAuth = async(req, res, next) => {
         const user =  await loginGetUser(email, password)
 
         if(!user) {
-            res.sendStatus(404)
+            res.status(404).json({message: "Cette combinaison email/mot de passe n'a aucune correspondance."})
         }
         else {
             req.session = user
@@ -27,7 +28,28 @@ export const basicAuth = async(req, res, next) => {
     }
 }
 
+export const mustBeLoggedIn = (req, res, next) => {
+    const token = req.cookies[cookies.auth.name]
+    console.log(token)
+    
+    if(token) {
+        try {
+            const payload = jwt.verify(token, process.env.PRIVATE_KEY)
+            req.session = payload
+            next()
+        }
+        catch(err) {
+            console.log(err)
+            res.status(401)
+        }
+    }
+    else {
+        res.sendStatus(500)
+    }
+}
 
+
+// keep for access/refresh token later on
 export const bearerToken = (req, res, next) => {
     const auth = req.get('Authorization')
     
@@ -35,11 +57,11 @@ export const bearerToken = (req, res, next) => {
         const authFields = auth.split(' ')
         try {
             const payload = jwt.verify(authFields[1], process.env.PRIVATE_KEY)
-            req.session(payload)
+            req.session = payload
             next()
         }
         catch(err) {
-            res.sendStatus(511)
+            res.sendStatus(401)
         }
     }
     else {

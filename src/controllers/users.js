@@ -3,12 +3,20 @@ import { readUserByEmail } from '../models/users.js'
 import {hash, verify} from 'argon2'
 import jwt from 'jsonwebtoken'
 import 'dotenv/config'
+import cookies from '../utils/cookies.js'
 
 
 export const login = (req, res) => {
-    console.log("Token :", jwt.sign(req.session, process.env.PRIVATE_KEY))
-    // TODO send jsonwebtoken back
-    res.send("TODO")
+    const token = jwt.sign(req.session, process.env.PRIVATE_KEY)
+    
+    res.cookie(cookies.auth.name, token, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === 'PRODUCTION',      // secure ==> https
+        sameSite: 'strict',
+        maxAge: 7 * 24 * 60 * 60 * 1000                     // expiration in ms
+    })
+
+    res.sendStatus(200)
 }
 
 export const loginGetUser = async(email, password) => {
@@ -27,8 +35,13 @@ export const loginGetUser = async(email, password) => {
 }
 
 export const logout = (req, res) => {
-    console.log("TODO")
-    res.send("TODO")
+    res.clearCookie(cookies.auth.name)
+    res.sendStatus(200)
+}
+
+// TEMP before access/refresh token
+export const isLoggedIn = (req, res, next) => {
+    res.sendStatus(200)
 }
 
 export const updatePassword = (req, res) => {

@@ -5,6 +5,7 @@ import router from './routes/index.js'
 import exitHandler from './utils/exitHandler.js'
 import logger from './middlewares/logger.js'
 import CORS from './middlewares/CORS.js'
+import cookieParser from 'cookie-parser'
 
 
 const app = express()
@@ -15,8 +16,9 @@ const node_env = process.env.NODE_ENV
 // CORS
 if(node_env === 'DEVELOPMENT') app.use(CORS)
 
-// body parser middleware
+// parser middleware
 app.use(express.json())
+app.use(cookieParser())
 
 // logger
 if(node_env === 'DEVELOPMENT') app.use(logger)

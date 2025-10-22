@@ -6,10 +6,10 @@ import {basicAuth, mustBeLoggedIn} from '../middlewares/identify.js'
 const router = Router()
 
 
-router.get('/login', basicAuth, login)
-router.get('/logout', mustBeLoggedIn, logout)
-router.get('change-password', updatePassword)
-router.get('/isLoggedIn', mustBeLoggedIn, isLoggedIn)    // TEMP before access/refresh token
+router.post('/login', basicAuth, login)
+router.post('/logout', mustBeLoggedIn, logout)
+router.post('change-password', updatePassword)
+router.post('/isLoggedIn', mustBeLoggedIn, isLoggedIn)    // TEMP before access/refresh token
 
 
 export default router

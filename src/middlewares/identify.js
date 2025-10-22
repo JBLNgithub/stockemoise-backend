@@ -30,7 +30,6 @@ export const basicAuth = async(req, res, next) => {
 
 export const mustBeLoggedIn = (req, res, next) => {
     const token = req.cookies[cookies.auth.name]
-    console.log(token)
     
     if(token) {
         try {

@@ -6,6 +6,7 @@ import cookies from '../utils/cookies.js'
 
 export const basicAuth = async(req, res, next) => {
     const auth = req.get("Authorization")
+    console.log(auth)
 
     if(auth && auth.substring(0, 5) === 'Basic') {
         const authFields = auth.split(' ')
@@ -30,10 +31,12 @@ export const basicAuth = async(req, res, next) => {
 
 export const mustBeLoggedIn = (req, res, next) => {
     const token = req.cookies[cookies.auth.name]
-    
+    console.log(token)
+
     if(token) {
         try {
             const payload = jwt.verify(token, process.env.PRIVATE_KEY)
+            console.log(payload)
             req.session = payload
             next()
         }
@@ -43,7 +46,7 @@ export const mustBeLoggedIn = (req, res, next) => {
         }
     }
     else {
-        res.sendStatus(500)
+        res.status(404).json({succes:false, message: 'not token found'})
     }
 }
 

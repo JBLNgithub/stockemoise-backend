@@ -12,11 +12,11 @@ export const login = (req, res) => {
     res.cookie(cookies.auth.name, token, {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'PRODUCTION',      // secure ==> https
-        sameSite: 'strict',
+        sameSite: process.env.NODE_ENV === 'PRODUCTION' ? 'Strict' : 'Lax',
         maxAge: 7 * 24 * 60 * 60 * 1000                     // expiration in ms
     })
 
-    res.sendStatus(200)
+    res.status(200).json({success: true})
 }
 
 export const loginGetUser = async(email, password) => {
@@ -36,12 +36,12 @@ export const loginGetUser = async(email, password) => {
 
 export const logout = (req, res) => {
     res.clearCookie(cookies.auth.name)
-    res.sendStatus(200)
+    res.status(200).json({success:true})
 }
 
 // TEMP before access/refresh token
 export const isLoggedIn = (req, res, next) => {
-    res.sendStatus(200)
+    res.status(200).json({success: true})
 }
 
 export const updatePassword = (req, res) => {

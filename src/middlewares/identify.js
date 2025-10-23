@@ -17,7 +17,7 @@ export const basicAuth = async(req, res, next) => {
         const user =  await loginGetUser(email, password)
 
         if(!user) {
-            res.status(404).json({message: "Cette combinaison email/mot de passe n'a aucune correspondance."})
+            res.status(404).json({success: false, message: "Cette combinaison email/mot de passe n'a aucune correspondance."})
         }
         else {
             req.session = user

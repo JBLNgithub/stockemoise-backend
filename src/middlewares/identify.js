@@ -46,7 +46,7 @@ export const mustBeLoggedIn = (req, res, next) => {
         }
     }
     else {
-        res.status(404).json({succes:false, message: 'not token found'})
+        res.status(404).json({success:false, message: 'not token found'})
     }
 }
 

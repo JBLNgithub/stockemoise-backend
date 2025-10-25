@@ -6,8 +6,18 @@ meta {
 
 post {
   url: http://localhost:3000/api/concerts
-  body: none
+  body: json
   auth: inherit
+}
+
+body:json {
+  {
+    "title": "test concert",
+    "content": "PLACEHOLDER",
+    "cover": null,
+    "dateEvent": "2025-12-25T21:25",
+    "location": 2
+  }
 }
 
 assert {

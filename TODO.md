@@ -1,4 +1,5 @@
-- implements model layer
+- validate date : after 'now' (when inserting in db)
+    - dynamic date can be compute (see doc)
 - implements auth requests
 - manage CORS (don't allow all..)
 - make init news accurate dateRedaction

@@ -1,6 +1,7 @@
 import {pool} from '../databases/SQLite3.js'
 import { 
     nextConcerts as nextConcertsModel,
+    createConcert,
     readConcert
 } from '../models/concerts.js'
 
@@ -37,17 +38,23 @@ export const getConcert = async(req, res) => {
     }
 }
 
-export const addConcert = (req, res) => {
+export const addConcert = async(req, res) => {
+    try {
+        const concert = await createConcert(pool, req.val)
+        res.status(201).send(concert)
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
+}
+
+export const updateConcert = async(req, res) => {
     console.log("TODO")
     res.send("TODO")
 }
 
-export const updateConcert = (req, res) => {
-    console.log("TODO")
-    res.send("TODO")
-}
-
-export const deleteConcert = (req, res) => {
+export const deleteConcert = async(req, res) => {
     console.log("TODO")
     res.send("TODO")
 }

@@ -8,6 +8,9 @@ import {
 } from '../controllers/concerts.js'
 import validateLimit from '../middlewares/validateLimit.js'
 import validateId from '../middlewares/validateId.js'
+import validateConcert from '../middlewares/validateConcert.js'
+import { mustBeLoggedIn } from '../middlewares/identify.js'
+import { mustBeOperator } from '../middlewares/permissions.js'
 
 
 const router = Router()
@@ -34,7 +37,7 @@ const router = Router()
  */
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)
-router.post('/', addConcert)
+router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, addConcert)
 router.patch('/:id', validateId, updateConcert)
 router.delete('/:id', validateId, deleteConcert)
 

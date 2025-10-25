@@ -31,12 +31,10 @@ export const basicAuth = async(req, res, next) => {
 
 export const mustBeLoggedIn = (req, res, next) => {
     const token = req.cookies[cookies.auth.name]
-    console.log(token)
 
     if(token) {
         try {
             const payload = jwt.verify(token, process.env.PRIVATE_KEY)
-            console.log(payload)
             req.session = payload
             next()
         }
@@ -46,7 +44,7 @@ export const mustBeLoggedIn = (req, res, next) => {
         }
     }
     else {
-        res.status(404).json({success:false, message: 'not token found'})
+        res.status(404).json({success:false, message: 'no token found'})
     }
 }
 

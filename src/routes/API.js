@@ -4,6 +4,7 @@ import newsRouter from './news.js'
 import usersRouter from './users.js'
 import planningRouter from './planning.js'
 import operatorsRouter from './operators.js'
+import locationsRouter from './locations.js'
 
 
 const router = Router()
@@ -13,6 +14,7 @@ router.use('/news', newsRouter)
 router.use('/users', usersRouter)
 router.use('/planning', planningRouter)
 router.use('/operators', operatorsRouter)
+router.use('/locations', locationsRouter)
 
 
 export default router

@@ -42,11 +42,11 @@ export const getConcert = async(req, res) => {
 export const addConcert = async(req, res) => {
     try {
         const concert = await createConcert(pool, req.val)
-        res.status(201).send(concert)
+        res.status(201).send({success: true, id: concert.id})
     }
     catch(err) {
         console.error(err)
-        res.sendStatus(500)
+        res.status(500).send({success: false})
     }
 }
 

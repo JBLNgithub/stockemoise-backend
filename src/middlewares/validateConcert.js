@@ -24,12 +24,12 @@ const validateConcert = async(req, res, next) => {
         }
         catch(err) {
             console.log(err.messages)
-            res.sendStatus(412)
+            res.status(412).send({success: false})
         }
 
     }
     else {
-        res.sendStatus(400)
+        res.status(400).send({success: false})
     }
 }
 

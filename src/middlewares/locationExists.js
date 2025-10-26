@@ -8,6 +8,6 @@ export const locationMustExists = async(req, res, next) => {
     }
     else {
         console.error('ERROR : location does not exist')
-        res.sendStatus(403)
+        res.status(403).send({success: false})
     }
 }

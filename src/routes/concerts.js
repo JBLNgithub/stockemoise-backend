@@ -11,9 +11,12 @@ import validateLimit from '../middlewares/validateLimit.js'
 import validateId from '../middlewares/validateId.js'
 import validateConcert from '../middlewares/validateConcert.js'
 import validateLocation from '../middlewares/validateLocation.js'
+import validateNewLocation from '../middlewares/validateNewLocation.js'
+import validateLocality from '../middlewares/validateLocality.js'
 import { mustBeLoggedIn } from '../middlewares/identify.js'
 import { mustBeOperator } from '../middlewares/permissions.js'
 import { locationMustExists } from '../middlewares/locationExists.js'
+import { localityMustExists } from '../middlewares/localityExists.js'
 
 
 const router = Router()
@@ -41,7 +44,7 @@ const router = Router()
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)
 router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, validateLocation, locationMustExists, addConcert)
-router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, addConcertAndLocation)
+router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, validateLocality, localityMustExists, addConcertAndLocation)
 // router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, locationMustExists, addConcert)
 router.patch('/:id', validateId, setConcert)
 router.delete('/:id', validateId, removeConcert)

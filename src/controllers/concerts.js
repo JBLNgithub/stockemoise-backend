@@ -50,7 +50,7 @@ export const addConcert = async(req, res) => {
     }
 }
 
-export const updateConcert = async(req, res) => {
+export const setConcert = async(req, res) => {
     console.log("TODO")
     res.send("TODO")
 }

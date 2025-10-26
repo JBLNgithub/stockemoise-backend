@@ -1,9 +1,9 @@
 import {Router} from 'express'
 import {
     nextConcerts, 
-    getConcert, 
     addConcert,
-    updateConcert,
+    getConcert, 
+    setConcert,
     removeConcert
 } from '../controllers/concerts.js'
 import validateLimit from '../middlewares/validateLimit.js'
@@ -39,7 +39,7 @@ const router = Router()
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)
 router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, locationMustExists, addConcert)
-router.patch('/:id', validateId, updateConcert)
+router.patch('/:id', validateId, setConcert)
 router.delete('/:id', validateId, removeConcert)
 
 

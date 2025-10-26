@@ -1,6 +1,4 @@
 import vine from '@vinejs/vine'
-import { pool } from '../databases/SQLite3.js'
-import { locationExists } from '../models/locations.js'
 
 
 const schema = vine.object({
@@ -20,10 +18,6 @@ const validateConcert = async(req, res, next) => {
     if(concert) {
         try {
             const val = await validator.validate(concert)
-
-            if(!await locationExists(pool, val.location)) {
-                throw({messages: 'location does not exist'})
-            }
 
             req.val = val
             next()

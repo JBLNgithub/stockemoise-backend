@@ -5,7 +5,7 @@ export const readLocations = async(SQLClient) => {
     return rows
 }
 
-export const locationExists = async(SQLClient, id) => {
+export const doesLocationExist = async(SQLClient, id) => {
     const query = "SELECT COUNT(*) FROM location WHERE id = $1"
 
     const rows = await SQLClient.query(query, [id])

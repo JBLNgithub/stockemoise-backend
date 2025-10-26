@@ -39,6 +39,8 @@ const router = Router()
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)
 router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, locationMustExists, addConcert)
+// router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, locationMustExists, addConcert)
+// router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, locationMustExists, addConcert)
 router.patch('/:id', validateId, setConcert)
 router.delete('/:id', validateId, removeConcert)
 

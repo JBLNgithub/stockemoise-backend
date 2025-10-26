@@ -3,7 +3,8 @@ import {
     allNews,
     getSingleNews as getSingleNewsModel,
     getSingleEventNews,
-    nextEventNews as nexEventNewsModel
+    nextEventNews as nexEventNewsModel,
+    createNews
  } from '../models/news.js'
 
 
@@ -48,9 +49,16 @@ export const nextEventNews = async(req, res) => {
     }
 }
 
-export const addNews = (req, res) => {
-    console.log("TODO next")
-    res.send("TODO")
+export const addNews = async(req, res) => {
+    try {
+        const newNews = await createNews(pool, req.val)
+        newNews.success = true
+        res.status(201).send(newNews)
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
 }
 
 export const updateNews = (req, res) => {

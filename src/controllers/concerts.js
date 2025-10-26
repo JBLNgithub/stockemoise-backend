@@ -50,6 +50,12 @@ export const addConcert = async(req, res) => {
     }
 }
 
+export const addConcertAndLocation = async(req, res) => {
+    console.log("TODO add concert and location")
+    console.log(req.val)
+    res.sendStatus(200)
+}
+
 export const setConcert = async(req, res) => {
     console.log("TODO")
     res.send("TODO")

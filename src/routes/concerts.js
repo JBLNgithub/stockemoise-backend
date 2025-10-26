@@ -4,7 +4,7 @@ import {
     getConcert, 
     addConcert,
     updateConcert,
-    deleteConcert
+    removeConcert
 } from '../controllers/concerts.js'
 import validateLimit from '../middlewares/validateLimit.js'
 import validateId from '../middlewares/validateId.js'
@@ -40,7 +40,7 @@ router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)
 router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, locationMustExists, addConcert)
 router.patch('/:id', validateId, updateConcert)
-router.delete('/:id', validateId, deleteConcert)
+router.delete('/:id', validateId, removeConcert)
 
 
 export default router

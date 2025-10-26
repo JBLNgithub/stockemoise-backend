@@ -42,3 +42,9 @@ export const readConcert = async(SQLClient, id) => {
     const rows = await SQLClient.query(query, [id])
     return rows[0]
 }
+
+export const deleteConcert = async(SQLClient, id) => {
+    const query = "DELETE FROM concert WHERE id = $1"
+
+    await SQLClient.query(query, [id])
+}

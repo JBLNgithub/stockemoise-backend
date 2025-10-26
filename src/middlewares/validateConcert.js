@@ -5,7 +5,7 @@ const schema = vine.object({
     title: vine.string(),
     content: vine.string(),
     cover: vine.string().nullable(),
-    dateEvent: vine.string(),                                           // TODO : validate date (after 'now')
+    datetimeEvent: vine.string(),                                           // TODO : validate date (after 'now')
     location: vine.number({strict: true}).min(1).withoutDecimals()      // doc states that .positive() throw on 0, but it's a lie >:(
 })
 

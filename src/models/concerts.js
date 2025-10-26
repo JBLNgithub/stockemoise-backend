@@ -29,10 +29,10 @@ export const nextConcerts = async(SQLClient, limit) => {
     return rows
 }
 
-export const createConcert = async(SQLClient, {title, content, cover, dateEvent, location}) => {
+export const createConcert = async(SQLClient, {title, content, cover, datetimeEvent, location}) => {
     const query = "INSERT INTO concert(title, content, cover, dateEvent, location) VALUES ($1, $2, $3, $4, $5) RETURNING id"
 
-    const rows = await SQLClient.query(query, [title, content, cover, dateEvent, location])
+    const rows = await SQLClient.query(query, [title, content, cover, datetimeEvent, location])
     return rows[0]
 }
 

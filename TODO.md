@@ -1,8 +1,6 @@
 - validate date : after 'now' (when inserting in db)
     - dynamic date can be compute (see doc)
-- implements auth requests
+- implements auth (refresh/access token)
 - manage CORS (don't allow all..)
 - make init news accurate dateRedaction
-- make next concert give concert start 1 hour ago still return and show on frontend 'started 30 minutes ago' or something like that
-- make read event return locations row in an object
-- implements access/refresh tokens
+- make read event return locations row in an object ????????? (forgot why i wrote that)

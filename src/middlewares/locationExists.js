@@ -1,5 +1,5 @@
 import { pool } from '../databases/SQLite3.js'
-import { doesLocationExist } from '../models/locations.js'
+import { doesLocationExist, doesLocationNameExist } from '../models/locations.js'
 
 
 export const locationMustExists = async(req, res, next) => {
@@ -8,6 +8,16 @@ export const locationMustExists = async(req, res, next) => {
     }
     else {
         console.error('ERROR : location does not exist')
+        res.status(403).send({success: false})
+    }
+}
+
+export const locationNameMustNotExists = async(req, res, next) => {
+    if(!await doesLocationNameExist(pool, req.val.location.name)) {
+        next()
+    }
+    else {
+        console.error('ERROR : location name already exists')
         res.status(403).send({success: false})
     }
 }

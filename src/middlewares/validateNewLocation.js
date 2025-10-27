@@ -5,7 +5,7 @@ const schema = vine.object({
         name: vine.string(),
         street: vine.string(),
         number: vine.number().min(1),
-        additionnalAddress: vine.string().nullable(),
+        additionalAddress: vine.string().nullable(),
 })
 
 const validator = vine.compile(schema)

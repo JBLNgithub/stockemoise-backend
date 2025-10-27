@@ -5,6 +5,8 @@ import {
     readConcert,
     deleteConcert
 } from '../models/concerts.js'
+import {addLocation, addLocationAndLocality} from './locations.js'
+
 
 /**
  * @swagger
@@ -51,15 +53,40 @@ export const addConcert = async(req, res) => {
 }
 
 export const addConcertAndLocation = async(req, res) => {
+    // TODO : use transactions
     console.log("TODO add concert and location")
-    console.log(req.val)
-    res.sendStatus(200)
+    
+    try {
+        const location = await addLocation(pool, req.val.location)
+
+        req.val.location = location
+
+        const concert = await createConcert(pool, req.val)
+        res.status(201).send({success: true, id: concert.id})
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
 }
 
 export const addConcertAndLocationAndLocality = async(req, res) => {
+    // TODO : use transactions
     console.log("TODO add concert and location and locality")
-    console.log(req.val)
-    res.sendStatus(200)
+    
+    try {
+        const location = await addLocationAndLocality(pool, req.val.location)
+
+        req.val.location = location
+
+        const concert = await createConcert(pool, req.val)
+        res.status(201).send({success: true, id: concert.id})
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
+
 }
 
 export const setConcert = async(req, res) => {

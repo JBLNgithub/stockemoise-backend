@@ -62,18 +62,21 @@ export const addNews = async(req, res) => {
 }
 
 export const addNewsAndEvent = async(req, res) => {
+    // TODO : use transactions
     console.log("TODO add news and event")
     console.log('val :', req.val)
     res.sendStatus(200)
 }
 
 export const addNewsAndEventAndLocation = async(req, res) => {
+    // TODO : use transactions
     console.log("TODO add news and event and location")
     console.log('val :', req.val)
     res.sendStatus(200)
 }
 
 export const addNewsAndEventAndLocationAndLocality = async(req, res) => {
+    // TODO : use transactions
     console.log("TODO add news and event and location and locality")
     console.log('val :', req.val)
     res.sendStatus(200)

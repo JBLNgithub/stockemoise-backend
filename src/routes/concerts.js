@@ -17,7 +17,7 @@ import validateLocality from '../middlewares/validateLocality.js'
 import validateNewLocality from '../middlewares/validateNewLocality.js'
 import { mustBeLoggedIn } from '../middlewares/identify.js'
 import { mustBeOperator } from '../middlewares/permissions.js'
-import { locationMustExists } from '../middlewares/locationExists.js'
+import { locationMustExists, locationNameMustNotExists } from '../middlewares/locationExists.js'
 import { localityMustExists, localityMustNotExists } from '../middlewares/localityExists.js'
 
 
@@ -46,8 +46,8 @@ const router = Router()
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)
 router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, validateLocation, locationMustExists, addConcert)
-router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, validateLocality, localityMustExists, addConcertAndLocation)
-router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, validateNewLocality, localityMustNotExists, addConcertAndLocationAndLocality)
+router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addConcertAndLocation)
+router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, addConcertAndLocationAndLocality)
 router.patch('/:id', validateId, setConcert)
 router.delete('/:id', validateId, removeConcert)
 

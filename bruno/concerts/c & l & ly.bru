@@ -1,0 +1,36 @@
+meta {
+  name: c & l & ly
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:3000/api/concerts/with-location
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "test concert (A SUPPRIMER)",
+    "content": "lorem ipsum",
+    "cover": null,
+    "datetimeEvent": "2025-12-25T05:05",
+    "location": {
+      "name": "Ancien Palais de Justice à Arlon",
+      "street": "Place Leopold",
+      "number": "99999999",
+      "additionnalAddress": null,
+      "locality": 6700
+    }
+  }
+}
+
+assert {
+  res.status: eq 200
+  res.body: isArray
+}
+
+settings {
+  encodeUrl: true
+}

@@ -11,3 +11,13 @@ export const localityMustExists = async(req, res, next) => {
         res.status(403).send({success: false})
     }
 }
+
+export const localityMustNotExists = async(req, res, next) => {
+    if(!await doesLocalityExist(pool, req.val.location.locality.codePostal)) {
+        next()
+    }
+    else {
+        console.error('ERROR : locality already exists')
+        res.status(403).send({success: false})
+    }
+}

@@ -5,7 +5,7 @@ meta {
 }
 
 post {
-  url: http://localhost:3000/api/concerts/with-location
+  url: http://localhost:3000/api/concerts/with-location&locality
   body: json
   auth: inherit
 }
@@ -21,7 +21,11 @@ body:json {
       "street": "Place Leopold",
       "number": "99999999",
       "additionnalAddress": null,
-      "locality": 6700
+      "locality": {
+        "codePostal": 1000,
+        "city": "Luxembourg",
+        "country": "Luxembourg"
+      }
     }
   }
 }

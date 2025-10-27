@@ -61,6 +61,24 @@ export const addNews = async(req, res) => {
     }
 }
 
+export const addNewsAndEvent = async(req, res) => {
+    console.log("TODO add news and event")
+    console.log('val :', req.val)
+    res.sendStatus(200)
+}
+
+export const addNewsAndEventAndLocation = async(req, res) => {
+    console.log("TODO add news and event and location")
+    console.log('val :', req.val)
+    res.sendStatus(200)
+}
+
+export const addNewsAndEventAndLocationAndLocality = async(req, res) => {
+    console.log("TODO add news and event and location and locality")
+    console.log('val :', req.val)
+    res.sendStatus(200)
+}
+
 export const updateNews = (req, res) => {
     console.log("TODO next")
     res.send("TODO")

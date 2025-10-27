@@ -1,0 +1,24 @@
+meta {
+  name: news & event
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:3000/api/news/with-event
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "test add news",
+    "content": "lorem ipsum",
+    "cover": null,
+    "datetimeEvent": "2025-12-25T05:05"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

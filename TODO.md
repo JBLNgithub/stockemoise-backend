@@ -1,9 +1,1 @@
-- validate date : after 'now' (when inserting in db)
-    - dynamic date can be compute (see doc)
-- implements auth (refresh/access token)
-- manage CORS (don't allow all..)
-- make init news accurate dateRedaction
-- implements transactions when location and locality are created aswell
-    - make create location & locality and create location call same func (there is some duplicated code there..)
-- make read event return locations row in an object ????????? (forgot why i wrote that)
-- make country a separate table
+see [frontend todo](https://github.com/JBLNgithub/stockemoise/blob/main/TODO.md)

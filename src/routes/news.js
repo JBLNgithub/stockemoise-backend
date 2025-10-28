@@ -8,7 +8,7 @@ import {
     addNewsAndEventAndLocation,
     addNewsAndEventAndLocationAndLocality,
     updateNews,
-    deleteNews
+    removeNews
 } from '../controllers/news.js'
 import validateNews from '../middlewares/validateNews.js'
 import validateLimit from '../middlewares/validateLimit.js'
@@ -35,7 +35,7 @@ router.post('/with-event', mustBeLoggedIn, mustBeOperator, validateNews, validat
 router.post('/with-event&location', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addNewsAndEventAndLocation)
 router.post('/with-event&location&locality', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, addNewsAndEventAndLocationAndLocality)
 router.patch('/:id', validateId, updateNews)
-router.delete('/:id', validateId, deleteNews)
+router.delete('/:id', validateId, removeNews)
 
 
 export default router

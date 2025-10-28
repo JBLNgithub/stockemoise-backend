@@ -44,3 +44,9 @@ export const createNews = async(SQLClient, {title, content, cover}) => {
     const rows = await SQLClient.query(query, [title, content, cover])
     return rows[0]
 }
+
+export const deleteNews = async(SQLClient, id) => {
+    const query = "DELETE FROM news WHERE id = $1"
+
+    await SQLClient.query(query, [id])
+}

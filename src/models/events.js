@@ -4,3 +4,9 @@ export const nextEvents = async(SQLClient) => {
     const rows = await SQLClient.query(query)
     return rows
 }
+
+export const createEvent = async(SQLClient, id, location, dateEvent) => {
+    const query = "INSERT INTO eventNews(id, location, dateEvent) VALUES ($1, $2, $3)"
+
+    await SQLClient.query(query, [id, location, dateEvent])
+}

@@ -9,11 +9,11 @@ const validator = vine.compile(schema)
 
 
 const validateEventNews = async(req, res, next) => {
-    const {datetimeEvent} = req.body.event
+    const event = req.body.event
 
-    if(datetimeEvent) {
+    if(event) {
         try {
-            const val = await validator.validate({datetimeEvent})
+            const val = await validator.validate(event)
 
             req.val.event = val
             next()
@@ -25,6 +25,7 @@ const validateEventNews = async(req, res, next) => {
 
     }
     else {
+        console.error("ERROR : no event found")
         res.status(400).send({success: false})
     }
 }

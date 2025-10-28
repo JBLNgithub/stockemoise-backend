@@ -25,6 +25,7 @@ const validateConcert = async(req, res, next) => {
 
     }
     else {
+        console.error("ERROR : no location found")
         res.status(400).send({success: false})
     }
 }

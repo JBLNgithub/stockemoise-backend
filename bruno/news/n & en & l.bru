@@ -1,0 +1,33 @@
+meta {
+  name: n & en & l
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:3000/api/news/with-event&location
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "test add news",
+    "content": "lorem ipsum",
+    "cover": null,
+    "event": {
+      "datetimeEvent":"2025-12-25T05:05"
+    },
+    "location": {
+      "name": "Ancienqsdftice à Arlon",
+      "street": "Place Leopold",
+      "number": "99999999",
+      "additionalAddress": null,
+      "locality": 6700
+    }
+  }
+}
+
+settings {
+  encodeUrl: true
+}

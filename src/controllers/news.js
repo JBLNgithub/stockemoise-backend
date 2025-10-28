@@ -6,6 +6,8 @@ import {
     nextEventNews as nexEventNewsModel,
     createNews
  } from '../models/news.js'
+import { addNewsAndAddEvent } from '../business/eventNews.js'
+import { addLocation, addLocationAndLocality } from '../business/location.js'
 
 
 export const getAllNews = async(req, res) => {
@@ -63,23 +65,46 @@ export const addNews = async(req, res) => {
 
 export const addNewsAndEvent = async(req, res) => {
     // TODO : use transactions
-    console.log("TODO add news and event")
-    console.log('val :', req.val)
-    res.sendStatus(200)
+    try {
+        const newEventNews = await addNewsAndAddEvent(pool, req.val)
+        res.status(201).send(newEventNews)
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
 }
 
 export const addNewsAndEventAndLocation = async(req, res) => {
     // TODO : use transactions
-    console.log("TODO add news and event and location")
-    console.log('val :', req.val)
-    res.sendStatus(200)
+    try {
+        const location = await addLocation(pool, req.val.location)
+
+        req.val.location = location
+
+        const newEventNews = await addNewsAndAddEvent(pool, req.val)
+        res.status(201).send(newEventNews)
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
 }
 
 export const addNewsAndEventAndLocationAndLocality = async(req, res) => {
     // TODO : use transactions
-    console.log("TODO add news and event and location and locality")
-    console.log('val :', req.val)
-    res.sendStatus(200)
+    try {
+        const location = await addLocationAndLocality(pool, req.val.location)
+
+        req.val.location = location
+
+        const newEventNews = await addNewsAndAddEvent(pool, req.val)
+        res.status(201).send(newEventNews)
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
 }
 
 export const updateNews = (req, res) => {

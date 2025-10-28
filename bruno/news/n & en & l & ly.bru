@@ -1,0 +1,37 @@
+meta {
+  name: n & en & l & ly
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:3000/api/news/with-event&location&locality
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "test add news",
+    "content": "lorem ipsum",
+    "cover": null,
+    "event": {
+      "datetimeEvent":"2025-12-25T05:05"
+    },
+    "location": {
+      "name": "Ancienqsdgfsdftice à Arlon",
+      "street": "Place Leopold",
+      "number": "99999999",
+      "additionalAddress": null,
+      "locality": {
+        "codePostal": 111111354,
+        "city": "Luxembourg",
+        "country": "Luxembourg"
+      }
+    }
+  }
+}
+
+settings {
+  encodeUrl: true
+}

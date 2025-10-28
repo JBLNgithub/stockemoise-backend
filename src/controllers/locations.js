@@ -3,7 +3,7 @@ import { readLocations } from '../models/locations.js'
 import { createLocation } from '../models/locations.js'
 import {createLocality} from '../models/locality.js'
 
-
+// @ Deprecated
 export const addLocation = async(SQLClient, location) => {
     try {
         const res = await createLocation(SQLClient, location)
@@ -14,6 +14,7 @@ export const addLocation = async(SQLClient, location) => {
     }
 }
 
+// @ Deprecated
 export const addLocationAndLocality = async(SQLClient, location) => {
     try {
         await createLocality(SQLClient, location.locality)

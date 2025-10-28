@@ -5,7 +5,7 @@ import {
     readConcert,
     deleteConcert
 } from '../models/concerts.js'
-import {addLocation, addLocationAndLocality} from './locations.js'
+import {addLocation, addLocationAndLocality} from '../business/location.js'
 
 
 /**

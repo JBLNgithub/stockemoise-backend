@@ -2,7 +2,7 @@ import vine from '@vinejs/vine'
 
 
 const schema = vine.object({
-    location: vine.number({strict: true}).min(1).withoutDecimals()      // doc states that .positive() throw on 0, but it's a lie >:(
+    location: vine.number().min(1).withoutDecimals()      // doc states that .positive() throw on 0, but it's a lie >:(
 })
 
 const validator = vine.compile(schema)

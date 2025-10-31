@@ -37,7 +37,7 @@ export const createConcert = async(SQLClient, {title, content, cover, datetimeEv
 }
 
 export const readConcert = async(SQLClient, id) => {
-    const query = "SELECT c.title, c.content, c.dateRedaction, c.cover, c.dateEvent, c.isCanceled, l.name AS locationName, l.street AS locationStreet, l.number AS locationNumber, l.additionalAddress AS locationAdditionalAddress, ly.codePostal AS locationCodePostal, ly.city AS locationCity, ly.country AS locationCountry FROM concert c INNER JOIN location l ON c.location = l.id INNER JOIN locality ly ON l.locality = ly.codePostal WHERE c.id = $1"
+    const query = "SELECT c.title, c.content, c.dateRedaction, c.cover, c.dateEvent, c.isCanceled, c.location, l.name AS locationName, l.street AS locationStreet, l.number AS locationNumber, l.additionalAddress AS locationAdditionalAddress, ly.codePostal AS locationCodePostal, ly.city AS locationCity, ly.country AS locationCountry FROM concert c INNER JOIN location l ON c.location = l.id INNER JOIN locality ly ON l.locality = ly.codePostal WHERE c.id = $1"
 
     const rows = await SQLClient.query(query, [id])
     return rows[0]

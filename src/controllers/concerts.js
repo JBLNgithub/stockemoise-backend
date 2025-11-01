@@ -3,6 +3,7 @@ import {
     nextConcerts as nextConcertsModel,
     createConcert,
     readConcert,
+    updateConcert,
     deleteConcert
 } from '../models/concerts.js'
 import {addLocation, addLocationAndLocality} from '../business/location.js'
@@ -91,9 +92,9 @@ export const addConcertAndLocationAndLocality = async(req, res) => {
 }
 
 export const setConcert = async(req, res) => {
-    if(!isEmptyObject(req.val)) {
-        console.log("val :", req.val)
-        res.send("TODO")
+    if(Object.entries(req.val).length > 1) {
+        await updateConcert(pool, req.val)
+        res.status(200).send({success: true})
     }
     else {
         console.log('no valid field given')

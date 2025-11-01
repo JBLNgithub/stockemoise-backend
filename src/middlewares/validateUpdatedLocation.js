@@ -1,4 +1,6 @@
 import vine from '@vinejs/vine'
+import { pool } from '../databases/SQLite3.js'
+import { doesLocationExist } from '../models/locations.js'
 
 
 const schema = vine.object({
@@ -15,8 +17,14 @@ const validateUpdatedLocation = async(req, res, next) => {
         try {
             const val = await validator.validate({location})
 
-            req.val.location = val.location
-            next()
+            if(await doesLocationExist(pool, val.location)) {
+                req.val.location = val.location
+                next()
+            }
+            else {
+                console.error('ERROR : location does not exist')
+                res.status(403).send({success: false})
+            }
         }
         catch(err) {
             console.log(err.messages)

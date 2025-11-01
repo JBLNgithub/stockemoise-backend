@@ -18,7 +18,7 @@ const validateUpdatedConcert = async(req, res, next) => {
         try {
             const val = await validator.validate(concert)
 
-            req.val = val
+            req.val = Object.assign(val, req.val)
             next()
         }
         catch(err) {

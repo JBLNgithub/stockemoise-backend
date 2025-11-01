@@ -19,6 +19,8 @@ import { mustBeLoggedIn } from '../middlewares/identify.js'
 import { mustBeOperator } from '../middlewares/permissions.js'
 import { locationMustExists, locationNameMustNotExists } from '../middlewares/locationExists.js'
 import { localityMustExists, localityMustNotExists } from '../middlewares/localityExists.js'
+import validateUpdatedConcert from '../middlewares/validateUpdatedConcert.js'
+import validateUpdatedLocation from '../middlewares/validateUpdatedLocation.js'
 
 
 const router = Router()
@@ -48,7 +50,7 @@ router.get('/:id', validateId, getConcert)
 router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, validateLocation, locationMustExists, addConcert)
 router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addConcertAndLocation)
 router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, addConcertAndLocationAndLocality)
-router.patch('/:id', validateId, setConcert)
+router.patch('/:id', validateId, validateUpdatedConcert, validateUpdatedLocation, setConcert)
 router.delete('/:id', validateId, removeConcert)
 
 

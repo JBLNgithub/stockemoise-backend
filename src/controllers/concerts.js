@@ -6,6 +6,7 @@ import {
     deleteConcert
 } from '../models/concerts.js'
 import {addLocation, addLocationAndLocality} from '../business/location.js'
+import isEmptyObject from '../utils/isEmptyObject.js'
 
 
 /**
@@ -90,8 +91,14 @@ export const addConcertAndLocationAndLocality = async(req, res) => {
 }
 
 export const setConcert = async(req, res) => {
-    console.log("TODO")
-    res.send("TODO")
+    if(!isEmptyObject(req.val)) {
+        console.log("val :", req.val)
+        res.send("TODO")
+    }
+    else {
+        console.log('no valid field given')
+        res.sendStatus(404)
+    }
 }
 
 export const removeConcert = async(req, res) => {

@@ -50,8 +50,8 @@ router.get('/:id', validateId, getConcert)
 router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, validateLocation, locationMustExists, addConcert)
 router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addConcertAndLocation)
 router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, addConcertAndLocationAndLocality)
-router.patch('/:id', validateId, validateUpdatedConcert, validateUpdatedLocation, setConcert)
-router.delete('/:id', validateId, removeConcert)
+router.patch('/:id', mustBeLoggedIn, mustBeOperator, validateId, validateUpdatedConcert, validateUpdatedLocation, setConcert)
+router.delete('/:id', mustBeLoggedIn, mustBeOperator, validateId, removeConcert)
 
 
 export default router

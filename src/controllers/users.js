@@ -13,7 +13,7 @@ export const login = (req, res) => {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'PRODUCTION',      // secure ==> https
         sameSite: process.env.NODE_ENV === 'PRODUCTION' ? 'Strict' : 'Lax',
-        maxAge: 1 * 24 * 60 * 60 * 1000                     // expiration in ms : days * hours * minutes * seconds * miliseconds
+        maxAge: 3 * 24 * 60 * 60 * 1000                     // expiration in ms : days * hours * minutes * seconds * miliseconds
     })
 
     res.status(200).json({success: true})

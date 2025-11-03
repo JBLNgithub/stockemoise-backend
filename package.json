@@ -4,8 +4,10 @@
   "description": "backend of the stockemoise website project",
   "main": "index.js",
   "scripts": {
-    "test": "node src/scripts/js/test.js",
+    "build": "npm install",
+    "start": "node src/server.js",
     "dev": "node --watch src/server.js",
+    "test": "node src/scripts/js/test.js",
     "initDB": "node ./src/scripts/js/initDB.js",
     "genDoc": "node ./src/scripts/swagger/swagger_jsdoc.js"
   },

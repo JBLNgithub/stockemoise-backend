@@ -14,31 +14,34 @@ VALUES
     ("Chapelle St-Bernard à Arlon", "rue des Buissons", 3, 6700);
     -- ("", "", , ),
 
+INSERT INTO concert(cover, title, content, dateEvent, location)
+VALUES
+    ("concert-noel-2025.jpg", 'Concert de Noël', 'TODO','2025-12-06 20:00:00', 2);
+
 INSERT INTO concert(title, content, dateEvent, location)
 VALUES
     ('Concert FMLB', 'concert de cloture des cours de direction', '2025-10-12 15:00:00', 1),
-    ('Concert de Noël', 'TODO','2025-12-06 20:00:00', 2),
     ('Concert avec le Big Band de Differdange', 'TODO', '2026-05-09 20:00:00', 2),
     ('Sainte Cécile', 'TODO','2025-11-22 16:00:00', 3),
-    ('Concert de Gala', 'TODO, date & location are not accurate','2026-03-15 20:00:00', 1);
+    ('Concert de Gala', "c'est une date au pif, a supprimer (pour test la suppression)",'2026-03-15 20:00:00', 1);
+
+INSERT INTO news(title, content, cover)
+VALUES
+    ("Stage d'éveil musical 2025", "TODO","stageEveilMusical2025.png"),
+    ("Brocante 2025 : les inscriptions sont ouvertes", "TODO", "brocante2025.jpg"),
+    ("Notre nouveau directeur musical", "TODO", "jbDirecteurMusical.jpg"),
+    ("Situation géographique", "TODO", "plan-stockemoise.png");
 
 INSERT INTO news(title, content)
 VALUES
-    ("Stage d'éveil musical 2025", "TODO"),
-    ("Stage d'éveil musical 2026", "TODO"),
-    ("Brocante 2025 : les inscriptions sont ouvertes", "TODO"),
-    ("Situation géographique", "TODO"),
-    ("Notre nouveau directeur musical", "TODO");
-    -- ("", "")
+    ("Stage d'éveil musical 2026", "TODO");
 
 INSERT INTO eventNews(id, location, dateEvent)
 VALUES
-    ( 1, 1, "2025-07-21 09:00:00"),
-    ( 2, 1, "2026-08-15 09:00:00");
-    -- ( , , ""),
+    ( 5, 1, "2026-08-15 09:00:00");
 
 INSERT INTO user(username, email, password, level)
 VALUES
-    ('admin', 'admin@test.test', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 0),       -- password = 1234
-    ('moderator', 'mod@test.test', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 1),
-    ('operator', 'op@test.test', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 2);
+    ('admin', 'admin@stockemoise.be', '$argon2id$v=19$m=65536,t=3,p=4$5iaOjluUX4KZGQAaJ7velQ$aGnXdASV3hJEv5Wr5xYhQz3E0QtokLntFIf2k7ARbkQ', 0),
+    ('moderator', 'mod@stockemoise.be', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 1),
+    ('operator', 'op@stockemoise.be', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 2);

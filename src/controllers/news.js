@@ -56,7 +56,7 @@ export const addNews = async(req, res) => {
     try {
         const newNews = await createNews(pool, req.val)
         newNews.success = true
-        res.status(201).send(newNews)
+        res.status(201).send({success: true, id:newNews.id})
     }
     catch(err) {
         console.error(err)
@@ -68,7 +68,7 @@ export const addNewsAndEvent = async(req, res) => {
     // TODO : use transactions
     try {
         const newEventNews = await addNewsAndAddEvent(pool, req.val)
-        res.status(201).send(newEventNews)
+        res.status(201).send({success: true, id:newEventNews.id})
     }
     catch(err) {
         console.error(err)
@@ -84,7 +84,7 @@ export const addNewsAndEventAndLocation = async(req, res) => {
         req.val.location = location
 
         const newEventNews = await addNewsAndAddEvent(pool, req.val)
-        res.status(201).send(newEventNews)
+        res.status(201).send({success: true, id:newEventNews.id})
     }
     catch(err) {
         console.error(err)
@@ -100,7 +100,7 @@ export const addNewsAndEventAndLocationAndLocality = async(req, res) => {
         req.val.location = location
 
         const newEventNews = await addNewsAndAddEvent(pool, req.val)
-        res.status(201).send(newEventNews)
+        res.status(201).send({success: true, id:newEventNews.id})
     }
     catch(err) {
         console.error(err)

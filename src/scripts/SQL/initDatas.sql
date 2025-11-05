@@ -27,14 +27,11 @@ VALUES
 
 INSERT INTO news(title, content, cover)
 VALUES
-    ("Stage d'éveil musical 2025", "TODO","stageEveilMusical2025.png"),
-    ("Brocante 2025 : les inscriptions sont ouvertes", "TODO", "brocante2025.jpg"),
-    ("Notre nouveau directeur musical", "TODO", "jbDirecteurMusical.jpg"),
     ("Situation géographique", "TODO", "plan-stockemoise.png");
 
 INSERT INTO news(title, content)
 VALUES
-    ("Stage d'éveil musical 2026", "TODO");
+    ("Stage d'éveil musical 2026", "TO DELETE (remove from init)");
 
 INSERT INTO eventNews(id, location, dateEvent)
 VALUES

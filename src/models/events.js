@@ -11,6 +11,30 @@ export const createEvent = async(SQLClient, id, location, dateEvent) => {
     await SQLClient.query(query, [id, location, dateEvent])
 }
 
+export const updateEvent = async(SQLClient, {id, event, location}) => {
+    let query = "UPDATE eventNews set "
+    const querySet = []
+    const queryValues = []
+
+    if(event) {
+        queryValues.push(event.datetimeEvent)
+        querySet.push(`dateEvent = $${queryValues.length}`)
+    }
+    if(location) {
+        queryValues.push(location)
+        querySet.push(`location = $${queryValues.length}`)
+    }
+
+    if(queryValues.length > 0) {
+        queryValues.push(id)
+        query += `${querySet.join(", ")} WHERE id = $${queryValues.length}`
+        await SQLClient.query(query, queryValues)
+    }
+    else {
+        throw new Error("No valid field given")
+    }
+}
+
 export const deleteEvent = async(SQLClient, id) => {
     const query = "DELETE FROM eventNews WHERE id = $1"
 

@@ -1,0 +1,30 @@
+meta {
+  name: set news
+  type: http
+  seq: 8
+}
+
+patch {
+  url: http://localhost:3000/api/news/5
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "fau ??",
+    "event": {
+      "datetimeEvent": "2027-08-15 19:00:00"
+    },
+    "location": 1
+  }
+}
+
+assert {
+  res.status: eq 200
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

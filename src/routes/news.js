@@ -7,7 +7,7 @@ import {
     addNewsAndEvent,
     addNewsAndEventAndLocation,
     addNewsAndEventAndLocationAndLocality,
-    updateNews,
+    patchNews,
     removeNews
 } from '../controllers/news.js'
 import validateNews from '../middlewares/validateNews.js'
@@ -22,6 +22,8 @@ import { locationMustExists, locationNameMustNotExists } from '../middlewares/lo
 import { mustBeLoggedIn } from '../middlewares/identify.js'
 import { mustBeOperator } from '../middlewares/permissions.js'
 import { localityMustExists, localityMustNotExists } from '../middlewares/localityExists.js'
+import validateUpdatedNews from '../middlewares/validateUpdatedNews.js'
+import validateUpdatedLocation from '../middlewares/validateUpdatedLocation.js'
 
 
 const router = Router()
@@ -34,7 +36,7 @@ router.post('/', mustBeLoggedIn, mustBeOperator, validateNews, addNews)
 router.post('/with-event', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateLocation, locationMustExists, addNewsAndEvent)
 router.post('/with-event&location', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addNewsAndEventAndLocation)
 router.post('/with-event&location&locality', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, addNewsAndEventAndLocationAndLocality)
-router.patch('/:id', validateId, updateNews)
+router.patch('/:id', mustBeLoggedIn, mustBeOperator, validateId, validateUpdatedNews, validateUpdatedLocation, patchNews)
 router.delete('/:id', validateId, removeNews)
 
 

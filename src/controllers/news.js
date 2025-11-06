@@ -8,7 +8,7 @@ import {
  } from '../models/news.js'
 import { addNewsAndAddEvent } from '../business/eventNews.js'
 import { addLocation, addLocationAndLocality } from '../business/location.js'
-import {deleteNewsAndEventNewsIfExists} from '../business/news.js'
+import {deleteNewsAndEventNewsIfExists, patchNewsAndEventNews} from '../business/news.js'
 
 
 export const getAllNews = async(req, res) => {
@@ -108,9 +108,16 @@ export const addNewsAndEventAndLocationAndLocality = async(req, res) => {
     }
 }
 
-export const updateNews = async(req, res) => {
-    console.log("TODO next")
-    res.send("TODO")
+export const patchNews = async(req, res) => {
+    try {
+        patchNewsAndEventNews(pool, req.val)
+        res.status(200).send({success: true})
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
+
 }
 
 export const removeNews = async(req, res) => {    

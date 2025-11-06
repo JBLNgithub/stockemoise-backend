@@ -45,6 +45,30 @@ export const createNews = async(SQLClient, {title, content, cover}) => {
     return rows[0]
 }
 
+export const updateNews = async(SQLClient, {id, title, content}) => {
+    let query = "UPDATE news set "
+    const querySet = []
+    const queryValues = []
+
+    if(title) {
+        queryValues.push(title)
+        querySet.push(`title = $${queryValues.length}`)
+    }
+    if(content) {
+        queryValues.push(content)
+        querySet.push(`content = $${queryValues.length}`)
+    }
+
+    if(queryValues.length > 0) {
+        queryValues.push(id)
+        query += `${querySet.join(", ")} WHERE id = $${queryValues.length}`
+        await SQLClient.query(query, queryValues)
+    }
+    else {
+        throw new Error("No valid field given")
+    }
+}
+
 export const deleteNews = async(SQLClient, id) => {
     const query = "DELETE FROM news WHERE id = $1"
 

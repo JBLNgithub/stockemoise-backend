@@ -27,13 +27,15 @@ export const getSingleNews = async(req, res) => {
     try {
         const news = await getSingleNewsModel(pool, id)
 
-        if(!news) throw new Error("news does not exist")
-
-        const eventNews = await getSingleEventNews(pool, id)
-
-        news.event = eventNews ? eventNews : null;
-
-        res.status(200).send(news)
+        if(news) {
+            const eventNews = await getSingleEventNews(pool, id)
+            news.event = eventNews ? eventNews : null;
+    
+            res.status(200).send(news)
+        }
+        else {
+            res.sendStatus(404)
+        }
     }
     catch(err) {
         console.error(err)

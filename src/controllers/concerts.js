@@ -35,7 +35,12 @@ export const nextConcerts = async(req, res) => {
 export const getConcert = async(req, res) => {
     try {
         const concert = await readConcert(pool, req.val.id)
-        res.status(200).send(concert)
+        if(concert) {
+            res.status(200).send(concert)
+        }
+        else {
+            res.sendStatus(404)
+        }
     }
     catch(err) {
         console.error(err)

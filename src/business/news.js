@@ -13,7 +13,7 @@ export const deleteNewsAndEventNewsIfExists = async(SQLClient, id) => {
 }
 
 export const patchNewsAndEventNews = async(SQLClient, val) => {
-    if(val.event) {
+    if(val.event || val.location) {
         try {
             updateEvent(SQLClient, val)
         }

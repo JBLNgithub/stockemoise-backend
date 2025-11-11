@@ -1,0 +1,20 @@
+meta {
+  name: new cover
+  type: http
+  seq: 9
+}
+
+post {
+  url: http://localhost:3000/api/concerts/cover/5
+  body: multipartForm
+  auth: inherit
+}
+
+body:multipart-form {
+  cover: @file(C:\Users\Jash\Documents\Lightshot\Screenshot_36.png)
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

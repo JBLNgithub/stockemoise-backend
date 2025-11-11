@@ -6,6 +6,7 @@ import planningRouter from './planning.js'
 import operatorsRouter from './operators.js'
 import locationsRouter from './locations.js'
 import localitiesRouter from './localities.js'
+import uploadsRouter from './uploads.js'
 
 
 const router = Router()
@@ -17,6 +18,7 @@ router.use('/planning', planningRouter)
 router.use('/operators', operatorsRouter)
 router.use('/locations', locationsRouter)
 router.use('/localities', localitiesRouter)
+router.use('/uploads', uploadsRouter)
 
 
 export default router

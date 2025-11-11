@@ -1,4 +1,5 @@
 import {Router} from 'express'
+import multer from 'multer'
 import {
     nextConcerts, 
     addConcert,
@@ -6,6 +7,7 @@ import {
     addConcertAndLocationAndLocality,
     getConcert, 
     setConcert,
+    setNewCover,
     removeConcert
 } from '../controllers/concerts.js'
 import validateLimit from '../middlewares/validateLimit.js'
@@ -52,6 +54,20 @@ router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, v
 router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, addConcertAndLocationAndLocality)
 router.patch('/:id', mustBeLoggedIn, mustBeOperator, validateId, validateUpdatedConcert, validateUpdatedLocation, setConcert)
 router.delete('/:id', mustBeLoggedIn, mustBeOperator, validateId, removeConcert)
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'uploads')
+    },
+    filename: function (req, file, cb) {
+        const uniqueSuffix = Date.now()
+        cb(null, uniqueSuffix + '-' + file.originalname)
+    }
+})
+
+const multerConfigs = multer({storage})
+
+router.post('/cover/:id', mustBeLoggedIn, mustBeOperator, validateId, multerConfigs.single('cover'), setNewCover)
 
 
 export default router

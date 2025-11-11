@@ -4,6 +4,9 @@ src/scripts/js/generatePassword.js
 # databases
 database.db
 
+# uploads
+uploads
+
 # Logs
 logs
 *.log

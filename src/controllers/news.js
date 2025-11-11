@@ -122,6 +122,20 @@ export const patchNews = async(req, res) => {
 
 }
 
+export const setNewCover = async(req, res) => {
+    try {
+        console.log("val :", req.val)
+        console.log("file :", req.file)
+        console.log('filename :', req.file.filename)
+        // TODO : set filename in db
+        res.sendStatus(200)
+    }
+    catch(err) {
+        console.error(err)
+        res.sendStatus(500)
+    }
+}
+
 export const removeNews = async(req, res) => {    
     try {
         await deleteNewsAndEventNewsIfExists(pool, req.val.id)

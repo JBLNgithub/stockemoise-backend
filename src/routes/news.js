@@ -1,4 +1,5 @@
 import {Router} from 'express'
+import multer from 'multer'
 import { 
     getAllNews, 
     getSingleNews, 
@@ -8,6 +9,7 @@ import {
     addNewsAndEventAndLocation,
     addNewsAndEventAndLocationAndLocality,
     patchNews,
+    setNewCover,
     removeNews
 } from '../controllers/news.js'
 import validateNews from '../middlewares/validateNews.js'
@@ -38,6 +40,20 @@ router.post('/with-event&location', mustBeLoggedIn, mustBeOperator, validateNews
 router.post('/with-event&location&locality', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, addNewsAndEventAndLocationAndLocality)
 router.patch('/:id', mustBeLoggedIn, mustBeOperator, validateId, validateUpdatedNews, validateUpdatedLocation, patchNews)
 router.delete('/:id', validateId, removeNews)
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, 'uploads')
+    },
+    filename: function (req, file, cb) {
+        const uniqueSuffix = Date.now()
+        cb(null, uniqueSuffix + '-' + file.originalname)
+    }
+})
+
+const multerConfigs = multer({storage})
+
+router.post('/cover/:id', mustBeLoggedIn, mustBeOperator, validateId, multerConfigs.single('cover'), setNewCover)
 
 
 export default router

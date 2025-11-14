@@ -109,11 +109,8 @@ export const setConcert = async(req, res) => {
 
 export const setNewCover = async(req, res) => {
     try {
-        console.log("val :", req.val)
-        console.log("file :", req.file)
-        console.log('filename :', req.file.filename)
-        // TODO : set filename in db
-        res.sendStatus(200)
+        await updateConcert(pool, {id: req.val.id, cover: req.file.filename})
+        res.status(200).send({success: true})
     }
     catch(err) {
         console.error(err)

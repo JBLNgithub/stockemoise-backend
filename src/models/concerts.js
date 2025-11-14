@@ -43,11 +43,15 @@ export const readConcert = async(SQLClient, id) => {
     return rows[0]
 }
 
-export const updateConcert = async(SQLClient, {id, title, content, datetimeEvent, location}) => {
+export const updateConcert = async(SQLClient, {id, cover, title, content, datetimeEvent, location}) => {
     let query = "UPDATE concert set "
     const querySet = []
     const queryValues = []
 
+    if(cover) {
+        queryValues.push(cover)
+        querySet.push(`cover = $${queryValues.length}`)
+    }
     if(title) {
         queryValues.push(title)
         querySet.push(`title = $${queryValues.length}`)

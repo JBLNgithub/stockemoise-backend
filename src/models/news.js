@@ -45,11 +45,15 @@ export const createNews = async(SQLClient, {title, content, cover}) => {
     return rows[0]
 }
 
-export const updateNews = async(SQLClient, {id, title, content}) => {
+export const updateNews = async(SQLClient, {id, cover, title, content}) => {
     let query = "UPDATE news set "
     const querySet = []
     const queryValues = []
 
+    if(cover) {
+        queryValues.push(cover)
+        querySet.push(`cover = $${queryValues.length}`)
+    }
     if(title) {
         queryValues.push(title)
         querySet.push(`title = $${queryValues.length}`)

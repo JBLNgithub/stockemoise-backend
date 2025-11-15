@@ -35,7 +35,7 @@ VALUES
 
 INSERT INTO eventNews(id, location, dateEvent)
 VALUES
-    ( 5, 1, "2026-08-15 09:00:00");
+    ( 2, 1, "2026-08-15 09:00:00");
 
 INSERT INTO user(username, email, password, level)
 VALUES

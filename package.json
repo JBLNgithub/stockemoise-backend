@@ -4,7 +4,7 @@
   "description": "backend of the stockemoise website project",
   "main": "index.js",
   "scripts": {
-    "build": "npm install && node ./src/scripts/js/initDB.js",
+    "build": "npm install && npm run init",
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "node src/scripts/js/test.js",

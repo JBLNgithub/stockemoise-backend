@@ -19,3 +19,8 @@ HOST=<path>
 PORT=<port>
 NODE_ENV=<ENVIRONMENT>
 ```
+
+#### NODE_ENV
+
+- "DEVELOPMENT"
+- "PRODUCTION"

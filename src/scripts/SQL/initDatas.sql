@@ -36,9 +36,3 @@ VALUES
 INSERT INTO eventNews(id, location, dateEvent)
 VALUES
     ( 2, 1, "2026-08-15 09:00:00");
-
-INSERT INTO user(username, email, password, level)
-VALUES
-    ('admin', 'admin@stockemoise.be', '$argon2id$v=19$m=65536,t=3,p=4$5iaOjluUX4KZGQAaJ7velQ$aGnXdASV3hJEv5Wr5xYhQz3E0QtokLntFIf2k7ARbkQ', 0),
-    ('moderator', 'mod@stockemoise.be', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 1),
-    ('operator', 'op@stockemoise.be', '$argon2id$v=19$m=65536,t=3,p=4$HtC/IeWKSrmKAGJL0VbYug$xis4pWogjhBhOz3A4xqHeH3DyTNHQ5pzHn4fTtbsrXk', 2);

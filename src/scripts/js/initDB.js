@@ -4,6 +4,7 @@ import {pool} from '../../databases/SQLite3.js'
 const fileNames = [
     'initDB.sql',
     'initDatas.sql',
+    'initUsers.sql',
     'initNews.sql'
 ]
 

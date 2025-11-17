@@ -5,14 +5,14 @@ version : 0.4
 
 ## Environments variables
 
-required :
+### required
 
 ```
 DATABASE=<path>
 PRIVATE_KEY=<key>
 ```
 
-optional :
+### optional
 
 ```
 HOST=<path>

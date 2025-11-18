@@ -28,11 +28,3 @@ VALUES
 INSERT INTO news(title, content, cover, author)
 VALUES
     ("Situation géographique", "TODO", "plan-stockemoise.png", 1);
-
-INSERT INTO news(title, content, author)
-VALUES
-    ("Stage d'éveil musical 2026", "TO DELETE (remove from init)", 1);
-
-INSERT INTO eventNews(id, location, dateEvent)
-VALUES
-    ( 2, 1, "2026-08-15 09:00:00");

@@ -17,7 +17,6 @@ export const addLocationAndLocality = async(SQLClient, location) => {
         await createLocality(SQLClient, location.locality)
         
         location.locality = location.locality.codePostal
-        console.log(location)
             
         const res = await addLocation(SQLClient, location)
 

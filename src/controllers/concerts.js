@@ -50,7 +50,7 @@ export const getConcert = async(req, res) => {
 
 export const addConcert = async(req, res) => {
     try {
-        const concert = await createConcert(pool, req.val)
+        const concert = await createConcert(pool, req.val, req.session)
         res.status(201).send({success: true, id: concert.id})
     }
     catch(err) {
@@ -61,14 +61,12 @@ export const addConcert = async(req, res) => {
 
 export const addConcertAndLocation = async(req, res) => {
     // TODO : use transactions
-    console.log("TODO add concert and location")
-    
     try {
         const location = await addLocation(pool, req.val.location)
 
         req.val.location = location
 
-        const concert = await createConcert(pool, req.val)
+        const concert = await createConcert(pool, req.val, req.session)
         res.status(201).send({success: true, id: concert.id})
     }
     catch(err) {
@@ -79,14 +77,12 @@ export const addConcertAndLocation = async(req, res) => {
 
 export const addConcertAndLocationAndLocality = async(req, res) => {
     // TODO : use transactions
-    console.log("TODO add concert and location and locality")
-    
     try {
         const location = await addLocationAndLocality(pool, req.val.location)
 
         req.val.location = location
 
-        const concert = await createConcert(pool, req.val)
+        const concert = await createConcert(pool, req.val, req.session)
         res.status(201).send({success: true, id: concert.id})
     }
     catch(err) {

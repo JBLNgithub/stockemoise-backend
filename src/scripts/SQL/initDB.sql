@@ -1,3 +1,13 @@
+DROP TABLE IF EXISTS user;
+
+CREATE TABLE user(
+    id integer PRIMARY KEY AUTOINCREMENT,
+    username varchar NOT NULL,
+    email varchar UNIQUE NOT NULL,
+    password varchar NOT NULL,
+    level integer NOT NULL
+);
+
 DROP TABLE IF EXISTS locality;
 
 CREATE TABLE locality(
@@ -26,9 +36,11 @@ CREATE TABLE concert(
     content text NOT NULL,
     dateRedaction date DEFAULT current_timestamp,
     cover varchar,
+    author integer NOT NULL,
     dateEvent datetime NOT NULL,
     isCanceled integer DEFAULT FALSE,
     location integer NOT NULL,
+    FOREIGN KEY(author) REFERENCES user(id),
     FOREIGN KEY(location) REFERENCES location(id)
 );
 
@@ -39,7 +51,9 @@ CREATE TABLE news(
     title varchar NOT NULL,
     content text NOT NULL,
     dateRedaction date DEFAULT current_timestamp,
-    cover varchar
+    cover varchar,
+    author integer NOT NULL,
+    FOREIGN KEY(author) REFERENCES user(id)
 );
 
 DROP TABLE IF EXISTS eventNews;
@@ -51,14 +65,4 @@ CREATE TABLE eventNews(
     isCanceled integer DEFAULT FALSE,
     FOREIGN KEY(id) REFERENCES news(id),
     FOREIGN KEY(location) REFERENCES location(name)
-);
-
-DROP TABLE IF EXISTS user;
-
-CREATE TABLE user(
-    id integer PRIMARY KEY AUTOINCREMENT,
-    username varchar NOT NULL,
-    email varchar UNIQUE NOT NULL,
-    password varchar NOT NULL,
-    level integer NOT NULL
 );

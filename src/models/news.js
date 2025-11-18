@@ -38,10 +38,10 @@ export const nextEventNews = async(SQLClient, limit) => {
     return rows
 }
 
-export const createNews = async(SQLClient, {title, content, cover}) => {
-    const query = "INSERT INTO news(title, content, cover) VALUES ($1, $2, $3) RETURNING id"
+export const createNews = async(SQLClient, {title, content, cover}, {id}) => {
+    const query = "INSERT INTO news(title, content, cover, author) VALUES ($1, $2, $3, $4) RETURNING id"
 
-    const rows = await SQLClient.query(query, [title, content, cover])
+    const rows = await SQLClient.query(query, [title, content, cover, id])
     return rows[0]
 }
 

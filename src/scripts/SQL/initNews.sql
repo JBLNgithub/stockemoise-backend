@@ -900,6 +900,925 @@ VALUES
     /* Style Definitions */table.MsoNormalTable{mso-style-name: »Tableau Normal »;mso-tstyle-rowband-size:0;mso-tstyle-colband-size:0;mso-style-noshow:yes;mso-style-priority:99;mso-style-qformat:yes;mso-style-parent: » »;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-para-margin:0cm;mso-para-margin-bottom:.0001pt;mso-pagination:widow-orphan;font-size:11.0pt;font-family: »Calibri », »sans-serif »;mso-ascii-font-family:Calibri;mso-ascii-theme-font:minor-latin;mso-fareast-font-family: »Times New Roman »;mso-fareast-theme-font:minor-fareast;mso-hansi-font-family:Calibri;mso-hansi-theme-font:minor-latin;mso-bidi-font-family: »Times New Roman »;mso-bidi-theme-font:minor-bidi;}La députée wallonne Anne-Catherine Goffinet et une partie des décorés."),
 
     ("programme 2011", "2010-11-11 00:00:00", null, 3,
-    "")
+    "Mac Arthur Park: de Jimmy Webb / argt. James Kennedy
+    Jimmy Webb, natif de l´Oklahoma, a été un auteur-compositeur prodige dès l´âge de 21 ans. MacArthur Park est un parc de Los Angeles, en Californie. Cette composition de Jimmy Webb enregistrée à la fin des années 60 a été en avance sur son temps. Commençant comme un poème sur l´amour, elle passe ensuite en complainte d´un amant. D´abord rejetée à cause de sa longueur – plus de 7 minutes, ce qui est une éternité pour la radio – mais à cause aussi de sa complexité et de ses paroles loufoques, d´autres par contre – et pas des moindres – ont fini par l´apprécier et l´enregistrer. Citons: Donna Summer, Frank Sinatra, Tony Bennett, Sammy Davis Jr, Liza Minnelli, et bien d´autres … 
+    Indiana Jones: de John Williams / argt. Hans Van Der Heide
+    Indiana Jones est un personnage de fiction créé par George Lucas dans le film Les Aventuriers de l´arche perdue réalisé par Steven Spielberg en 1981. Ses aventures se déroulent principalement au début du XXe siècle avec comme toile de fond la Première et la Seconde Guerre mondiale. John Williams, né en 1932 à New York, est quasiment le compositeur attitré de Steven Spielberg et de George Lucas. Il a composé un grand nombre des plus célèbres musiques de films: notamment Star Wars, Superman et Harry Potter. Comme c´est le cas pour beaucoup de grands compositeurs classiques, les thèmes de John Williams se caractérisent à la fois par leur évidence et par leur apparente simplicité. Pour la petite histoire, sachez qu´il a composé la musique de la cérémonie d´investiture du président Barack Obama.
+    Bohemian Rhapsody: de Freddie Mercury / argt. John Glenesk Mortimer
+    Bohemian Rhapsody est une chanson écrite par Freddie Mercury, enregistrée par le groupe Queen en 1975. Elle devient un immense succès commercial, marquant une étape décisive dans la carrière du groupe Queen. On en sait très peu sur l´origine du nom du morceau. Selon une interview du guitariste du groupe, Freddie Mercury l´aurait trouvé assez tardivement au cours des enregistrements. D´après des entretiens avec le producteur du morceau, les premières bandes enregistrées étaient simplement étiquetées « le truc de Fred ». D´une façon générale, le titre évoque une chanson au format hors norme (la rhapsodie) traitant de quelqu´un qui ne se plie pas aux règles de la société (le Bohémien)
+    Postiglione d´Amore: de Alfred Bösendorfer
+    Le postillon d´amour! Pour celles et ceux qui auraient des doutes sur le sens à donner : postillon – poste – messager – donc: le messager d´amour. Alfred Bösendorfer compose cette ouverture dans le style de Gioacchino Rossini sans cependant vouloir écrire une musique programmée. Dans un château en Italie, une jeune comtesse attend le retour de son mari bien-aimé. Trompettes et cors annoncent l´arrivée d´un messager à cheval qui délivre enfin le message tant attendu. Quand le signal résonne une 2ème fois, le magnifique thème principal est repris. Le comte et sa suite reviennent enfin au château.
+    Oberto: ouverture de Giuseppe Verdi
+    Une histoire de famille qui se situe précisément en 1228. Suivez bien! Le comte Oberto di San Bonifacio apprend que Riccardo di Salinguerra s´apprête à épouser Cuniza. Or celui-ci a naguère séduit puis abandonné Leonora, la fille d´Oberto. Celle-ci obtient le pardon du comte et, père et fille, alertent la future épouse qui renonce dès lors à son fiancé et lui impose d´épouser Leonora. Oberto n´en provoque pas moins Riccardo en duel. Riccardo tue Oberto et s´enfuit en proie aux remords. Leonora, désespérée, prendra le voile. Sans connaître le triomphe, Oberto, considéré comme étant le premier opéra de Verdi, fut un vrai succès
+    The Italian Western: Ennio Morricone / argt. André Waignein
+    André Waignein a choisi 3 thèmes tirés des films « Sept Pistolets pour les Mac Gregor » et « Escalade » qui furent, au départ, composés par Ennio Morricone. Il en a fait un arrangement pour Orchestre d´Harmonie, Fanfare ou Brass Band qui reflète parfaitement l´ambiance à la fois explosive et remplie d´émotions, caractéristique du Western spaghetti.
+    Italo Oldies: argt. Stefan Schwolgin
+    La musique pop italienne parle à l´imagination de tous: elle est inextricablement liée à l´idée d´une campagne vallonnée, de villes pittoresques, de plages blanches et de soleil. Stefan Schwalgin a arrangé ici une série de hits tellement connus qu´ils sont hors du temps. Les mélodies Azzuro, Mamma Maria, L´Italiano, Volare que nous allons écouter maintenant évoquent ces images tout à fait attrayantes
+    La Grève des Musiciens: H. Klein Jzn. / Argt. Adr. J. Maas
+    Une pièce humoristique où, comme son titre l´indique, les musiciens se mettent littéralement en grève et quittent l´orchestre les uns après les autres jusqu´à ce que la caisse claire, restée seule, les rappelle à l´ordre pour un ultime accord.
+    Odyssey for Percussion: Elliot Del Borgo Solo pour ensemble de percussion
+    Elliot Del Borgo est né en 1938 à Port Chester, New York. Bien que son principal instrument soit la trompette, son amour de la percussion apparait dans nombre de ses œuvres. Son style d´écriture est rythmé avec des parties de percussions complexes incluant une grande variété d´instruments.
+    Concerto for Clarinet: Artie Shaw / argt. Ted Parson
+    Né à New York en 1910, Artie Shaw, apprend la clarinette et le saxophone. Après avoir mené une intense activité de musicien de studio, il délaisse une première fois la musique et se retire à la campagne pour se consacrer à sa deuxième passion la littérature. En 1936, il forme son propre orchestre de jazz et de danse et connaît la gloire. Pourtant Artie Shaw, une deuxième fois, se retire du monde musical. En 1940, année où il épouse l’actrice Lana Turner, il reconstitue un orchestre qui à nouveau enchaîne les hits. En 1942, il s’engage dans la Marine. Il dirige un orchestre destiné à entretenir le « moral des troupes » du Pacifique. De retour à la vie civile en 1944, il met sur pied un orchestre, pour une fois exclusivement « de jazz », A la fin des années 60, il abandonne une nouvelle fois sa carrière musicale pour devenir producteur de films et de pièces de théâtre.
+    You Can Leave your Hat On: Randy Newman/argt. Steve Cartland
+    You Can Leave Your Hat On est une chanson de blues composée par Randy Newman et parue en 1972. Elle a été rendue célèbre par Joe Cocker en 1986 pour son utilisation dans la scène de strip-tease du film 9 semaines 1/2 d´ Adrian Lyne. Les couplets sont courts et le refrain ne comprend que la phrase You can leave your hat on (Tu peux garder ton chapeau), qui est répétée trois fois, laissant entendre que le personnage est excité sexuellement par le chapeau que porte sa partenaire. Une version chantée par Tom Jones a été utilisée pour le film The Full Monty, l´histoire d´un petit groupe de chômeurs qui décide de faire du strip-tease afin de gagner de l´argent et, pour le personnage principal, de payer la pension qui lui permet de continuer à voir son fils.
+    The Typewriter: Leroy Anderson / argt. Hans Van der Heide
+    Voici une célèbre pièce de 1950 dans laquelle une machine à écrire tient un rôle extraordinairement essentiel. Il s´agit d´un micro-concerto pour machine à écrire sur lequel Jerry Lewis avait concocté un sketch de toute beauté. John Williams a décrit Leroy Anderson « comme un des plus grands maîtres américains de  musique orchestrale légère ». Son sens vif de la mélodie et de l’orchestration ressort au mieux, dans The Typewriter dont l’orchestration insolite évoque de sages dactylos à l’œuvre dans des bureaux.
+    TwinKling Flutes: Richard Comello Solo pour ensemble de flûtes
+    Il y a peu de compositions pour deux flûtes avec accompagnement d´un orchestre, celle-ci répond donc sans doute à un réel besoin. Après une introduction majestueuse de l´orchestre, se déroule une combinaison joyeuse de flûtes avec accompagnement subtil de l´orchestre.
+    The Happy Cyclist: Ted Huggens Solo pour sonnette de vélo
+    Une composition pleine d´esprit dans laquelle une sonnette de bicyclette est utilisée comme instrument soliste.
+    Sandpaper Ballet: Leroy Anderson / argt. Hans Van Der Heide Solo pour papier de verre
+    Leroy Anderson était un assimilateur de toutes sortes de styles musicaux. Nombre de réalisateurs de films et de publicités se sont délectés de ces oeuvres au style américain incontestable. Toujours régulièrement diffusées à la radio, ses œuvres sont de petites vignettes sonores de la vie au vingtième siècle. Aujourd’hui, une composition de Leroy Anderson peut être tout de suite reconnue par des milliers de gens qui ne connaissent guère son nom.
+    Clarinets to the Fore: Harm Evers Solo pour ensemble de clarinettes
+    Harm Evers est né le 3 novembre 1925 à Gramsbergen en Hollande dans une famille de musiciens. Sa carrière musicale débute dès l’âge de huit ans lorsqu’il joue de la petite flûte à l’harmonie locale. En 1950, il s’engage comme clarinettiste/violoniste à la musique militaire du Premier Régiment d’Infanterie à Assen. Il fait partie de cette musique militaire jusqu’en 1980. Entre-temps il dirige plusieurs orchestres à vents et durant près de trente ans il enseigne la clarinette et le saxophone dans plusieurs écoles de musique. Il se met également à écrire et arranger pour orchestres à vents. Il se spécialise dans des pièces pour orchestre à vents
+    Soran – bushi Rock Version: argt. Satomi Kojima
+    «Soran Bushi"" est une chanson traditionnelle qui a été chantée par des générations de pêcheurs de harengs dans la région septentrionale de Hokkaido au nord du Japon. Les mouvements de danse dépeignent des pêcheurs traînant des filets, des cordes de traction et transportant des bagages sur leurs épaules. Un des buts de cette chorégraphie était de se réchauffer, tout en reprenant des mouvements de tous les jours. Récemment, la danse Sôran a été réimaginée par un enseignant d´une grande école. Sous sa direction, la danse a gagné en dynamisme et en rythme. Elle fut donc réinterprétée avec une musique plus moderne. Des élèves ont ainsi présenté une version rock durant leurs cours de sport. Il s´agit d´une danse ludique qui donne envie de se déchaîner.
+    Toot Ensemble: Wilfred Shadbolt
+    Solo pour ensemble de trompettes.
+    The Pink Panther: Henri Mancini / argt. Johan de Meij
+    La Panthère rose est une série de onze films commençant en 1963. Celle-ci met en scène les aventures de l´inspecteur parisien Jacques Clouseau interprété par Peter Sellers puis par Steve Martin. La « Panthère rose » y désigne un bijou, objet de l´enquête de l´inspecteur Clouseau mais le générique du film a recours à un personnage dessiné ayant la forme d´une panthère rose. Ce personnage du générique et le thème musical écrit par Henry Mancini feront par la suite le succès de plusieurs séries de dessins animés qui seront créés jusque dans les années 1990
+    Trombone Dreams: Walter Schneider / argt. Steve Mc Millan
+    Walter Schneider est né en 1924 en Bohême. Il a reçu ses premières leçons de musique et de piano de son père. A 17 ans, il écrit sa première marche pour un groupe local. Après la Seconde Guerre mondiale, il se rend en Suède où il devient membre d´un orchestre à vent. Au début, il joue du cornet, du tuba et du cor ténor puis, plus tard, son instrument de prédilection deviendra le trombone. C´est avec cet instrument qu´il apparaîtra souvent en soliste. En 1961, il retourne en Allemagne et se concentre en particulier sur la musique populaire moderne, ainsi que les polkas et marches. A son décès en 2000, il laissera 23 compositions parmi lesquelles de nombreuses oeuvres en solo pour divers instruments.
+    Ténora: Wim Laseroms
+    Wim Laseroms a publié de nombreuses pièces pour des sections d´orchestre bien définies. C´est l´une de ces pièces que nous allons vous proposer maintenant. Dans un arrangement à deux voix, le groupe ténor, soutenu par le reste de l´orchestre, joue des phrases mélodiques joyeuses. Voici un léger intermède interprété par un groupe de l´orchestre qui n´a pas souvent l´occasion de se produire en soliste.
+    Saxamba: Wim Lasero
+    Wim Laseroms a publié de nombreuses marches et des pièces pour des sections d’orchestre à vents bien définies, ainsi qu’un grand nombre d’oeuvres de concert. Plus de 120 titres ont été édités et sont joués par d’innombrables orchestres amateurs. Cette pièce, basée sur le rythme de la Samba, a été composée pour un ensemble de saxophones. L’accompagnement à la percussion, qui peut être agrémentée de divers instruments exotiques d’Amérique Latine, joue également un rôle capital.
+    Euphoria: Ray Woodfield
+    Euphoria de Ray Woodfield commence par une lente mélodie. La pièce évolue ensuite et change alors en un pas de danse avant un retour au ralentis et au calme à la fin.
+    Erinnerung an Zirkus Renz: Gustav Peter
+    Il s´agit d´un air entrainant et très rapide – un  galop – qui fut la ""marque musicale"" du grand cirque ""RENZ"" des Pays-Bas. Ce morceau fut créé par le compositeur hongrois Peter GUSTAV et il est classé à ce jour parmi les airs les plus difficile à jouer. "),
 
-    -- https://stockemoise.be/page/8/
+    ("15ème brocante de Stockem", "2010-08-26 00:00:00", "brocante2012.jpg", 3,
+    "dimanche 22 août 2010
+    Météo clémente ce dimanche 22 août 2010 pour la 15ème brocante annuelle de la Stockemoise. De bon matin, plus de 150 brocanteurs et artisans ont installé leurs stands dans les rues du haut du village. Même si une petite averse, vers 11h30, a un peu refroidi les organisateurs, le repas de midi copieusement servi à environ 200 personnes fut un régal, comme à l´habitude. L´animation musicale et dansante de qualité a largement contribué à garder un nombreux public autour du local de musique jusqu´à la fermeture de la brocante à 18h30."),
+
+    ("Concert de Gala 2010", "2010-05-16 00:00:00", "gala2010.jpg", 3,
+    "extraits choisis de notre concert de gala 2010 :
+    https://www.youtube.com/watch?v=y-D2Bfs-br4"),
+
+    ("festival U.S.M.", "2010-03-02 00:00:00", "usm2010.jpg", 3,
+    "Samedi 24 avril 2010 à 17h00: festival de l´Union des Sociétés Musicales de la Communauté Française à Grivegnée ( Liège)"),
+
+    ("La Stockemoise et son concert d´hiver", "2010-02-01 00:00:00", "hiver2010.jpg", 3,
+    "Le 6 février à 20 h, l´Harmonie Royale la Stockemoise organise un concert d´hiver dans sa salle de musique à Stockem.
+    Trois harmonies seront présentes, notamment l´harmonie Royale Concordia de Messancy sous la direction de René Friob, l´Harmonie Royale les Échos de la Lesse de Villance sous la direction de Julien Martin.
+    En troisième partie la Stockemoise sous la direction de Dominique Goffinet.
+    D´autres activités et concerts sont planifiés pour le mois de février ; on peut citer le repas choucroute du 14 février, et un grand concert de Gala en l´Église du Sacré-Coeur d´Arlon le 27 février avec la participation de Mme France Emond, Soprano connu internationalement.
+    Les bénéfices de ce concert seront offerts aux habitants des villages de l´Aquila (Italie) victimes l´an dernier d´un terrible tremblement de terre.
+    Renseignements, José Carpantier, 0497 577007
+    http://www.actu24.be/article/messancy_6780_la_stockemoise_et_son_concert_dhiver/403392.aspx"),
+
+    ("Concert de Noël 2009", "2009-12-30 00:00:00", null, 3,
+    "samedi 19 décembre 2009
+    Rien n´arrête les mélomanes ni les amateurs de concerts de Noël. Pas même les rigueurs de l´hiver. En effet, ils étaient nombreux, dont le bourgmestre Raymond Biren, a avoir bravé les – 14° de la nuit du 19 au 20 décembre pour se retrouver dans une église du Sacré-Coeur bien accueillante.
+    Les oeuvres interprétées par les chorales réunies de St Donat et du Sacré-Coeur, par la Stockemoise et par Mr Jean-Marie Bosseler, organiste titulaire des orgues, ont ravi le public. Ce fut une belle soirée qui se termina par le traditionnel « verre de l´amitié »."),
+
+    ("Sainte-Cécile 2009 compte-rendu", "2009-11-27 00:00:00", null, 3,
+    "Compte-rendu
+    Lors de la fête de Sainte-Cécile, en présence du colonel Laloux, parrain du drapeau de la Stockemoise, de la députée Anne-Catherine Goffinet et de l´échevine Marie-Thérèse Trum, a eu lieu la remise des neuf distinctions honorifiques de la Fédération musicale du Luxembourg belge aux membres de la Stockemoise:
+    épingle verte (5 ans)
+    Hélène Peeters, Michael Standaert, Yolande Mathey
+    épingle rouge (10 ans)
+    Antoine Schiltz, Maxime Demeuse, José Carpantier
+    pour 15 ans de présence: Georges Schweicher, Christiane Faber
+    pour 40 ans de présence: Dominique Goffinet
+    absents sur la photo: Hélène Peeters et Dominique Goffinet "),
+
+    ("Programme 2010", "2009-11-13 00:00:00", null, 3,
+    "Morceaux au pupitre en 2010
+    The legendary white de Johan Nijs
+    « La Blanche Légendaire » est une pièce de concert composée par Johan Nijs en l´honneur de la brasserie De Kluis de Hoëgaarden.
+    Il Postiglione d´Amore de Alfred Bösendorfer
+    Dans un château en Italie, une jeune comtesse attend le retour de son mari bien-aimé. Trompettes et cors annoncent l´arrivée d´un messager à cheval qui délivre enfin le message tant attendu.
+    La storia de Jacob de Haan
+    L´œuvre fait appel à l´imagination des musiciens et des auditeurs et chacun d´entre nous est libre de créer son propre scénario à partir de ce qu´il entend.
+    Music de John Miles / argt. J.G. Mortimer
+    Grâce à ce titre sorti en 1976, John Miles a culminé dans les hit-parades de l´époque.
+    Concerto (from Rondo Veneziano) de Gian Piero Reverberi / Ivano Pavesi
+    Ce qui caractérise Rondo Veneziano des autres groupes de ce genre, c´est l´originalité du répertoire, dont il n´existe pas d´autres versions. En effet, tous les morceaux sont des compositions inédites signées par Gian Piero Reverberi.
+    Showdown for Band de Gilbert Tinner
+    L´intention du compositeur, Gilbert Tinner, était de créer une pièce de musique légère qui soit stimulante sur le plan technique et spécialement sur le terrain du rythme."),
+
+    ("Situation géographique", "2009-09-07 00:00:00", "plan-stockemoise.png", 3,
+    "Où nous situons-nous ?
+    Notre harmonie se situe à Stockem dans la commune d´Arlon (24 418 habitants, superficie 12.029 ha). Arlon, le chef lieu de la province de Luxembourg, se situe en Lorraine belge, à cheval sur les bassins de la Meuse et du Rhin, aux confins de la latinité et de la Germanie. La ville s´étage sur une butte témoin « la Knipchen ». Le « Hitzenberg », autre butte témoin, est avec ses 465m, le point culminant de la Lorraine belge.
+    Où nous trouver : sur la RN 83 Arlon-Bouillon, à 4 km du centre d´Arlon, sur la Place de l´Harmonie derrière l´église de Stockem.
+    Notre local à l´heure actuelle :
+    Notre local avant rénovation :"),
+
+    ("14ème brocante de Stockem", "2009-09-07 00:00:00", "brocante2012.jpg", 3,
+    "Compte-rendu
+    Après avoir été invité par la Stockemoise pour son concert de gala de clôture de l´année du centenaire à la Maison de la Culture d´Arlon, le groupe RIO BRAVO a à nouveau été approché pour animer la brocante annuelle de Stockem. Ses musiques et ses danses country en ont attiré plus d´un sur la Place de l´Harmonie.
+    Ailleurs, dans les rues d´un village bien vivant ce jour-là, les brocanteurs avaient étalé leurs marchandises sur un parcours d´environ 1,5 km. Parfois dès 4h00 du matin!
+    La brocante annuelle de la Stockemoise est la plus grande manifestation organisée à Stockem. Et son succès va grandissant d´année en année."),
+
+    ("Brocante 2009", "2009-07-18 00:00:00", "brocante2012.jpg", 3,
+    "Un air de notre brocante 2009 :
+    https://www.youtube.com/watch?v=5fXiwjmLtmg"),
+
+    ("Dimanche 3 mai 2009 – FREYLANGE compte-rendu", "2009-04-23 00:00:00", null, 3,
+    "« Hämmelsmarsch »
+    La tradition de la Hämmelsmarsch (traduction: marche du bélier) remonte au 17ème siècle. A l´époque, la région d´Arlon faisait partie du Duché de Luxembourg, ce qui explique de nombreuses de traditions folkloriques et culturelles communes de part et d´autre de l´actuelle frontière. Il semblerait qu´à l´origine, à l´occasion de la kermesse, un jeu de quilles était organisé, avec comme premier prix un mouton. Le gagnant devait alors promener ce mouton dans les rues. Par la suite les musiciens ont formé le cortège et la tradition s´est maintenue dans bon nombre de villages. Même s´il est rare de nos jours que des moutons soient de la partie…
+    C´est encore l´occasion pour la fanfare ou l´harmonie locale d´animer les rues, de réveiller les enfants au dimanche de la fête (Kiirmessonndeg) et de récolter quelques pièces ou billets pour faire vivre la société de musique.
+    Un air et une chanson spécifique pour la circonstances ont été composés. L´origine de la mélodie est inconnue, pour certains elle proviendrait du nord de l´Italie, pour d´autres des Pays-Bas. Quant aux paroles, divers auteurs luxembourgeois ont rédigé des strophes au fil des siècles. La dernière version est de Michel Lentz (datée de 1861). Elle décrit le cortège de musiciens et moutons, ainsi que les enfants impatients qui sortent des maisons pour les suivre dans les rues. C´est la fête, tout le monde se prépare, le repas mijote, et même ceux qui habitent à l´étranger pensent à leur village en ce jour.
+    La Stockemoise est heureuse de maintenir cette tradition. Les musiciens de votre village et des environs passeront dans les rues de Freylange le dimanche 3 mai à partir de 9h30. D´avance un grand merci et bonne fête !
+    Les musiciennes et musiciens de la Stockemoise lors de la Hämmelsmarsch en 2008."),
+
+    ("Gala 2009 : d’Est en Ouest", "2009-03-26 00:00:00", null, 3,
+    "samedi 21 mars 2009
+    Concert de gala de clôture de l´année du centenaire de la Stockemoise
+    Le samedi 21 mars 2009, la Stockemoise a clôturé les festivités de son centenaire par un concert de gala à la Maison de la Culture d´Arlon sur le thème « Est – Ouest ».
+    Exceptionnelle et originale grâce à la qualité musicale des interprétations et aux danses country du groupe RIO BRAVO line dance, cette soirée ne laissera chez ceux qui l´ont vécue que de bons souvenirs. Il faut dire que la préparation du spectacle par les musiciens et les danseurs a été particulièrement intense. "),
+
+    ("Extraits du concert de Gala 2009", "2009-03-25 00:00:00", null, 3,
+    "Extraits de notre concert de gala de mars 2009, « d’Est en Ouest », à la Maison de la Culture d’Arlon.
+    https://www.youtube.com/watch?v=aP_z5qjtyOk"),
+
+    ("actualités en mars 2009", "2009-03-02 00:00:00", null, 3,
+    "Concert de Gala 2009 de La Stockemoise
+    A la Maison de la Culture d´Arlon
+    Ce samedi 21 mars à 20h00
+    Avec la participation de RIO BRAVO Country Line Dance
+    P.A.F. 8,00 € ou 4,00 €
+    réservations  à la M.C.A.
+    A voir: l´affiche du spectacle dans les news"),
+
+    ("actualités en février 2009", "2009-02-03 00:00:00", null, 3,
+    "L’inauguration des installations de la Stockemoise par les autorités communales mais aussi provinciales et fédérales a été vécue comme un grand moment par les musiciens et les villageois venus visiter les nouveaux locaux. Le Bourgmestre Raymond Biren s’est dit ravi de voir la Stockemoise réintégrer son bâtiment.  Une remarquable exposition rétrospective avait également été préparée à cette occasion pour retracer le siècle de musique au village. C’est avec émotion que beaucoup d’anciens de l’harmonie ont redécouvert de grands moments vécus au sein de la phalange musicale.
+    A Voir dans l´album photos"),
+
+    ("Arlon: lifting réussi pour la Stockemoise", "2009-01-24 00:00:00", null, 3,
+    "C’est le 10 mai 1908 que fut fondée l’harmonie “ La Stockemoise ”. Après 2 années passées dans différentes habitations particulières à travers le village de Stockem (Arlon), c’est en 1910 qu’a été érigé le local de la jeune harmonie par une équipe de villageois.
+    —
+    Paru le 21/1/2009 dans La Meuse
+    Voilà donc 100 ans que cette phalange musicale anime cette petite localité arlonaise avec un dynamisme impressionnant. En guise de cadeau à l’occasion du centenaire, les autorités communales ont offert un lifting complet de sa salle au cœur du village. Les travaux de rénovation s’élevant à quelque 500 000 € (sans compter les investissements intérieurs réalisés par le comité) sont à présent terminés. Ces travaux ont permis de doubler la superficie du bâtiment qui dispose à présent d’une spacieuse salle de concerts, mais aussi de salles de répétitions, de cours et d’une cuisine professionnelle entièrement équipée par le comité. Cette rénovation avait toutefois contraint l’harmonie à quitter le village de Stockem pour occuper des locaux à l’ancien palais de justice d’Arlon.
+    Ce déménagement pour y assurer la continuité des répétitions, et ce en pleine année du centenaire, s’est passé pour un mieux A présent de retour au village, le week-end dernier avait été choisi pour l’inauguration des nouvelles installations. Aux côtés de autorités communales mais aussi provinciales et fédérales, de nombreux musiciens et villageois étaient venus visiter les nouveaux locaux. Le Bourgmestre Raymond Biren s’est dit ravi de voir la Stockemoise réintégrer son bâtiment avec l’esprit léger . Une remarquable exposition rétrospective avait également été préparée à cette occasion pour retracer le siècle de musique au village. C’est avec émotion que beaucoup d’anciens de l’harmonie ont redécouvert de grands moments vécus au sein de la phalange musicale. Cette exposition est encore à découvrir le dimanche 25 janvier prochain de 11à18h.
+    Toutes les activités, l’histoire et le programme de cette année sur: www.stockemoise.be
+    Article : http://luxembourg.lameuse.be/regions/luxembourg/2009-01-21/arlon-lifting-reussi-stockemoise-678447.shtml"),
+
+    ("Une phalange musicale tout en harmonie", "2009-01-23 00:00:00", null, 3,
+    "Pour son 100e anniversaire, la Stockemoise dispose de locaux doublés et rénovés. Des travaux qui s´élèvent à quelque 475 000 €. Article paru le 23 janvier 2009 dans l´Avenir du Luxembourg
+    Pour son 100 e anniversaire, la Stockemoise dispose de locaux doublés et rénovés. Des travaux qui s´élèvent à quelque 475 000 €. Jean-Claude FONCK La Stockemoise, cette phalange musicale qui compte une bonne cinquantaine de musiciens, vit depuis quelques mois de riches moments dans le cadre du 100e anniversaire de l´harmonie. 
+    Comme certains l´ont fait remarquer à juste titre dimanche après-midi lors de l´inauguration des locaux rénovés, il y a plusieurs décennies que la renommée de l´harmonie a franchi les frontières du grand Arlon. C´est en effet en mai 1908 qu´est née officiellement la société. Comme l´a souligné Henri Massem, une des chevilles ouvrières de la société depuis plus de 50 ans, l´idée avait germé à l´époque dans l´esprit de quelques jeunes gens du village. L´évolution de la société à ses débuts a constitué une page glorieuse de dévouement, de désintéressement dans l´histoire des Stockemois. Il fallait trouver un local, acheter des instruments et former des musiciens. Le local fut installé successivement dans des maisons particulières. Le bâtiment rénové où siège actuellement la société a été construit en 1910. Dimanche, comme il se doit en fanfare, le bourgmestre Raymond Biren, avec à ses côtés les échevins et conseillers venus en nombre, a inauguré la nouvelle salle. En effet, la ville a entrepris la rénovation complète de la salle au coeur du village de Stockem (Arlon), salle qui a été doublée en superficie. Un projet initié à l´époque du mayeur Guy Larcier, présent ce dimanche avec son épouse au coupé du ruban.
+    Concert à la Maison de la culture
+    La salle la Stockemoise, c´est à présent au rez-de-chaussée plusieurs salles de cours, de réunions, une nouvelle cuisine professionnelle entièrement équipée par le comité ; à l´étage, la grande salle de concerts qui a elle aussi été doublée. Les travaux de rénovation s´élèvent à quelque 475 000 €, sans compter les investissements intérieurs réalisés par plusieurs bénévoles de la société.
+    Dans le cadre du centenaire de cette grande dame, une exposition photos réalisée par Jean-Claude Marquis et par quelques membres du comité sera encore ouverte le dimanche 25 janvier, de 11 à 18 h, les visiteurs auront également la possibilité d´acquérir le livre Chronique de la Stockemoise et de son village sorti de presse début janvier et écrit par MM. Henri Massem et José Carpantier.
+    Le samedi 7 février, à 20 h aura lieu, dans la nouvelle salle, le concert d´hiver avec la royale harmonie la Stockemoise sous la direction de Dominique Goffinet, l´harmonie royale Sainte-Cécile de Saint-Léger sous la direction de Jeremy Lacave et enfin par le Guevillers Band de Ruette sous la direction de Michel Guillaume.
+    Le président Pierre Vasseur a annoncé que la Stockemoise clôturera cette belle année du centenaire le 21 mars prochain par un concert de gala à la Maison de la culture d´Arlon.
+    «Est-Ouest» en sera le thème, avec des musiques d´Amérique du nord et du sud ainsi que des pays de l´Est. Ce concert sera accompagné par les danseurs des groupes Flash danced´Izel et Rio Bravo de Turpange."),
+
+    ("Chronique de la vie de la phalange arlonaise", "2009-01-14 00:00:00", null, 3,
+    "Pour le 100 e anniversaire de la Stockemoise, Henri Massem et José Carpantier proposent une chronique de la vie de la phalange arlonaise. Article paru dans l´avenir du luxembourg le 14/1/2009 – Jean-Claude FONCK
+    Henri Massem et José Carpantier, vous êtes les auteurs du livre «La Stockemoise 1908- 2008» qui va sortir de presse début janvier, comment est née votre société de musique?
+    C´est le 10 mai 1908 qu´est née officiellement la Stockemoise. Notre local a été installé successivement dans diverses habitations particulières dont les propriétaires avaient mis gracieusement une pièce à la disposition des musiciens. Le bâtiment où siège actuellement la société ne fut construit qu´en 1910. Beaucoup de Stockemois y ont participé, les uns financièrement, les autres par leur travail
+    José Carpantier, vous vous êtes penché sur la partie historique de la société mais également du village de Stockem, quelques dates clés de ce siècle au village?
+    La construction et le développement du chemin de fer sont à la base de la création de beaucoup d´emplois à Stockem, en 1870, le village ne comptait que 37 foyers. la construction de la remise des locomotives et des ateliers date de 1826 mais ils n´ont été mis en service qu´en 1930, année également où nous avons eu l´électricité, la distribution d´eau est opérationnelle en 38, la construction du camp Bastin date de 1951.
+    Quels ont été les faits marquants de cette grande dame centenaire?
+    Après la guerre, en 1919, déjà la musique fait honneur au retour des soldats au village en leur jouant l´aubade et en leur offrant des cadeaux. En 1947, 12 jeunes gens forment une clique. C´est le 6 juin 1971 que le roi Baudouin a conféré le titre de société royale. En 2001, la musique fut également récompensée par le prix Camille Schmit.
+    Henri Massem, vous êtes depuis 55 ans au sein de cette société, dont plusieurs années comme président. Quels sont les autres thèmes que vous abordez dans ce livre d´une centaine de pages?
+    On évoque l´acquisition de nos trois drapeaux où dès 1973 fut brodé avec fierté le titre de «royale» mais aussi les Pfortzheim qui possédaient les seigneuries de Stockem et leurs armoiries, un chapitre est consacré à notre local de musique qui vient de subir une fameuse cure de jouvence et que les autorités communales vont inaugurer le 18 janvier. Notre société a eu jusqu´en 1970 une troupe théâtrale dont la renommée s´étendait sur toute la région. Début des années 50, la société avait en début de cortège, ses cantinières, des dames portant un tonnelet contenant un breuvage «énergisant»!
+    Et qu´en est-il de la formation musicale?
+    Depuis sa création, c´est l´harmonie qui a assuré la formation des jeunes, mais depuis 2005, les cours de solfège et d´instrument sont organisés par l´académie de musique d´Arlon. La société assure le prêt d´un instrument aux élèves débutant. Plusieurs de nos musiciens ont brillé dans les académies et les conservatoires, plusieurs ont aussi remporté des concours de haut niveau. À présent, la société est placée sous la direction du chef Dominique Goffinet."),
+
+    ("Programme 2009", "2009-01-04 00:00:00", null, 3,
+    "Morceaux au pupitre en 2009
+    The Best of Bond: argt. Darrol Barry
+    Les thèmes de James Bond sont à la fois symphoniques et électriques, majestueux et modernes et restent imbattables sur le plan musical pour évoquer leurs époques, leurs lieux et humeurs.
+    Return to Ithaca de Kees Vlak
+    Poème musical grec d’après l’Odyssée d’Homère
+    El Cumbachero de Rafaël Hernandez / argt. Naohiro Iwai
+    Rafael Hernandez est l´un des plus importants compositeurs de Porto Rico du 20ème siècle et ses musiques ont réussi à défier l´épreuve du temps.
+    American Graphity argt. Naohiro Iwai
+    Un medley de musiques américaines connues.
+    Oregon de Jacob de Haan
+    Cette pièce est un voyage musical à travers l´Oregon, état du nord-ouest des États-Unis. À bord d´un train de la Northern Pacific Railroad, l´auditeur est invité à découvrir les paysages somptueux de l´Oregon.
+    Caribbean Variation de Jacob de Haan
+    Une invitation au voyage qui sent bon le soleil et la mer.
+    Balkan Dreams de Kees Schoonenbeek
+    Balkan Dreams a été inspiré par l´amour de Kees Schoonenbeek pour la musique hongroise et roumaine. Ce morceau fait écho à l´irrésistible mélancolie pleine de rêves et de promesses de la musique gitane.
+    Suite On Russian Dances de Terry Kenny
+    Terry Kenny a composé une cinquantaine de morceaux édités dans 5 pays différents.
+    Las Playa de Rio de Kees Vlak
+    Kees Vlak est un compositeur hollandais né en 1938. Une maladie l´oblige à mettre un terme à la pratique de la trompette. Il dispose alors de plus du temps pour la composition où il remporte des prix nationaux et internationaux.
+    Disney Fantasy argt. Naohiro Iwai
+    Un medley d´après les musiques de dessins animés de Wall Disney.
+    Liverpool Sound Collection argt. Toshikiko Sahashi
+    Toshihiko Sahashi , né en 1959 à Tokyo, est un compositeur japonais extrêmement prolifique dans les musiques de films et de dessins animés.
+    Stevie Wonder in Concert argt. Frank Bernaerts
+    Sa créativité musicale et la pertinence de ses textes permettent à Stevie Wonder de traverser les modes et d´appartenir déjà aux classiques du 20ème siècle.
+    Marching trough America argt. R. Beck
+    Randy Beck s’est taillé une grande réputation comme arrangeur de nombreux pots-pourris tels Marching through America. "),
+
+    ("actualités en Janvier 2009", "2009-02-02 00:00:00", null, 3,
+    "Les musiciennes et musiciens ainsi que les membres du comité de « La Stockemoise » vous souhaitent une bonne année 2009 et vous invitent déjà à leurs prochaines manifestations.
+    A vos agendas :
+    – Inauguration du nouveau local et exposition du Centenaire: samedi 17, dimanche18, lundi 19 et dimanche 25 janvier
+    – concert d´hiver:  samedi 07 février à Stockem
+    – repas choucroute: dimanche 01 mars à Stockem
+    – concert de gala: samedi 21 mars à la Maison de la Culture d´Arlon"),
+
+    ("Sainte-Cécile 2008 compte-rendu", "2008-12-21 00:00:00", null, 3,
+    "samedi 29 novembre 2008
+    Ce samedi 29 novembre, c´était la Sainte-Cécile à la Stockemoise. Comme le veut la tradition, les musiciens se sont réunis dans le chœur de l´église pour honorer leur patronne au cours d’une messe suivie par de nombreux villageois et amis de la musique.
+    Histoire de Sainte Cécile : Martyre à Rome vers 232, son culte est ancien mais semble aussi légendaire que populaire. Sous le règne du Pape Urbain, sainte Cécile aurait été mariée malgré elle à Valérien qu´elle convertit le jour de ses noces. Disciples chrétiens à une époque où affirmer cette croyance était puni de mort, Cécile, Valérien et son frère, furent condamnés à être décapités. Frappée de 3 coups de hache par le bourreau, Cécile fut laissée pour morte. Elle agonisa 3 jours durant lesquels, elle ne cessa de chanter les louanges de son Seigneur. Les musiciens en firent de ce fait leur Sainte patronne.
+    Un grand banquet a suivi la partie religieuse réunissant les musiciens et leurs amis dans la joie et la bonne humeur.
+    Douze membres de la société ont reçu à cette occasion une distinction honorifique.
+    Epingle verte (5 ans) :
+    Marleen Standaert – Elodie Drouard – Lyse Magnette – Vicky Portion – Ophélie Wagner – Léna Koch – Amélie Lecomte
+    Epingle rouge (10 ans) :
+    Clément Pesesse – Bastien Marquis – Axel Marot – Thomas Standaert – Raymond Colles "),
+
+    ("actualités en Décembre 2008", "2008-12-03 00:00:00", null, 3,
+    "A vos pelles! La neige est au rendez-vous et en quantité!
+    Avant de clôturer l´année, la Stockemoise a encore deux manifestations à son calendrier.
+    – Le 13 décembre (si le temps le permet …), défilé dans les rues d´Arlon.
+    – Le 20 décembre, au local de la société, concert de Noël. La chorale ""La Clé des Chants"" se joindra aux musiciens pour terminer cette année 2008 dans la joie et la gaieté.
+    Retenez déjà les dates des 17 et 18 janvier 2009: inauguration officielle de notre local rénové et exposition du  centenaire.
+    Pour s´inscrire et devenir membre de notre site, cliquez ici. "),
+
+    ("actualités en Novembre 2008", "2008-10-30 00:00:00", null, 3,
+    "Ce samedi 08 novembre, les musiciens de la Stockemoise auront le plaisir d´accueillir leurs amis des deux autres harmonies de la ville d´Arlon et d´offrir, pour la première fois dans leur nouveau local, un concert gratuit aux amateurs de bonne musique.
+    Le 11 novembre, l´harmonie participera aux manifestations patriotiques prévues à Heinsch, Stockem et Arlon (cimetière)
+    Enfin Ste Cécile sera dignement fêtée le 29 novembre.
+    BONNE FETE A TOUTES LES MUSICIENNES ET A TOUS LES MUSICIENS"),
+
+    ("actualités en Octobre 2008", "2008-10-03 00:00:00", null, 3,
+    "Merci aux musiciens de Hergenrath et de Soleuvre ainsi qu´à leurs directeurs. Le public présent a été ébloui par leurs concerts respectifs.
+    Dommage que la soirée Folkambiance n´ait pas rencontré le succès escompté!
+    Mais voyons l´avenir … Sont prévus: deux repas, trois concerts, un défilé, une messe et les manifestations patriotiques du 11 novembre. Ce dernier trimestre de l´année 2008, ne nous laissera pas inactifs! "),
+
+    ("Weekend du Centenaire", "2008-09-07 00:00:00", null, 3,
+    "Hall Polyvalent d´Arlon
+    20 et 21 septembre 2008
+    Hall Polyvalent d´Arlon
+    samedi à 21h
+    Folkambiance en concert
+    www.folkambiance.be
+    http://www.myspace.com/folkambiancemusic
+    dimanche à 14h30
+    Harmonies de Hergenrath et de Soleuvre en concert
+    www.harmonie–hergenrath.be
+    www.harmoniedesoleuvre.lu"),
+
+    ("13ème brocante de Stockem ", "2008-08-29 00:00:00", null, 3,
+    "Brocante du Centenaire
+    Tout le monde le dit: ""Le ciel a été avec nous!"" 
+    Les lève-tôt ont été les premiers à le constater: ""La journée s´annonce belle"" Et elle l´a été!
+    Les exposants se sont affairés dès le petit matin, les rues de Stockem ont été envahies par les curieux et les amateurs de ""bonnes affaires"". Chacun voulait profiter au maximum de cette journée ensoleillée.
+    L´ambiance musicale a été appréciée dès l´apéritif et le concert donné l´après-midi par la Royale Harmonie Saint-Martin de Léglise a été écouté et applaudi par un public attentif. Nombreux aussi étaient ceux qui en ont ""profité"" pour découvrir les nouvelles installations de la société musicale stockemoise. "),
+
+    ("actualités en Septembre 2008", "2008-08-29 00:00:00", null, 3,
+    "A la Stockemoise, les activités seront nombreuses en ce mois de rentrée: concert à Luxembourg le 09, week-end du Centenaire au Hall Polyvalent les 20 et 21, festival des musiques de la vallée de la Semois à Muno le 28.
+    Que vous soyez amateurs de musique festive ou d´harmonie, nous vous invitons à venir nombreux au Hall Polyvalent d´Arlon applaudir Folkambiance et les harmonies de Soleuvre et d´Hergenrath.
+    C´est décidé! L´ inauguration officielle de notre nouveau local et de l´exposition du Centenaire aura lieu le 18 janvier 2009. "),
+
+    ("La Stockemoise – Cette centenaire", "2008-08-23 00:00:00", null, 3,
+    "Article paru dans l´Avenir du Luxembourg le 21/08/08
+    Les 50 musiciens de la Stockemoise (Arlon) et le comité présidé par Pierre Vasseur célèbrent le 100 e anniversaire de l´harmonie. Rencontre.
+    Pierre Vasseur, vous êtes président de la Stockemoise, comment vivez-vous le centième anniversaire de votre harmonie?
+    Nous avons débuté les festivités par un gala d´ouverture à la Maison de la culture en collaboration avec l´École de danse Nicole Aimont.
+    Le thème était bien évidemment «100 ans de musique». 1908, 1918, 1928. De Gershwin à Ravel en passant par Glenn Miller, Michel Fugain, James Bond, Le parrain. Ce fut un réel succès. Mais les festivités s´étalent sur toute l´année!
+    Et pour le reste de l´année du centenaire, qu´avez-vous au programme dans un avenir rapproché?
+    Le 23 août prochain, nous aurons un concours de whist dans notre salle rénovée. Le lendemain, le 24 août, la grande brocante dans les rues du village, un kilomètre de brocanteurs, nous attendons plus de 200 exposants.
+    Ce même jour, nous accueillerons une concentration de Harley Davidson, les motards de l´Orval Country Chapter, ils seront sur la place de l´église vers 13h30.
+    Et pour les mois suivants?
+    Le grand week-end du centenaire aura lieu les 20 et 21 septembre au hall polyvalent à Arlon avec le samedi 20 à 20h un concert avec le groupe Folkambiance et le dimanche, deux concerts exceptionnels avec la participation de l´harmonie de Hergenrath et l´harmonie de Soleuvre, ces deux phalanges musicales comptent chacune quelque 100 instrumentistes!
+    Le 11 octobre, nous avons programmé le souper des retrouvailles où sont invités tous ceux et celles qui un jour ou l´autre ont été des nôtres à l´un de ces pupitres.
+    Les nouveaux et sympathisants sont bien évidemment les bienvenus!
+    Et en point d´orgue, qu´avez-vous concocté avec le directeur musical Dominique Goffinet?
+    Nous clôturerons les festivités du centenaire le 21 mars à la maison de la culture d´Arlon par un concert sur le thème «Est-Ouest» avec bien entendu des musiques américaines et des airs venus tout droit de Russie et pays avoisinants. L´inauguration officielle de notre belle salle rénovée aura lieu début 2009 mais la date exacte n´est pas encore définie.
+    Que peut-on souhaiter à une vieille dame centenaire?
+    Personnellement, je souhaite que les harmonies perdurent parce qu´il n´y a pas que le phénomène harmonie, il y a aussi le phénomène social derrière tout cela, avec des gens qui se retrouvent, se parlent, des gens de toutes générations, de milieux sociaux économiques tout à fait différents et cela fait une alchimie formidable! Dans notre société, ce sont 80 % des jeunes qui sont aux pupitres. On dit souvent que les jeunes ne font rien! et bien à la Stockemoise, c´est bien le contraire, ils font énormément!
+    Interview : Jean-Claude FONCK
+    Lien vers l´article : http://www.actu24.be/article/regions/provinceluxembourg/infoslux/la_stockemoise,_cette_centenaire/180167.aspx"),
+
+    ("Soirée Folkambiance", "2008-08-23 00:00:00", null, 3,
+    "HALL POLYVALENT ARLON
+    Samedi 20 septembre 2008 à 20h
+    FOLKAMBIANCE
+    en concert
+    Entrée : 8 euros
+    Organisation : Harmonie La Stockemoise fondée en 1908, asbl société Royale.
+    Avec le soutien du Collège Provincial
+    Plus d´info sur Folkambiance : http://www.folkambiance.be/ et http://www.myspace.com/folkambiancemusic"),
+
+    ("actualités en Juillet 2008 ", "2008-07-07 00:00:00", null, 3,
+    "Voici le temps du farniente et des barbecues !
+    A La Stockemoise aussi, la musique est au repos pour trois semaines : prochaine répétition le vendredi 1er août.
+    Et pourtant, tout le monde ne paresse pas ! Certains préparent activement la brocante du Centenaire tandis que d’autres mettent la main aux derniers petits travaux d’aménagement de notre nouveau local.
+    Bientôt l´inauguration officielle et l´exposition du centenaire. Plus de nouvelles bientôt sur ce site. "),
+
+    ("actualités en Juin 2008", "2008-06-09 00:00:00", null, 3,
+    "Ca y est ! La musique a retrouvé son lieu d’attache historique : Stockem. Notre local entièrement rénové est prêt à vous accueillir.
+    Pour les étudiants, c’est le temps des épreuves. Courage !
+    Bientôt l´inauguration officielle et l´exposition du centenaire. Plus de nouvelles bientôt sur ce site."),
+
+    ("Whist et Brocante (23-24 août 2008)", "2008-05-08 00:00:00", null, 3,
+    "Dans le cadre des festivités de son centenaire, la Stockemoise a programmé deux manifestations importantes auxquelles elle a le plaisir de vous inviter.
+    Samedi 23 août 2008 à 20h
+    en son local rénové sis rue des Bruyères 36 à Stockem
+    Grand Concours de Whist
+    PAF 8€
+    Dimanche 24 août 2008 de 8 à 18 heures
+    13ème Foire
+    artisanale et de la brocante
+    depuis la Place de l´Eglise jusqu´au cimetière sis rue des Bruyères
+    PAF 2,50€ le Mct d´emplacement numéroté
+    10h30 : ouverture officielle par les autorités
+    12h30 : restauration : Apéritif – Jambon grillé – Crudités – Dessert – Café
+    Après-midi : concert de musique – concentration de motos"),
+
+    ("Hämmelsmarsch à Freylange (2008) ", "2008-05-08 00:00:00", null, 3,
+    "Voici le lien vers une vidéo de notre sortie à Freylange ce dimanche…
+    A dimanche prochain au chapitre du Maîtrank !!!
+    http://fr.youtube.com/watch?v=pN0GFDt32NU"),
+
+    ("Rénovation de la salle (avril 2008)", "2008-04-29 00:00:00", null, 3,
+    "mardi 1 avril 2008
+    Avril 2008 : on est en train de terminer les façades et d´aménager l´extérieur du local."),
+
+    ("actualités en Mai 2008", "2008-04-29 00:00:00", null, 3,
+    "Quelle chance! Belle journée ensoleillée ce dimanche pour le concert apéritif à Nothomb à l´invitation de ""La Sonatine"". Nous souhaitons aux choristes un séjour enrichissant au Japon.
+    Les travaux au local de Stockem se terminent (voir photos plus loin sur le site). L´aménagement de la cuisine est en bonne voie. Dès ce 5 mai, nous allons pouvoir réinvestir les lieux. Bientôt l´inauguration officielle et l´exposition du centenaire. Plus de nouvelles dans les jours qui viennent sur ce site."),
+
+    ("L´histoire de Stockem en photos", "2008-03-24 00:00:00", null, 3,
+    "de 1908 à aujourd´hui
+    L´histoire de Stockem en photos
+    de 1908 à 2008"),
+
+    ("Rénovation de la salle (mars 2008)", "2008-03-10 00:00:00", null, 3,
+    "samedi 1 mars 2008
+    photo de la cuisine:
+    2 photos de la grande salle de concert:
+    2 photos de la petite salle de cours
+    Les escaliers vers la grande salle"),
+
+    ("actualités en Mars 2008", "2008-03-05 00:00:00", null, 3,
+    "A l’occasion de son 100ème anniversaire, « La Stockemoise » rassemble …
+    Après le concert de gala à la MCA qui restera un événement marquant de cette année, ce 02 mars, dans un registre différent, de nombreux convives ont marqué leur attachement à la société de musique par leur présence au traditionnel « repas choucroute » qui pour l’occasion fut phénoménal.
+    Le prochain rendez-vous d’importance à Stockem sera l’inauguration du local et l’exposition du centenaire dans notre nouvelle salle de musique.
+    Plus d’infos bientôt sur le site …
+    Pour s´inscrire et devenir membre de notre site, cliquez ici."),
+
+    ("Reportage TvLux Gala 2008 et centenaire ", "2008-02-26 00:00:00", null, 3,
+    "Le reportage au sujet du concert de Gala 2008 et du Centenaire de l’harmonie peut être visionné sur le site de TvLux :
+    http://www.tvlux.be/index.php?option=com_content&task=view&id=1403&Ite"),
+
+    ("actualités en février 2008", "2008-02-18 00:00:00", null, 3,
+    "Satisfecit pour notre concert de gala ! Des musiciens en symbiose avec leur instrument et leurs partitions, des danseuses captivantes et vives sur les airs du « Boléro » et de « The Rock », un public conquis par la qualité du spectacle tant de fois répété, toutes et tous ont participé à la parfaite réussite de cette soirée de février.
+    Cette année du centenaire débute sous d’heureux auspices … Pour continuer la fête, rejoignez-nous à la salle Familia ce 02 mars pour notre traditionnelle choucroute. En point d’orgue, nous partagerons le gâteau d’anniversaire. Plus d’infos sur le site … "),
+
+    ("Les 100 ans de la Stockemoise ", "2008-02-16 00:00:00", null, 3,
+    "Article de l´Avenir du Luxembourg du 30 novembre 2007
+    Les 62 musiciens de la Stockemoise et le comité présidé par Pierre Vasseur préparent le 100 e anniversaire de l´harmonie fondée en 1908.
+    Pierre Vasseur, vous êtes président de la Stockemoise. Dans quelles circonstances a été créée l´Harmonie?
+    C´est le 10 mai 1908 qu´est née officiellement la société. Notre local a été installé successivement dans diverses habitations particulières dont les propriétaires avaient mis gracieusement une pièce à la disposition des musiciens. Le bâtiment où siège actuellement la société ne fut construit qu´en 1910.
+    Beaucoup de Stockemois y ont participé, les uns financièrement, les autres par leur labeur.
+    Quels sont les grands moments de ces 100 années de musique?
+    C´est le 6 juin 1971 que le roi Baudouin a conféré à la société le titre de Royale. En 2001, la musique fut également récompensée par le prix Camille Schmit.
+    Combien de musiciens sont à présent aux pupitres de la Stockemoise?
+    Aujourd´hui, ce sont quelque 62 musiciens qui composent notre orchestre sous la direction de Dominique Goffinet. Je le remercie pour son excellent travail, sa patience et sa gentillesse. La moyenne d´âge se situe en dessous des 25 ans, nous avons un nombre de jeunes toujours croissant. Sept jeunes musiciens nous ont d´ailleurs rejoints cette année, sans compter l´arrivée de plusieurs adultes qui retrouvent, parfois après plusieurs années d´interruption, le plaisir de pratiquer ce merveilleux art qu´est la musique.
+    Quel est le programme que vous avez concocté pour fêter le centenaire de la Stockemoise?
+    Il est prévu un concert de gala pour l´ouverture des festivités du centenaire le 16 février 2008 à la Maison de la Culture d´Arlon en collaboration avec l´École de danse de Nicole Aimont. Le thème sera bien évidemment «100 ans de musique».
+    1908, 1918, 1928… De Gershwin à Ravel en passant par Glenn Miller, Michel Fugain, James Bond, Le parrain… et j´en passe
+    Et pour le reste des activités de l´année du centenaire?
+    La rénovation de notre nouveau local est presque terminée. Un grand merci à la ville d´Arlon. L´inauguration de nos nouvelles installations est prévue en avril avec une exposition «Toute notre Histoire», en août : week-end whist et brocante avec concentration de motos Harley Davidson. Ce n´est pas tout, le week-end des 20 et 21 septembre est prévu une soirée «Folk Ambiance» le samedi soir et, le dimanche après-midi, un concert par l´harmonie de Hergenrath et l´harmonie de Soleuvre (GDL).
+    Quelque deux cents musiciens sur scène au Hall polyvalent d´Arlon. En octobre, nous avons programmé le souper des retrouvailles des anciens et des nouveaux. En janvier 2009, soirée «Loup-garou» autour de notre local et enfin en mars 2009, les festivités du centenaire se termineront par un concert de clôture à la Maison de la Culture d´Arlon.
+    Interview : Jean-Claude FONCK"),
+
+    ("Rénovation de la salle (février 2008)", "2008-02-15 00:00:00", null, 3,
+    "vendredi 1 février 2008
+    Tout doucement, on voit la fin des travaux se pointer à l´horizon. A l´intérieur, ça avance aussi: le bâtiment est chauffé et les derniers corps de métier s´activent! Pourra-t-on inaugurer début avril comme prévu ? "),
+
+    ("Centenaire, la Stockemoise vit en harmonie", "2008-02-10 00:00:00", "journal2008.jpg", 3,
+    "Article de l´Avenir du Luxembourg du 8 février 2008
+    Centenaire, la Stockemoise vit en harmonie
+    En avant la musique! Les festivités du centenaire de la respectable Stockemoise commenceront le 16 février par un concert à la Maison de la culture d´Arlon.
+    Un siècle d´empreinte sur un village et aussi une région. Et parfois plus loin. Comme ce concert improvisé sur le parvis de Notre-Dame de Paris où les Arlonais entamèrent la musique des Chasseurs ardennais. Rien n´y fit, pas même la carte de police du dévoué Henry Massen. Tous durent remballer les instruments suite à la descente de policiers parisiens un peu trop zélés.
+    Anecdotes et souvenirs au programme d´une publication, de soupers de retrouvailles au cours de toute l´année. Également une exposition. Avec comme cerise sur le gâteau d´anniversaire, un tout nouveau local. Un retour au bercail espéré pour avril.
+    La commune y aura mis de sa poche pour un ajout et un bâtiment relooké. Il y aura aussi un concert avec les amis de Soleuvre et de Hergenrath, et encore Folkambiance.
+    Si aujourd´hui, la société a pris le parti de ne plus présenter les concours, c´est l´une des sociétés où l´on s´efforce de développer un réel niveau musical. Georges Médinger, le voisin de Sterpenich, souligne «l´excellente réputation d´un travail» sur la durée. On peut le croire.
+    Jean-Jacques GUIOT"),
+
+    ("Choucroute du centenaire 2008 affiche", "2008-02-10 00:00:00", null, 3, "2 mars 2008"),
+
+    ("actualités en février 2008", "2008-02-10 00:00:00", null, 3,
+    "Ce vendredi 8 février, une équipe de TvLux est venue filmer et interviewer pendant la répétition de préparation au concert de Gala qui sera donné le 16 février prochain à la Maison de la Culture à Arlon.
+    Ne manquez pas le reportage qui devrait être diffusé ce vendredi 15/02 aux infos de 18h sur TvLux !
+    A noter également un reportage sur MustFM passera ces jours-ci dans le journal régional. Must FM à Arlon 103,1 et à Habay 106,0. Les infos régionales passent à 7h30, 8h30, 12h30 et 17h30."),
+
+    ("Programme 2008", "2008-01-27 00:00:00", null, 3,
+    "Morceaux au pupitre en 2008
+    Au pupitre en 2008
+    1) Boléro : Maurice Ravel (argt. Christopher Wormold)
+    Cette œuvre singulière, que Ravel disait considérer comme une simple étude d´orchestration, a fait l´objet dès sa création en 1928 d´une très large diffusion jusqu’à devenir, de nos jours encore, une des œuvres musicales les plus jouées dans le monde.
+    2) Pirates des Caraïbes : Klaus Badelt
+    La musique de Klaus Badelt colle parfaitement à ce film fantastique d’action et d’aventure sorti en 2003. Vous vous retrouverez à l´abordage d´un navire, à la poursuite du Black Pearl, dans les bras de votre aimé(e) ou bien au milieu des fumées d´un combat naval ! .
+    3) Attention Mesdames et Messieurs, Une belle Histoire, Viva la Vida, Les Acadiens : Michel Fugain
+    Avec sa troupe Le Big Bazar, produit populaire de l’après 68, Michel Fugain a produit quelques succès qui font encore la joie des petits et des grands.
+    4) Rhapsodie in Blue : Georges Gershwin (argt. Noahiro Iwaï)
+    Un mariage de jazz et de musique classique.
+    5) The Saint and the City : Jacob de Haan
+    Dans les eaux entourant Zwolle, une ville des Pays-bas, vivait un dragon. À chacune de ses apparitions, il menaçait de détruire la ville de son souffle de feu, si aucun sacrifice humain ne lui était offert.
+    6) In the Mood, Tuxedo Junction, American Patrol, Moonlight Sérénade :Glenn Miller (argt. Noahiro Iwaï)
+    La musique de l´orchestre de Glenn Miller, à la frontière entre le jazz et la musique de danse, appartient à la mémoire collective en évoquant immédiatement la Seconde Guerre mondiale, la libération, et plus largement les années 40.
+    7) The Godfather Saga: Nino Rota / Carmine Coppola (argt. Marcel Peeters)
+    Cette trilogie qui regroupe la musique des « Parrains » plaira aux fans de ces films cultes.
+    8) The Rock: Hans Zimmer (argt. Pascal Devroye)
+    Une musique entraînante et rythmée qui accompagne le raid de Sean Connery et Nicolas Cage dans la prison d´Alcatraz, aux mains de militaires fanatiques.
+    9) Saxamba : Wim Laseroms
+    Cette pièce basée sur le rythme de la Samba a été composée pour un trio de saxophones. L’accompagnement à la percussion, qui peut être agrémentée de divers instruments exotiques d’Amérique Latine, joue également un rôle capital.
+    10) The Best of Bond: argt. Darrol Barry
+    Les thèmes de James Bond sont à la fois symphoniques et électriques, majestueux et modernes et restent imbattables sur le plan musical pour évoquer leurs époques, leurs lieux et humeurs.
+    11) A Morricone Portrait : Enio Morricone (argt. Roland Kernen)
+    Un très joli medley du célébre compositeur de musique de film; après une courte introduction on enchaîne sur ""My name is nobody"", ""Metello"" et ""Here´s to you"". 
+    12) Gonna Fly Now (extrait de Rocky) : Bill Conti
+    Le film et sa bande originale connaissent un succès tant critique que commercial, ""Gonna Fly Now"" allant même jusqu’à devenir l’indicatif des célèbres GROSSES TETES de RTL
+    13) Return to Ithaca de Kees Vlak
+    Poème musical grec d’après l’Odyssée d’Homère.
+    14) Florentiner Marsh : de Julius Fucik
+    Julius Fucik a donné à la musique tchèque de nombreuses compositions dont la popularité ne s’est jamais démentie. Aujourd´hui encore, on admire la richesse et l´originalité de son inspiration.
+    15) Tiger Rag : de Original Dixieland Jazz Band
+    Tiger Rag est un morceau instrumental célèbre à La Nouvelle-Orléans puisque, dès les premières années du jazz, il y est déjà connu sous plusieurs noms différents. Originaire de cette ville, l’Original Dixieland Jazz Band, premier orchestre à avoir enregistré du jazz, en 1917, s’est approprié Tiger Rag en le déposant et en l’enregistrant avant tout le monde. "),
+
+    ("Les drapeaux de l´harmonie", "2008-01-27 00:00:00", null, 3,
+    "Histoire et description
+    Si la société a été fondée le 10 mai 1908, son premier drapeau n’a été acquis qu’en 1910. C’est de cette année-là aussi que date son premier local dont la partie la plus ancienne a été conservée lors des travaux de rénovation de 2007.
+    Le second drapeau a été offert par le président Isidore Tock au cours de l’année 1965. Sa bénédiction a eu lieu après la grand-messe précédant la procession de la fête Dieu. Quant à l’inauguration officielle, une cérémonie a eu lieu le 05 septembre 1965 sous la présidence de Monsieur le Bourgmestre de la commune de Heinsch.
+    Le troisième drapeau, l’actuel, a été acquis au cours de l’année 1989. Son inauguration a eu lieu en novembre de la même année à l’occasion de la Ste Cécile. Son parrain est le colonel BEM Robert Laloux commandant le groupe CVRT à Stockem. Sa marraine est Madame Renée Schneidesch épouse du membre le plus ancien de la société. Les armoiries de Philippe Charles de Pforzheim figurent sur cet emblème. Elles ont été concédées à la commune de Heinsch le 21 janvier 1957."),
+
+    ("Armoiries et blason ", "2008-01-27 00:00:00", null, 3,
+    "Description
+    Armoiries de Philippe-Charles de Pforzheim figurant sur le drapeau de « La Stockemoise »
+    Le baron de Pforzheim administra la haute, la moyenne et la basse justice de Schoppach. Il fut un guerrier fameux au service autrichien à la fin du XVIIIe siècle. Il reforma le célèbre régiment des dragons de Latour dont il devint colonel en 1790. Il fut tué au combat en 1793.
+    L’écu ( = bouclier du Moyen-Age) est partagé en quatre parties. En 1 et en 4, sur fond bleu, on peut voir un galon en forme de V renversé ( = insigne de grade militaire) accompagné en haut de deux étoiles à six rayons d’or et en bas d’un bras armé tenant une flamme de feu. En 2 et en 3, sur fond rouge, on peut voir un canon allumé sur son affût d’or posé sur une terrasse verte. L’écu est coiffé d’un bonnet brabançon et tenu par deux hommes armés portant une ceinture d’or et tenant chacun une bannière aux armes de l’écu. Le tout est posé sur une terrasse verte.
+    Blason de la Stockemoise"),
+
+    ("Concert de Gala 2008-affiche", "2008-01-27 00:00:00", null, 3, "16 février 2008 – Maison de la Culture d´Arlon"),
+
+    ("gala 16/02/2008 ", "2008-01-14 00:00:00", null, 3,
+    "Les tickets pour notre spectacle de Gala ""Rétrospective 1908-2008"" – 100 ans de Musique – seront en vente dès vendredi 18 janvier à la Maison de la Culture d´Arlon.
+    Prix des places : 8 euros pour les adultes, 4 euros pour les moins de 12 ans."),
+
+    ("Concert de Noël 2007 compte-rendu ", "2007-12-24 00:00:00", null, 3,
+    "compte-rendu
+    Concert de Noël – 2007
+    Ce dimanche 23 décembre,  L’harmonie La Stockemoise a clôturé l’année 2007 par un concert de Noël particulièrement chaleureux en l’église de Stockem. Pour cela, elle avait invité la chorale « La clé des chants » dirigée par Monsieur Bach à se produire en première partie.
+    A l’issue du concert, le traditionnel vin chaud fut apprécié par ce temps de fin d’année particulièrement froid."),
+
+    ("Joyeux Noël", "2007-12-24 00:00:00", null, 3,
+    "Noël unit petits et grands dans une belle atmosphère de plaisir et d´agrément. C´est pour cela qu´on l´aime tant !
+    Que cette saison aux mille merveilles laisse place à de grandes réjouissances; qu´elle soit propice à la découverte de bonheurs intenses.
+    Bonnes fêtes à tous !"),
+
+    ("Concert de Noël 2007 à Stockem-programme", "2007-12-19 00:00:00", null, 3,
+    "Programme musical
+    Le concert de Noël avec la chorale ""La Clé des chants"", dirigée par Mr Patrice Bach, aura lieu à l´église de Stockem le 23 décembre 2007 à 17 heures.
+    Au programme de la Stockemoise :"),
+
+    ("2008, année du centenaire…", "2007-12-03 00:00:00", null, 3,
+    "Nouveau logo
+    A cette occasion, un nouveau logo a été créé :
+    – Par la réunion des clés de sol et de fa,
+    – par la déclinaison de couleurs qui symbolise toutes nos différences,
+    il est symbole d´ unité entre les différents pupitres de l´harmonie"),
+
+    ("actualités en Décembre 2007", "2007-12-03 00:00:00", null, 3,
+    "2008, année du Centenaire !
+    Pour l’occasion,
+    - l’agenda de nos concerts et festivités sera exceptionnellement fourni. 
+    - Le site de la société a été renouvelé et sera bientôt mis en ligne. 
+    - Un nouveau logo a été créé : Par la réunion des clés de sol et de fa, Par la déclinaison de couleurs qui symbolise toutes nos différences, il est symbole d´ unité entre les différents pupitres de l´harmonie."),
+
+    ("Sainte-Cécile 2007 compte-rendu", "2007-11-30 00:00:00", "cecile2007.jpg", 3,
+    "samedi 17 novembre 2007
+    Ce samedi 17 novembre, les musiciens et leurs amis ont fêté leur patronne sainte Cécile.
+    Après la messe célébrée en l’église de Stockem par l’abbé Mbu, Mr. Pierre Vasseur a remis les distinctions honorifiques aux  membres suivants :
+    •    épingle verte (5 années)
+    –    Mr. Dorian BURNOTTE, Mr. José CARPENTIER, Melle Jackie DELHAYE, Melle Florence DENOLF, Mr. Harald KOLLMEIER, Mr. Louka KOLLMEIER, Mr. Jean-Claude MARQUIS, Mr. Corentin PESESSE, MR. Félicien SCHILTZ
+    •    épingle rouge (10 années)
+    –    Melle Laura BROGNIET, Mr. Amaury GOFFINET, Melle Laura GOSSELIN
+    •    médaille de 3ème classe (15 années)
+    –    Mr. Simon VASSEUR
+    •    médaille de 2ème classe (20 années)
+    –    Mr. Xavier LENOIR
+    •    médaille de 1ère classe (25 années)
+    –    Mr. Marcel ANTOINE
+    •    médaille d’excellence 3ème classe (45 années)
+    –    Mr. Pierre VASSEUR
+    •    médaille d’excellence 2ème classe (50 années)
+    –    Mr. Joseph HEBELER
+    Un repas convivial pris à la salle Familia termina la fête."),
+
+    ("Concert à Udange 2007 compte-rendu ", "2007-10-31 00:00:00", null, 3,
+    "21 octobre 2007
+    Ci-dessous une photo prise lors du concert de ce 21 octobre à Udange ."),
+
+    ("actualités en Octobre 2007", "2007-10-17 00:00:00", null, 3,
+    "La nature s’endort … Les feuilles se détachent et volent au vent … Mais que les couleurs sont belles !
+    Nos activités de fin d’année pointent leur nez : Ste Cécile, Défilé du Relais sacré, manifestations patriotiques du 11 novembre, concert de Noël, … 
+    Et bientôt 2008, année du centenaire de La Stockemoise ! Pour marquer le coup, notre site changera de look. Encore un peu de patience ! "),
+
+    ("Défilé d´Automne à Hayange 2007", "2007-10-14 00:00:00", null, 3,
+    "Photos
+    Quelques photos prises lors de la Parade d´Automne à Hayange."),
+
+    ("Concert de gala du Centenaire ", "2007-10-14 00:00:00", null, 3,
+    "« Retrospective 1908-2008 »
+    La Royale Harmonie La Stockemoise débute les festivités de son 100ème anniversaire avec un concert de gala.
+    Elle vous convie à un voyage musical dans l´histoire, depuis sa création en 1908 jusqu´à aujourd´hui. Chaque époque sera représentée par une œuvre ayant connu le succès: airs populaires, chansons, musiques de films, etc. La participation de l´école de danse Nicole Aimont complètera le spectacle avec des chorégraphies et danses originales exécutées pendant le concert.
+    Samedi 16 février 2008 à 20h
+    Maison de la Culture d´Arlon
+    Prix : adultes : 8€ — enfants : 4€
+    Places en vente à la Maison de la Culture d´Arlon
+    Renseignements : Pierre Vasseur 063 22 09 33"),
+
+    ("actualités en Septembre 2007", "2007-09-29 00:00:00", null, 3,
+    """Et c´est parti pour le show ! Et c´est parti tout le monde est chaud !""  Et oui, c´est la rentrée et c´est surtout parti pour une année tout particulièrement festive ! 100 années de musique, ça se fête ! Bientôt, pour marquer cet événement, vous pourrez découvrir les nouvelles couleurs de notre site.
+    En attendant, le programme de ce mois de septembre :
+    – 09/09/2007 : concert sur la place d´Armes à Luxembourg à 14h
+    – 22/09/2007 : défilé à Hayange pour la Parade d´Automne"),
+
+    ("Ouverture de la fête d´Arlon 2007", "2007-08-26 00:00:00", null, 3,
+    "7 juillet 2007
+    Voici quelques photos prises lors du défilé à l´occasion de l´ouverture de la fête foraine d´Arlon"),
+
+    ("12ème brocante de Stockem", "2007-08-26 00:00:00", null, 3,
+    "19 juillet 2007
+    La brocante organisée par la Royale Harmonie La Stockemoise  ce week-end des 18 et 19 août a connu pour la 12ème fois un succès incontesté malgré les averses de fin de journée.  La manifestation a débuté le samedi à la salle Familia  par un concours de whist qui a rassemblé 76 joueurs dans une ambiance très … familiale.
+    Le dimanche, sur plus d’un kilomètre d’emplacements, environ 150 exposants ont étalé leurs stands attirant ainsi une foule nombreuse d’amateurs de « bonnes affaires ».
+    L’après-midi a été ponctué par la prestation de la Fanfare communale de St Léger sous la direction de son jeune chef Christophe Mertz. Malheureusement, cette prestation de qualité a été interrompue a plusieurs reprises par les averses abondantes de fin de journée."),
+
+    ("Prix Camille Schmit", "2007-08-14 00:00:00", null, 3,
+    "octobre 2001
+    C´est dans la salle Etienne Lenoir de l´hôtel de ville d´Arlon que la Royale Harmonie La Stockemoise vient de recevoir le prix Camille Schmit 2001.
+    Camille Schmit est né à Aubange en 1908 et il a consacré toute sa vie à la musique, surtout dans le domaine de l´orgue. Il a notamment enseigné au conservatoire royal de musique de Liège. Il est décédé à Limelette en 1976. Il fut le premier président de la Fédération musicale Namur-Luxembourg et pour perpétuer son souvenir, la fédération créé le prix Camille Schmit afin d´encourager et de récompenser une société musicale méritante.
+    Cette année, deux sociétés avaient fait parvenir leur candidatures: l´Harmonie des Sapeurs Pompiers d´Athus et La Stockemoise. Cette dernière a été choisie pour ses participations fréquentes à la vie sociale d´Arlon et de la province grâce à ses nombreuses sorties. Le prix a été remis dans une ambiance bien amicale en présence de l´échevin Raymond Biren et de l´harmonie les Deux Vireux du département des Ardennes françaises. Quelques discours ont émaillé cette courte manifestation et pour terminer, le président de La Stockemoise, Henri Massem, a apporté une belle touche d´humour.
+    La soirée s´est prolongée par un concert à la salle Ysaye où La Stockemoise, sous la direction de Luc De Bruycker et l´harmonie des Deux Vireux ont montré tout leur savoir-faire.
+    Article paru dans l´Avenir du Luxembourg du 18 octobre 2001"),
+
+    ("Programme 2007", "2007-08-14 00:00:00", null, 3,
+    "Morceaux au pupitre en 2007
+    1) Sakura de Kagi Tyamatsu — Chanson japonaise.
+    Arbre symbole au pays du Soleil Levant, le cerisier japonais et sa fleur d’une beauté éphémère sont à l’honneur dans cette œuvre.
+    2) Praeludium The Lord of the Rings de Howard Shore
+    Devenu célèbre depuis sa participation à la trilogie du Seigneur des Anneaux (Peter Jackson), H. Shore a aussi composé pour les meilleurs films de David Cronenberg et David Fincher.
+    3) Lawrence d’Arabie de Maurice Jarre
+    C’est un des chefs d’œuvre du cinéma. Réalisé par David Lean en 1962, il a été récompensé par 7 Oscars dont celui de la meilleure musique de films pour Maurice Jarre.
+    4) Dakota de Jacob de Haan
+    Plusieurs mélodies indiennes anciennes provenant du Dakota du Sud sont intégrées dans cette oeuvre en 5 tableaux de Jacob de Haan.
+    5) Mamma Mia – The Musical,  songs of Abba (arrangement Peter Kleine Schaars)
+    Une mère, une fille et 3 pères possibles!  Mamma Mia !
+    6) The Phantom of the Opéra de Andrew Lloyd Webber (Arrangement Johan  De Meij)
+    A l´opéra de Paris, en 1861, un fantôme défiguré hante les lieux et perturbe les répétitions et représentations..
+    7)  Grease selection de Jim Jacobs et Casey Warren (arrangement Willy Hautvast)
+    Danny est un petit caïd local qui ne peut donner à ses copains l´impression d´être amoureux…
+    8) Mozart : comédie de Michaël Kunze et Sylvester Levay (arrangement de Wolfgang      Woëssner)
+    Basé sur la vie du plus célèbre musicien autrichien, le prodigieux Wolfgang Amadeus Mozart, ce musical veut nous présenter Mozart autrement.  .
+    9)  Tanz der Vampire de Jim Steinman ( arrangement Wolfgang Woëssner)
+    Le professeur Abronsius et son fidèle assistant Alfred viennent traquer le vampire au fin fond de la Transylvanie.
+    10)  Suite from « Miss Saïgon » de Claude-Michel Schönberg (arrangement André  Waignein)
+    Saïgon, peu avant la chute du Viêt Nam. Kim travaille dans un bar. Elle y rencontre Chris, un jeune G.I. C´est le coup de foudre.
+    11)  Starmania : Opéra rock de Michel Berger (arrangement    Jérôme Naulais)
+    Dans un futur rapproché, l’occident n’est plus qu’un seul pays.
+    12) Do-Ré-Mi de Richard Rodgers (arrangement Takashi Hoshide)
+    Extrait de La Mélodie du bonheur, film américain de Robert Wise sorti en 1965. Il s’agit d’une comédie musicale basée sur le livre de Maria Augusta Trapp : La Famille des chanteurs Trapp.
+    13)  Return to Ithaca de Kees Vlak
+    Poème musical grec d’après l’Odyssée d’Homère
+    14) Castaldo Nova de Rudolf Novacêk (arrangement de Karel Belohoubek)
+    Il s’agit d’une marche dans laquelle une étrange variation relie le rythme de marche à des sonorités de valse.
+    15) Klezmer Karnival de Philip Sparke
+    Musique traditionnelle des Juifs Ashkénazes d’Europe Centrale et de l’Est.
+    16) Anitschka de Johan Nijs
+    Histoire d’amour entre une jeune fille tzigane et son fiancé hongrois."),
+
+    ("Sainte-Cécile 2006 ", "2007-08-14 00:00:00", null, 3,
+    "samedi 18 novembre 2006
+    La Stockemoise » a fêté Ste Cécile ce samedi 18 novembre.   La soirée commença par la messe en musique célébrée par Mr. l’Abbé Charles Mbu aux intentions de la société en l’église de Stockem, Au cours de la séance académique qui suivit, 11 musiciens et musiciennes reçurent leur distinction honorifique des mains de Mr. Pierre Vasseur, président ou de Mr. Jean-Pierre Guissard,  administrateur à la Fédération musicale.
+    Un vin d’honneur précéda le repas copieux et délicieux pris dans une ambiance joyeuse et chaleureuse jusque tard dans la nuit.
+    La préparation de la fête :
+    La messe en musique :
+    La remise des décorations :
+    Amaury Goffinet, Antoine Hubert, Camille Marbehant, Julien Schiltz, Audrey Bologna, Olivier Pesesse, Marcel Antoine, Johana Gosselin, Tony Vasseur, Jean-Luc Schiltz, Jean-Pierre Guissard
+    Le repas :"),
+
+    ("Fête des Genêts 2007 compte-rendu", "2007-08-14 00:00:00", null, 3,
+    "3 juin 2007
+    Voici quelques photos de la musique à la fête des Genêts à Gedinne ce 03/06/2007."),
+
+    ("21ème festival des harmonies de la vallée de la Semois 2006 compte-rendu", "2007-08-14 00:00:00", null, 3,
+    "22 octobre 2006
+    Créé en 1985 à l’initiative de « La Stabuloise », ce festival rassemble chaque année les harmonies situées sur le parcours luxembourgeois de la Semois,  à savoir les musiques de Stockem, de Vance, d’Etalle, de Muno, d’Izel et de Bouillon.
+    Cette année, c’était au tour de « La Stockemoise » d’organiser ce grand rassemblement musical. Quelque 150 musiciens se sont donc retrouvés ce dimanche 22 octobre à la salle Don Bosco de Heinsch.
+    Dès 14 heures, après tirage au sort de l’ordre de passage, chaque société a offert aux mélomanes présents un court concert d’une vingtaine de minutes. En fin d’après-midi , dans un grand rassemblement final, l’ensemble des musiciens  interpréta : « Castaldo Nova » de Rudolf Novacek, la »Marche des Chasseurs ardennais » bien sûr et enfin la « Marche de la vallée de la Semois en fête » composée par Yvon Simon alors qu’il était directeur musical à Etalle.
+    Rendez-vous est déjà pris pour 2007 à Vance.
+    Plaquettes réalisées par Mme Françoise Denis en souvenir de ce 21ème festival
+    PROGRAMME
+    Harmonie Royale Saint-Joseph de Vance.
+    Directeur musical : Aubertin François
+    Président : Perleau Marc
+    Beethoven´s Romance
+    Arrangement: Steve Cortland
+    The Legendary White
+    John Nijs
+    Tribute to Dixie
+    Gilbert Tinner
+    Volare
+    Arrangement: Frank Bernaerts
+    La Stabuloise
+    Directeur musical : Authelet Philippe
+    Président : Authelet Pierre
+    Site internet: http://lastabuloise.be
+    Sway
+    P.B. Ruiz
+    James Last Golden Hits
+    Arrangement: S.M. Millan
+    Santana
+    Arrangement: G. Gazzani
+    Brazilian Bay Dance
+    H. Evers
+    L´Union Bouillonnaise
+    Direction musicale : Zeler Catherine
+    Présidente : Clebant Annie
+    Mambo Nr 5
+    Perez Praolo
+    Arrangement: Thierry Toima
+    Cartolina da Cuba
+    Giancarlo Gazzani
+    Brazil
+    A. Barroso
+    Arrangement:  Toshihiko Sahaschi
+    Whenever—Wherever
+    Arrangement: Franck Bernaerts
+    Les Amis Réunis de Muno
+    Directeur musical : Bérenger Goffette
+    Président : Nicolas Dessoy
+    The Rock
+    Hanz Zimmer,
+    Arrangement J. Mortimer
+    Lara´s Theme
+    Maurice Jarre
+    Arrangement Y. Crepin
+    Le Petit Baigneur
+    Gérard Calvi
+    Arrangement: D. Wyckhuis
+    Harmonie Royale Caecilia
+    Directeur musical : Freddy Schmitz
+    Président : Francis Jacques
+    Site internet : www.harmonieizel.be
+    Everest
+    Jacob de Haan
+    A Klezmer Karnival
+    Philip Sparke
+    Deep Purple Medley
+    Arrangement:  Toshihiko Sahaschi
+    Mr Pierre Vasseur, accompagné de Mme Pascaline Goffinet, remet les souvenirs aux président(e)s des sociétés.
+    Morceaux d’ensemble : Castaldo Nova de Rudolf Novacek, la marche des Chasseurs ardennais et la marche de la vallée de la Semois en fête de Yvon Simon"),
+
+    ("La Stockemoise interprète les comédies musicales 2007 compte-rendu", "2007-08-14 00:00:00", null, 3,
+    "17 mars 2007
+    Ce samedi 17 mars 2007, après des mois de travail assidu, les musiciens de La Stockemoise ont finalisé leur projet centré sur les comédies musicales. Mis au point conjointement avec la chorale La Sonatine et l’Atelier Jeune Théâtre de l’Athénée royal, le programme a été fortement apprécié par un public connaisseur.
+    Les amateurs de ce genre musical ont été comblés.
+    Voici en photos quelques moments de la soirée
+    La Stockemoise interprète des airs de « Do-Ré-Mi », « The Phantom of the opéra », « Mamma Mia », « Mozart », « Grease », « Miss Saïgon », « Starmania », …
+    Présentation originale du programme par L’Atelier Jeune Théâtre de l’Athénée Royal d’Arlon
+    La Sonatine interprète « A Disney silly sing-along », “I feel pretty + America”, … Le CD : « La Sonatine Chante… des œuvres de compositeurs belges et français » est en vente au Park-Music, rue de la Poste à Arlon.
+    Final : « Vois sur ton chemin » et « Caresse sur l’océan » (extr. Des Choristes)
+    Les remerciements de Pierre Vasseur, président de La Stockemoise et la remise des bouquets.
+    Et le public en a redemandé…"),
+
+    ("Armistice 2006", "2007-08-14 00:00:00", null, 3,
+    "11 novembre 2006
+    Du 8 mai 1945 au 11 novembre 2006, 32.331.502 minutes de paix en Belgique, gagnées et préservées au travers des générations. A nous tous, aujourd´hui, de donner un avenir à la paix. Voici quelques photos prises à l´occasion des cérémonies de ce 11 novembre à Heinsch et à Stockem.
+    Monument aux morts de Heinsch :
+    Monument aux morts de Stockem :
+    Le groupe des musiciens devant la salle Familia à Stockem :"),
+
+    ("Le monde en Musique – Itinéraire d´une Muse 2006 compte-rendu", "2007-08-14 00:00:00", null, 3,
+    "11 février 2006
+    Gala du 11 février 2006 à la Maison de la Culture du Sud Luxembourg, Arlon
+    Organisation : La Stockemoise, Harmonie Royale, asbl.
+    Avec la participation de : L’Atelier Jeune Théâtre (A.R.A.) — Mini Chœur en Portée — Le patro de Stockem
+    Quelques photos de cette soirée exceptionnelle, dans l´ordre de participation.
+    Le public était venu nombreux pour l’événement.
+    1ère partie
+    Atelier Jeune Théâtre
+    direction Madame Virginie Ransart
+    Gros-yeux
+    Gros-Yeux est un conte gallois.  La pièce met en scène un jeune homme, David, simple, serviable et courageux qui fait une rencontre extraordinaire avec un étrange personnage aux gros yeux… Mais les apparences sont souvent trompeuses !
+    La tour
+    Le roi et les princesses
+    Harmonie Royale La Stockemoise direction Monsieur Dominique Goffinet
+    La Stockemoise nous a emmené dans un voyage tout en musique de la Belgique à l’Irlande, en passant par l’Italie, les USA et la Colombie.
+    Mini Chœur en Portée direction Monsieur René Burnotte
+    Ces jeunes chanteurs nous ont offert une ronde autour du monde avec des chansons évoquant des pays comme l’Italie, l’Espagne, ou encore le voyage et les différences culturelles. On a pu entendre La Bamba, Salade de Fruits, Voyage en Italie, On ira,…
+    2ème partie
+    Atelier Jeune Théâtre direction Madame Virginie Ransart
+    Les deux marchands Conte des Mille et Une Nuits.  A Bagdad, vivaient paisiblement deux marchands.  Lorsque l’un décide de partir pour un long pèlerinage, il confie à son voisin une jarre pleine d’olives.
+    Ali dépose la jarre
+    La boutique de Mustapha
+    Le tribunal
+    Harmonie Royale La Stockemoise direction Monsieur Dominique Goffinet
+    Dans cette seconde partie, c’est l’Australie, l’Angleterre, les Caraïbes, les Pays-Bas et le Japon qui ont été mis à l’honneur."),
+
+    ("Une seconde jeunesse pour La Stockemoise", "2007-08-13 00:00:00", null, 3,
+    "Rénovation du local
+    Le local de ""La Stockemoise"" va être rénové et agrandi. Le projet vient en effet d´être présenté et approuvé à l´unanimité lors du dernier conseil communal d´Arlon. Ce projet très attendu par les musiciens aura également un impact sur la vie du quartier. Le bâtiment, entouré par des arbres remarquables dont il fallait tenir compte, devenait vétuste et sa sécurité semblait être douteuse.
+    Après la démolition d´une annexe et l´agrandissement du bâtiment d´origine, notre harmonie pourra disposer à l´étage d´une grande salle de 190 m² afin d´y organiser des concerts ou festivités diverses. Le rez-de-chaussée comprendra quant à lui un local de cours, les sanitaires, une cuisine, un bar ainsi que la chaufferie et un local technique. Notre président, Pierre Vasseur, a rappelé à l´assemblée la volonté du comité de développer ses activités grâce à ces nouveaux locaux bien plus spacieux et adaptés. Le coût de ces travaux devrait approcher les 435.000 euros htva."),
+
+    ("Préparation du Centenaire ", "2007-08-11 00:00:00", null, 3,
+    "En 2008, la Stockemoise fêtera le centenaire de sa création. Diverses manifestations à la hauteur de cet événement seront organisées durant l´année.
+    Afin de retracer au mieux l´histoire de la société et du village de Stockem, nous souhaitons rassembler un maximum d´informations. Si vous possédez des documents ou objets d´archives (photos, coupures de presse, …), n´hésitez pas à nous les confier le temps d´une exposition. Si vous le souhaitez, nous pouvons même les photographier ou les scanner.Si par ailleurs vous connaissez des personnes susceptibles d´apporter des témoignages, invitez-les à prendre contact avec nous. Vous nous aiderez ainsi à faire de ce centième anniversaire un moment important pour la société et pour le village."),
+
+    ("Le monde en musique – Itinéraire d´une muse", "2007-08-11 00:00:00", null, 3,
+    "Ce samedi 11 février 2006, 140 artistes ont présenté leur savoir-faire à un public venu nombreux à la Maison de la Culture d´Arlon. Le thème de la soirée avait pour ambition de faire voyager les spectateurs suivant un itinéraire musical et théâtral à travers le monde. Pari réussi !
+    Des Caraïbes à l´Australie en passant par les USA, la Colombie, le Japon, l´Irak et bien d´autres pays d´Europe dont la Belgique bien sûr, les acteurs et autres choristes et musiciens ont fait vibrer le public enthousiaste et conquis aux richesses culturelles de notre monde.
+    Des applaudissements nourris et mérités ont récompensé tous ces jeunes et moins jeunes pour leur talent et leur travail. Plusieurs en ont redemandé. Et pourquoi pas ?"),
+
+    ("Le monde en Musique – Itinéraire d´une Muse", "2007-08-11 00:00:00", null, 3,
+    "Un des évenements majeurs de cette année 2006 aura lieu le samedi 11 février à 20h. Sur le thème de la découverte des différentes cultures, une centaine de jeunes venus de différents horizons présenteront un spectale intitulé ""Le monde en Musique : itinéraire d´une muse"".
+    Le spectale durera deux heures et demie à trois heures, sans compter l´entracte. C´est dans un véritable tourbillon de musiques et de chants du monde que sera invité le public. Il entendra des airs de Grande-Bretagne, de Colombie, d´Italie, d´Allemagne, des Pays-Bas, d´Australie, du Japon, etc. De son côté, l´atelier ""Jeunes Théâtre"" proposera une adaptation originale, de contes du Pays de Galles, des Mille et Une Nuits et du Japon. Ces jeunes se sont rencontrés et ont pris l´initiative de cette soirée.
+    Le prix des places pour ce spectacle est de 8€ pour les adultes et de 4€ pour les jeunes de moins de 12 ans. Les places sont en vente à la Maison de la culture d´Arlon, à l´Office du Tourisme et au Parc Music d´Arlon."),
+
+    ("Le 21ème festival des harmonies de la Vallée de la", "2007-08-11 00:00:00", null, 3,
+    "Créé en 1985 à l’initiative de « La Stabuloise », ce festival rassemble chaque année les harmonies situées sur le parcours luxembourgeois de la Semois,  à savoir les musiques de Stockem, de Vance, d’Etalle, de Muno, d’Izel et de Bouillon.
+    Cette année, c’était au tour de « La Stockemoise » d’organiser ce grand rassemblement musical. Quelque 150 musiciens se sont donc retrouvés ce dimanche 22 octobre à la salle Don Bosco de Heinsch."),
+
+    ("Le 20ème Festival des harmonies de la Vallée de la", "2007-08-11 00:00:00", null, 3,
+    "Créé en 1986 à l´initiative de l´Harmonie ""la Stabuloise"" d´Etalle, le Festival des Harmonies de la Vallée de la Semois est une rencontre amicale entre les sociétés de musique longeant la Semois, en tout cas sur son parcours luxembourgeois. Ainsi, les musiciens de Stockem (Arlon), Vance et Etalle, Izel (Chiny), Muno (Florenville) et Bouillon se retrouvent d´année en année dans une entité différente de la vallée.
+    Cette année, c´est l´harmonie royale Caecilia d´Izel qui a le privilège d´accueillir la 20° édition de ce festival le dimanche 23 octobre dès 14h00 au Centre culturel d´Izel.
+    Chaque société invitée jouera un concert d´une vingtaine de minutes, suivant un ordre de passage qui sera tiré au sort sur place à 14h00, le premier concert débutant à 14h30. La tradition veut aussi que la société qui organise le festival ne se produit pas elle-même en concert ce jour-là.
+    En clôture du festival, vers 17h30, les 5 sociétés réunies interpréteront 3 morceaux d´ensemble : ""Whenever, whenever"" de Shakira et la Marche des Chasseurs Ardennais sous la direction de Freddy Schmitz, directeur musical à Izel et, en apothéose, la Marche de la Vallée de la Semois en fête, sous la direction d´Yvon Simon, qui était directeur musical à Etalle lors de la création du festival et qui a composé ce morceau tout spécialement pour ce rendez-vous annuel.
+    L´entrée à cet après-midi musical est gratuite. Invitation aux nombreux mélomanes de la vallée et d´ailleurs ! Pour plus d´informations : www.harmonieizel.be"),
+
+    ("Journée Relation Défense – Société civile", "2007-08-11 00:00:00", null, 3,
+    "Sous un soleil de plomb, ce dimanche 16 juillet, 300 militaires, blindés et groupements civils ont défilé pendant environ une demi-heure sur l´avenue Nothomb à Arlon devant des milliers de spectateurs
+    Le défilé militaire était précédé par la Musique de la Force aérienne tandis que La Stockemoise était suivie par l´Areler Marche, le Cercle d´escrime, le Karaté club de Heinsch, les fraternelles des anciens combattants et les membres de la confrérie du Maitrank. Cette journée a lieu tous les deux ans et a eu lieu pour la première fois en 1998."),
+
+    ("Concert pour la restauration des orgues du Sacré-C", "2007-08-11 00:00:00", null, 3,
+    "Le samedi 1er octobre à 20h a eu lieu le concert en l´église du Sacré-Coeur au profit de la restauration de l´orgue. Trois cents personnes étaient présentes pour écouter le répertoire composé de chants sacrés et profanes et de musiques du monde. La chorale de Saint-Donat et celle de Saint-Martin ainsi que notre harmonie ont interpreté des oeuvres de Alchinger, Beethoven, Bortnianski, Charpentier, De Haan, etc. Grâce aux dons et au soutien de la Fondation Roi Baudouin, les Amis de l´orgue du Sacré-Coeur voient venir 2006 comme l´année du renouveau. "),
+
+    ("Commémoration de l´Armistice", "2007-08-11 00:00:00", null, 3,
+    "Organisation du 11 novembre 2006 :
+    A l’occasion de la commémoration du 88ème anniversaire de l’armistice de 1918 et du 61ème anniversaire de l´armistice de 1945, la Stockemoise se rendra à Heinsch à 10h45 et à Stockem à 11h45."),
+
+    ("actualités en Août 2007", "2007-08-11 00:00:00", null, 3,
+    "L’heure du farniente, du potager, de la tondeuse à gazon, des barbecues et des châssis à repeindre est arrivée ! Vive l’été !
+    La Stockemoise sera en vacances les vendredis 20 et 27 juillet. Mais déjà certains préparent fébrilement le grand rendez-vous annuel des journées whist/brocante des 18 et 19 août. (Bientôt,  plus de renseignements sur le site) Un appel est lancé à toutes les bonnes volontés : on a besoin de vous ! N’hésitez pas …"),
+
+    ("Rénovation de la salle (juillet 2007)", "2007-07-14 00:00:00", null, 3,
+    "dimanche 1 juillet 2007
+    Etat de l´avancement des travaux de rénovation du local au 12/07/2007."),
+
+    ("actualités en Juin 2007", "2007-06-11 00:00:00", null, 3,
+    "Voici venir le temps des examens. Dur, dur pour les étudiants, leurs parents et les profs. Mais l’heure du farniente, du potager, de la tondeuse à gazon, des barbecues et des châssis à repeindre suivra. Courage !"),
+
+    ("Histoire de Stockem", "2007-05-27 00:00:00", "local2007.jpg", 3,
+    "Le village de Stockem est situé dans le pays d´Arlon en Lorraine belge.
+    Le nom de Stockem est une contraction de celui de Stockheim. (orthographe de la charte de 1282)   Stôck signifie « souche d’arbre ». Stockheim est un endroit occupant le sol d’un bois défriché. Au cours de l’histoire l’orthographe changea à plusieurs reprises :Stockehem, Stockhem,
+    En 1286, Aldry de Stoquehem était prévôt d’Arlon. Le village de Stockem était une mairie de la prévôté d’Arlon. Il le restera jusqu’en 1795. Il fit ensuite partie de la commune de Heinsch jusqu’à la fusion des communes en 1976. Il fut à nouveau rattaché à la commune d’Arlon. En 1495, Stockem avait 130 feux et 390 habitants. La 1ère chapelle de Stockem daterait de 1624. Elle était située vraisemblablement sur le terrain à côté de l’église, actuellement parking.
+    De 1633 à 1638, la peste sévit à Stockem . La population entière du village aurait disparu. Des habitants de Heinstert et de Perlé l’auraient repeuplé. Les criminels étaient exécutés au gibet du petit Arlon, situé à proximité de l’ancien abattoir de la ville. (actuellement, magasins Eldi, Lidl, Hubo) Par décret royal de 1842 et décision épiscopale de 1844, Stockem est érigé en paroisse. L’église actuelle date de 1843.
+    En 1870, en creusant la tranchée de la voie ferrée Bruxelles – Arlon, on mit à jour le squelette d’un dinosaure à la Posterie. Il est conservé au Musée d’Histoire Naturelle à Bruxelles.
+    En 1926, une gare de formation et des ateliers de réparation du matériel roulant de la SNCB sont implantés à Stockem.
+    Avant 1914 déjà, le champ de tir de la garnison d’Arlon se trouvait sur le territoire de Stockem ainsi qu’au camp de Lagland. L’école des troupes blindées arriva à Stockem en 1952. Camp militaire, gare et ateliers firent connaître Stockem à travers tout le pays."),
+
+    ("Historique de la société", "2007-05-27 00:00:00", "stock2007.jpg", 3,
+    "C’est le 10 mai 1908 que naquit officiellement « La Stockemoise ». L’idée germa dans l’esprit de quelques jeunes d’alors. Elle se répandit rapidement et obtint d’emblée l’appui de toute la jeunesse locale. Celle-ci montra un enthousiasme tel que la population entière de Stockem la suivit.
+    L’évolution de la société, dans ses premières années d’existence, nécessita beaucoup de dévouement, de courage et de désintéressement de la part des villageois. Il fallait trouver un local, acheter des instruments, des partitions et surtout former des musiciens.
+    Le local fut installé successivement dans diverses habitations particulières dont les propriétaires mirent gracieusement une pièce à la disposition des musiciens. Le bâtiment où siège actuellement la société date de 1910. Beaucoup de Stockemois participèrent à sa construction, les uns financièrement, les autres par leur travail.
+    Au début, il n’y avait pas de formation systématique de musiciens. Aussi les aspirants musiciens, pour anticiper et dégrossir la besogne de leur chef, se faisaient enseigner les rudiments de la musique par un compagnon de travail, par un parent ou proche ami qui était déjà musicien dans une autre formation.
+    Avec tant de bonnes volontés, le but poursuivi fut rapidement atteint : la société put se produire en public en quelques mois à peine.
+    Depuis lors, au fil du temps, elle a résisté contre vents et marées. Son sort a été celui de toutes les sociétés musicales d’amateurs : elle a connu des hauts et des bas. A des jours heureux ont succédé des jours moins favorables.Mais à travers les vicissitudes du passé, les personnes qui avaient la charge de la bonne marche de la société surent, au moment opportun, raviver l’enthousiasme sans lequel rien n’aurait été possible.
+    « La Stockemoise » s’est constituée en association sans but lucratif en 1953.
+    Le 06 juin 1971, S.M. le Roi Baudoin lui conféra le titre de Société Royale.
+    En guise de cadeau à l’occasion du centenaire, les autorités communales ont offert un lifting complet de la salle de musique située au cœur du village: les travaux de rénovation s’élevant à quelque 500 000 € (sans compter les investissements intérieurs réalisés par le comité). Ces travaux ont permis de doubler la superficie du bâtiment qui dispose à présent d’une spacieuse salle de concerts.
+    Monsieur Pierre Goffinet préside actuellement la société tandis que la direction musicale est confiée à Monsieur Johan Cristina.
+    L’effectif actuel est d’une quarantaine de musiciens. Annuellement, elle assure de 20 à 30 prestations en Belgique, au Grand-Duché de Luxembourg ainsi qu’en Lorraine française. Son concours est régulièrement sollicité lors de manifestations importantes de la Ville d’Arlon dont elle fait partie depuis la fusion des communes en 1976."),
+
+    ("Nos présidents, directeurs, secrétaires et trésoriers… ", "2007-05-27 00:00:00", null, 3,
+    "…dans le temps
+    Présidents
+    COLSON Emile (1908-1909)
+    MULLER Michel (1909-1919)
+    WITTAMER Théophile (1919-1923)
+    SCHWEITZER Albert (1923-1938)
+    TOCK Isidore (1939-1966)
+    FRIES Firmin (1966-1980)
+    ANSION Fernand (1980-1991)
+    VASSEUR Jean (1991-1992)
+    SOETENS François (1992-1995)
+    VASSEUR Jean (1995-1998)
+    MASSEM Henri (1998-2004)
+    VASSEUR Pierre (2004 – 2009)
+    Mathey Yolande (2009 – 2012)
+    GOFFINET Pierre (2012 – )
+    Secrétaires
+    PERBAL Arthur (1908-1921)
+    MOIS Joseph (1921-1930)
+    NOESEN René (1930-1931)
+    DE MOOR Cyrille (1931-1935)
+    FREYLING Jules (1935-1939)
+    WEYLAND Nicolas (1939)
+    CORNELIS Gustave (1939)
+    DE MOOR Cyrille (1939-1946)
+    DROLFF Nicolas (1947-1951)
+    FREYLING Jules (1951-1965)
+    MASSEM Henri (1965- 2001)
+    VASSEUR Pierre (2001–2005)
+    MATHEY Yolande ( 2005 – 2012)
+    EVERLING Martine (2012 – )
+    Trésoriers
+    SCHANDELER Honoré (1908-1909)
+    SPIES Fernand (1909-1932)
+    BARNICH Pierre (1932-1960)
+    SCHNEIDESCH Arthur (1960-1983)
+    CLEMENT André (1983-1991)
+    SCHILTZ Jean-Luc (1991-1995)
+    SCHWEICHER Georges (1995-2001)
+    COLLES Raymond (2001-2014)
+    DEMEUSE Brigitte (2015-
+    Directeurs
+    MULLER (1908-1924)
+    TOULLY Gustave (1924-1940)
+    CARPENTIER Hyppolite (1944-1950)
+    DUJEUX Albert (1950-1985)
+    DE BRUYCKER Luc (1985-2005)
+    GOFFINET Dominique (2005-2013)
+    GOFFETTE Bérenger (2013-2014)
+    CRISTINA Johan (2014-"),
+
+    ("Rénovation de la salle (mai 2007)", "2007-05-14 00:00:00", "salle-4.jpg", 3,
+    "mardi 1 mai 2007
+    La dalle de béton est coulée."),
+
+    ("actualités en Mai 2007", "2007-05-11 00:00:00", null, 3,
+    "Après ce mois d´avril calme et ensoleillé, nous voici enfin au mois de mai avec au programme :
+    - Dimanche 06/05/2007: Hämmelsmarch à Freylange 
+    - Dimanche 13/05/2007: Chapitre du Maitrank (défilé à Arlon) 
+    - Dimanche 20/05/2007: Cortège à l´occasion des communions à Stockem "),
+
+    ("Rénovation de la salle (avril 2007)", "2007-04-14 00:00:00", "salle-4.jpg", 3,
+    "Voici l´état des travaux ce 7 avril 2007. La construction de l´extension est commencée.
+    Etat de l´avancement des travaux de rénovation du local au 25/04/2007"),
+
+    ("actualités en Avril 2007", "2007-04-11 00:00:00", null, 3,
+    "Pour commencer, un tout grand merci à toutes les personnes qui ont permis de réaliser le spectacle du 17 mars sur le thème des comédies musicales et au public venu nombreux pour l´occasion !
+    Après toute cette agitation, le mois d´avril sera plus calme et nous permettra de nous concentrer sur l´organisation du centième anniversaire de notre harmonie.
+    Nous reviendrons bien sûr au mois de mai, avec son traditionnel Chapitre du Maitrank, l´inauguration de la fontaine du Maitrank et le cortège à l´occasion des communions à Stockem."),
+
+    ("Rénovation de la salle (mars 2007)", "2007-03-14 00:00:00", "salle-4.jpg", 3,
+    "Les travaux de rénovation du local vont bon train. Voici les photos prises ce 13 mars 2007 :"),
+
+    ("actualités en Mars 2007", "2007-03-11 00:00:00", null, 3,
+    "Venez nous rejoindre nombreux ce 17 mars à la Maison de la Culture d’Arlon pour le concert sur le thème des comédies musicales  que nous y présenterons en collaboration avec la chorale « La Sonatine » et les jeunes du théâtre de l’athénée d’Arlon. Et laissez-vous entrainer dans l´ambiance de Grease, Starmania, Les Choristes, Miss Saigon, West Side Story et bien d´autres.. "),
+
+    ("Ambiance alsacienne ce 18 février 2007… ", "2007-02-18 00:00:00", "choucroute2007.jpg", 3,
+    "… à la salle Familia !
+    Son local étant en voie de rénovation depuis peu, La Stockemoise a, en effet, dû investir la salle paroissiale pour sa traditionnelle « choucroute ». Merci aux cuisinières de la société et à Gilbert pour l’excellent et copieux repas servi. Merci aussi au groupe Oberbayern pour l’ambiance assurée. Merci enfin à tous les musiciens et à leur chef pour le concert offert après le repas aux nombreux participants ravis."),
+
+    ("Rénovation de la salle (février 2007)", "2007-02-13 00:00:00", "salle-4.jpg", 3,
+    "Les travaux de rénovation ont commencé en février 2007.
+    1) façade : La toiture et la scène n’existent plus. On est en train de démonter la voûte.
+    2) côté cimetière : il reste la partie la plus ancienne avec la rosace.
+    3) intérieur – entrée du local. A remarquer : les anciennes peintures.
+    4) intérieur – côté opposé à l’entrée.
+    5) intérieur – la scène.
+    6) intérieur – côté bar."),
+
+    ("actualités en Février 2007 ", "2007-02-11 00:00:00", null, 3,
+    "Les préparatifs pour nos deux premières activités de l’année vont bon train.
+    Ce 18 février à la salle Familia de Stockem, un « repas-choucroute » dont on ne fait plus la réputation comblera les appétits les plus féroces.
+    Mais l’homme ne se nourrit pas que de pain…
+    Venez nous rejoindre nombreux ce 17 mars à la Maison de la Culture d’Arlon pour le concert sur le thème des comédies musicales  que nous y présenterons en collaboration avec la chorale « La Sonatine » et les jeunes du théâtre de l’athénée d’Arlon. "),
+
+    ("actualités en Décembre 2006", "2006-12-11 00:00:00", null, 3,
+    "Les musiciennes et musiciens ainsi que les membres du comité de « La Stockemoise » vous souhaitent de joyeuses fêtes de fin d’année et vous invitent déjà à leurs premières organisations de 2007.
+    A vos agendas :
+    – Repas choucroute à la salle Familia de Stockem : dimanche 18 février 2007
+    – Les comédies musicales  à la Maison de la Culture d’Arlon: samedi 17 mars 2007. Places en vente à la Maison de la Culture au prix de 8,00 € et de 4,00 € pour les enfants de moins de 12 ans.
+    – Brocante 2007 : les 18 et 19 août"),
+
+    ("actualités en Novembre 2006", "2006-11-11 00:00:00", null, 3,
+    "Comme chaque année, notre harmonie va rendre hommage à sa patronne en solennisant la messe de 18h30 de ce samedi 18 novembre en l’église de Stockem. Cécile vécut à Rome à l’aube du 3ème siècle. Comparaissant devant le préfet Turcius Almachius, elle refusa de renier sa religion. Elle fut condamnée à être décapitée. Les musiciens, compositeurs, chanteurs, luthiers et poètes l’ont choisie pour patronne au 15ème siècle parce que, selon le récit de sa passion, elle chantait pour Dieu dans son cœur tandis que retentissaient les instruments de musique pour ses noces."),
+
+    ("actualités en Octobre 2006", "2006-10-11", null, 3,
+    "Le 21ème Festival des musiques de la vallée de la Semois
+    L’harmonie royale « La Stockemoise » aura le plaisir d’accueillir ce 22 octobre les harmonies de Vance, d’Etalle, d’Izel, de Muno et de Bouillon pour le 21ème Festival des musiques de la vallée de la Semois. Chaque année depuis 1986, ces six sociétés de musique se rencontrent amicalement pour un grand moment musical partagé. Chaque société, à l’exception de la  société organisatrice, jouera un petit concert avant d’interpréter ensemble la Marche de la vallée de la Semois en fête composée par Yvon Simon directeur musical à Etalle lors de la création du festival à l’initiative de « La Stabuloise » Rendez-vous ce 22 octobre à Heinsch, salle Don Bosco dès 14 heures. Entrée gratuite"),
+
+    ("actualités en Septembre 2006", "2006-09-11 00:00:00", null, 3,
+    "Malgré le temps maussade de ce mois d´août, la 11ème brocante organisée par notre harmonie a connu un beau succès. Le samedi déjà, ce sont 68 joueurs qui se sont retrouvés dans notre local pour la soirée ""whist"". Le dimanche, malgré les averses, de nombreux brocanteurs avaient installé leur stand le long des rues du village. Le public a été fidèle au rendez-vous et les repas ont été servis copieux comme à l´habitude.
+    Il est temps maintenant de penser à nos prochains rendez-vous: Viville, Luxembourg, Léglise, Festival des Musiques de la Vallée de la Semois à Heinsch et Ste Cécile."),
+
+    ("actualités en Juin 2006", "2006-06-11 00:00:00", null, 3,
+    "A l´approche de l´été, nous sentons déjà un petit air de vacances. Pour ceux qui ne partiront pas au soleil, nous espérons que nos activités estivales leur permettront de s´évader le temps d´un weekend.
+    Au programme :
+    - Dimanche 16 juillet : journée Défense-Société civile à Arlon dans le cadre de la fête nationale
+    - Mardi 15 août : concert à St Léger dans le cadre de la brocante 
+    - Samedi 19 août : concours de Whist à la salle de la Stockemoise en soirée
+    - Dimanche 20 août : brocante dans les rues de Stockem avec animation et repas à midi.
+    Pour plus de détails, n´hésitez pas à consulter notre agenda."),
+
+    ("actualités en Mai 2006", "2006-05-11 00:00:00", null, 3,
+    "Nos deux derniers concerts, à Meix-le-Tige et à Messancy, se sont passés dans des conditions bien différentes. Ambiance chaleureuse d’une salle avec un public toute ouïe à l’invitation des Diapasons de Meix-le-Tige,  ambiance festive sous chapiteau à l’invitation de la Concordia de Messancy à l’occasion de son 125ème anniversaire. Comme l’a dit notre président, souhaitons encore longue vie à cette société jubilaire ainsi qu’à toutes les harmonies si importantes dans la vie de nos villes et villages.
+    Nous voici en mai avec les traditionnels « Hämmelsmarch », « Chapitre du Maitrank » et les communions solennelles.");

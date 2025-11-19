@@ -24,7 +24,3 @@ VALUES
     ('Concert avec le Big Band de Differdange', 'TODO', '2026-05-09 20:00:00', 2, 1),
     ('Sainte Cécile', 'TODO','2025-11-22 16:00:00', 3, 1),
     ('Concert de Gala', "c'est une date au pif, a supprimer (pour test la suppression)",'2026-03-15 20:00:00', 1, 1);
-
-INSERT INTO news(title, content, cover, author)
-VALUES
-    ("Situation géographique", "TODO", "plan-stockemoise.png", 1);

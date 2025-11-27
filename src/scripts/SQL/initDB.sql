@@ -8,12 +8,20 @@ CREATE TABLE user(
     level integer NOT NULL
 );
 
+DROP TABLE IF EXISTS country;
+
+CREATE TABLE country(
+    id integer PRIMARY KEY AUTOINCREMENT,
+    name varchar UNIQUE NOT NULL
+);
+
 DROP TABLE IF EXISTS locality;
 
 CREATE TABLE locality(
     codePostal integer PRIMARY KEY UNIQUE NOT NULL,
     city varchar NOT NULL,
-    country varchar NOT NULL
+    country integer NOT NULL,
+    FOREIGN KEY(country) REFERENCES country(id)
 );
 
 DROP TABLE IF EXISTS location;

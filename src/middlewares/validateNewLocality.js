@@ -4,7 +4,7 @@ import vine from '@vinejs/vine'
 const schema = vine.object({
         codePostal: vine.number().min(1),
         city: vine.string(),
-        country: vine.string()
+        country: vine.number()
 })
 
 const validator = vine.compile(schema)
@@ -24,7 +24,7 @@ const validateConcert = async(req, res, next) => {
         }
         catch(err) {
             console.log(err.messages)
-            res.status(412).send({success: false})
+            res.status(412).send({success: false, message: err.messages[0].message})
         }
 
     }

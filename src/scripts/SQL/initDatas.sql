@@ -1,6 +1,13 @@
+INSERT INTO country(name)
+VALUES
+    ('Belgique'),
+    ('Luxembourg'),
+    ('France'),
+    ('Italie');
+
 INSERT INTO locality(codePostal, city, country)
 VALUES
-    ( 6700, "Arlon", "Belgique");
+    ( 6700, "Arlon", 1);
     -- ( , "", ""),
 
 INSERT INTO location(name, street, number, additionalAddress, locality)

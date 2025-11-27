@@ -8,7 +8,7 @@ const router = Router()
 
 router.post('/login', basicAuth, login)
 router.post('/logout', mustBeLoggedIn, logout)
-router.post('change-password', updatePassword)
+router.post('/change-password', mustBeLoggedIn, updatePassword)
 router.post('/isLoggedIn', mustBeLoggedIn, isLoggedIn)    // TEMP before access/refresh token
 
 

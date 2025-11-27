@@ -45,6 +45,6 @@ export const isLoggedIn = (req, res, next) => {
 }
 
 export const updatePassword = (req, res) => {
-    console.log("TODO")
+    console.log("TODO : updatePassowrd")
     res.send("TODO")
 }

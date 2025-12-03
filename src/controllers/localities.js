@@ -1,4 +1,4 @@
-import {pool} from '../databases/SQLite3.js'
+import pool from '../databases/database.js'
 import { readLocalities } from '../models/locality.js'
 
 

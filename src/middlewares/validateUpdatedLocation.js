@@ -1,5 +1,5 @@
 import vine from '@vinejs/vine'
-import { pool } from '../databases/SQLite3.js'
+import pool from '../databases/database.js'
 import { doesLocationExist } from '../models/locations.js'
 
 

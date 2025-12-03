@@ -1,4 +1,4 @@
-import {pool} from '../databases/SQLite3.js'
+import pool from '../databases/database.js'
 import { readUserByEmail } from '../models/users.js'
 import {hash, verify} from 'argon2'
 import jwt from 'jsonwebtoken'

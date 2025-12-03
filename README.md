@@ -8,7 +8,7 @@ version : 0.4
 ### required
 
 ```
-DATABASE=<path>
+DATABASE=<type>
 PRIVATE_KEY=<key>
 ```
 
@@ -18,9 +18,15 @@ PRIVATE_KEY=<key>
 HOST=<path>
 PORT=<port>
 NODE_ENV=<ENVIRONMENT>
+DATABASE_SQLITE=<path>
 ```
 
 #### NODE_ENV
 
 - "DEVELOPMENT"
 - "PRODUCTION"
+
+#### DATABASE
+
+- 'SQLITE'
+- 'POSTGRESQL'

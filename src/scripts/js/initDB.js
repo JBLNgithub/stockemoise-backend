@@ -1,5 +1,7 @@
 import {readFileSync} from 'node:fs'
-import {pool} from '../../databases/SQLite3.js'
+// import {pool} from '../../databases/SQLite3.js'
+import pool from '../../databases/database.js'
+
 
 const fileNames = [
     'initDB.sql',

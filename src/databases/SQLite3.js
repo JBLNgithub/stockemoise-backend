@@ -4,7 +4,7 @@ import 'dotenv/config'
 /* const dbPath = 'database.db'
 const db = new sqlite3.Database(dbPath) */
 
-const db = new sqlite3.Database(process.env.DATABASE)
+const db = new sqlite3.Database(process.env.DATABASE_SQLITE)
 
 async function dbQuery(database, query, params) {
     return new Promise((resolve, reject) => {

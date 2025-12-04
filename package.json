@@ -9,8 +9,9 @@
     "dev": "node --watch src/server.js",
     "test": "node src/scripts/js/test.js",
     "init": "npm run initDB && npm run initUploads",
-    "initDB": "node ./src/scripts/js/initDB.js",
     "initUploads": "node ./src/scripts/js/initUploads.js",
+    "initDB": "node ./src/scripts/js/initDB.js",
+    "initPG": "docker run --name stockemoiseDB -e POSTGRES_PASSWORD=1234 -p 5433:5432 -d postgres",
     "genDoc": "node ./src/scripts/swagger/swagger_jsdoc.js"
   },
   "repository": {

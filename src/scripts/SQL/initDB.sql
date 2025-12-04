@@ -72,5 +72,5 @@ CREATE TABLE eventNews(
     dateEvent datetime NOT NULL,
     isCanceled integer DEFAULT FALSE,
     FOREIGN KEY(id) REFERENCES news(id),
-    FOREIGN KEY(location) REFERENCES location(name)
+    FOREIGN KEY(location) REFERENCES location(id)
 );

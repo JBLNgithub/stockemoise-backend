@@ -51,7 +51,8 @@ export const pool = {
     },
     end: () => {
         db.close()
-    }
+    },
+    USERS_COLUMN_NAME: 'user'
 }
 
 

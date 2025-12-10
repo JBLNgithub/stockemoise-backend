@@ -21,8 +21,10 @@ VALUES
     Nous nous réjouissons de vous retrouver pour une belle journée de brocante ! Le public est bienvenu entre 8h et 18h. Les brocanteurs sont accueillis entre 5h et 7h30.
     Vous retrouverez à cette occasion la bonne ambiance qui a fait la réputation de la brocante de Stockem lors de ses 27 dernières éditions: ambiance familiale, animations musicales, coin traiteur, belle brocante et vide-grenier dans le joli village de Stockem.
     Les dimensions des emplacements retrouvent leurs tailles habituelles: tous les multiples de 4m, au prix inchangé de 2,5€/m. Retour de l’assiette de jambon grillé et salades (généreusement) garnie, disponible au prix de 15€, et un acompte de 10€ doit étre payé (par virement bancaire) pour confirmer votre réservation d’emplacement.
-    Certains exigences sanitaires seront peut-être en vigueur et seront précisées le cas échéant sur ce site internet, et affichées à l’entrée de la brocante, et obligatoires. Leur non-respect entraînera une exclusion immédiate et sans remboursement.'),
+    Certains exigences sanitaires seront peut-être en vigueur et seront précisées le cas échéant sur ce site internet, et affichées à l’entrée de la brocante, et obligatoires. Leur non-respect entraînera une exclusion immédiate et sans remboursement.');
 
+INSERT INTO news(title, dateRedaction, cover, author, content)
+VALUES
     ('Les inscriptions pour le stage d''été sont ouvertes !', '2025-04-06 00:00:00', 'stageEveilMusical2025.png', 2, ' '),
 
     ('Brocante à Stockem le 18.8.2024, les réservations sont ouvertes !', '2024-04-23 00:00:00', 'brocante2025.jpg', 3,
@@ -41,8 +43,10 @@ VALUES
     Nous avons passé une excellente soirée et sommes certains que l’arrivée de Jean Bernard est une excellente nouvelle tant pour la Stockemoise que pour Arlon Bridge Club. Nul doute que sa présence sera un ferment intéressant  pour un développement profitable à nos deux associations.
     Cordialement
     André Sine
-    Secrétaire Arlon Bridge Club'''),
+    Secrétaire Arlon Bridge Club''');
 
+INSERT INTO news(title, dateRedaction, cover, author, content)
+VALUES
     ('La Stockemoise cherche sa/son nouve·lle·au direct·eu·r·ice musical·e !', '2023-06-21 00:00:00', 'baguette-chef.jpg', 3,
     'Vous avez de l’expérience en direction musicale et l’envie d’accompagner un groupe bien établi dans la suite d’aventures musicales de qualité ?
     L’harmonie de Stockem rassemble une trentaine de musicien·ne·s amateur·e·s et sociétaires lors de concerts (8-10/an) et animations diverses (voyage annuel, brocante du village, …). Son équipe dynamique démarre cet été des stages d’éveil musical et des cours d’instrument, pour prolonger l’initiative du Stock’Up, orchestre de musicien·ne·s débutant·e·s encadré par notre sous-chef, Laura Gosselin.

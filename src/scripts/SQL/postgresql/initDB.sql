@@ -40,10 +40,10 @@ DROP TABLE IF EXISTS concert CASCADE;
 
 CREATE TABLE concert(
     id int PRIMARY KEY generated always as identity,
-    title varchar(64) NOT NULL,
+    title varchar(128) NOT NULL,
     content text NOT NULL,
     dateRedaction timestamp DEFAULT current_timestamp,
-    cover varchar(64),
+    cover varchar(128),
     author int NOT NULL,
     dateEvent timestamp NOT NULL,
     isCanceled boolean DEFAULT FALSE,
@@ -56,10 +56,10 @@ DROP TABLE IF EXISTS news CASCADE;
 
 CREATE TABLE news(
     id int PRIMARY KEY generated always as identity,
-    title varchar(64) NOT NULL,
+    title varchar(128) NOT NULL,
     content text NOT NULL,
     dateRedaction timestamp DEFAULT current_timestamp,
-    cover varchar(64),
+    cover varchar(128),
     author int NOT NULL,
     FOREIGN KEY(author) REFERENCES member(id)
 );

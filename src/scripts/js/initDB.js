@@ -6,8 +6,8 @@ import 'dotenv/config'
 const fileNames = [
     'initDB.sql',
     'initUsers.sql',
-    'initDatas.sql'
-    // 'initNews.sql'
+    'initDatas.sql',
+    'initNews.sql'
 ]
 
 const DB = process.env.DATABASE

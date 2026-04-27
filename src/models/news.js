@@ -1,3 +1,6 @@
+import sqlAdapter from "../utils/sqlAdapter.js"
+
+
 export const allNews = async(SQLClient, limit) => {
     let query = "SELECT id, title, dateRedaction, cover FROM news ORDER BY dateRedaction DESC"
     const queryValues = []
@@ -26,7 +29,7 @@ export const getSingleEventNews = async(SQLClient, id) => {
 }
 
 export const nextEventNews = async(SQLClient, limit) => {
-    let query = "SELECT en.id, n.title, en.dateEvent, en.isCanceled, l.name AS locationName FROM eventNews en INNER JOIN news n ON en.id = n.id INNER JOIN location l ON en.location = l.id WHERE en.dateEvent > datetime('now') ORDER BY en.dateEvent ASC"
+    let query = `SELECT en.id, n.title, en.dateEvent, en.isCanceled, l.name AS locationName FROM eventNews en INNER JOIN news n ON en.id = n.id INNER JOIN location l ON en.location = l.id WHERE en.dateEvent > ${sqlAdapter.NOW()} ORDER BY en.dateEvent ASC`
     const queryValues = []
 
     if(limit) {

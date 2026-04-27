@@ -1826,3 +1826,11 @@ VALUES
     ('actualités en Mai 2006', '2006-05-11 00:00:00', null, 3,
     'Nos deux derniers concerts, à Meix-le-Tige et à Messancy, se sont passés dans des conditions bien différentes. Ambiance chaleureuse d’une salle avec un public toute ouïe à l’invitation des Diapasons de Meix-le-Tige,  ambiance festive sous chapiteau à l’invitation de la Concordia de Messancy à l’occasion de son 125ème anniversaire. Comme l’a dit notre président, souhaitons encore longue vie à cette société jubilaire ainsi qu’à toutes les harmonies si importantes dans la vie de nos villes et villages.
     Nous voici en mai avec les traditionnels « Hämmelsmarch », « Chapitre du Maitrank » et les communions solennelles.');
+
+INSERT INTO news(title, author, content)
+VALUES
+    ('stage musique 2026', 1, 'TODO');
+
+INSERT INTO eventNews(id, location, dateEvent)
+VALUES
+    (157, 1, '2026-07-13 09:00:00')

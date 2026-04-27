@@ -24,9 +24,11 @@ VALUES
 INSERT INTO concert(cover, title, content, dateEvent, location, author)
 VALUES
     ('concert-noel-2025.jpg', 'Concert de Noël', 'TODO','2025-12-06 20:00:00', 2, 1);
+    -- ('cover', '', 'TODO', 'date', , )
 
 INSERT INTO concert(title, content, dateEvent, location, author)
 VALUES
     ('Concert FMLB', 'concert de cloture des cours de direction', '2025-10-12 15:00:00', 1, 1),
     ('Concert avec le Big Band de Differdange', 'TODO', '2026-05-09 20:00:00', 2, 1),
     ('Sainte Cécile', 'TODO','2025-11-22 16:00:00', 3, 1);
+    -- ('', 'TODO', '', 1, 1),

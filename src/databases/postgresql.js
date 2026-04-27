@@ -15,7 +15,8 @@ const pgPool = new pg.Pool({
 const pool = {
     query: async(query, params) => {
         try {
-            return await pgPool.query(query, params)
+            const res = await pgPool.query(query, params)
+            return res.rows
         }
         catch(err) {
             console.error(err)

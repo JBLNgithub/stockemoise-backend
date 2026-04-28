@@ -6,7 +6,7 @@ export const createLocality = async(SQLClient, {codePostal, city, country}) => {
 }
 
 export const readLocalities = async(SQLClient) => {
-    const query = "SELECT * FROM locality ORDER BY codePostal ASC"
+    const query = 'SELECT codePostal AS "codePostal", city, country FROM locality ORDER BY codePostal ASC'
     
     const rows = await SQLClient.query(query)
     return rows

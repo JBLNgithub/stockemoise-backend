@@ -15,6 +15,30 @@ const sqlAdapter = {
             default:
                 console.error("DATABASE ENV NOT DEFINED")
         }
+    },
+    COUNT: () => {
+        switch(DB) {
+            case "SQLITE": 
+                return 'COUNT(*)'
+                break
+            case "POSTGRESQL":
+                return 'count'
+                break
+            default:
+                console.error("DATABASE ENV NOT DEFINED")
+        }
+    },
+    USER: () => {
+        switch(DB) {
+            case "SQLITE": 
+                return 'user'
+                break
+            case "POSTGRESQL":
+                return 'member'
+                break
+            default:
+                console.error("DATABASE ENV NOT DEFINED")
+        }
     }
 }
 

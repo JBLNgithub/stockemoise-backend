@@ -1,3 +1,6 @@
+import sqlAdapter from '../utils/sqlAdapter.js'
+
+
 export const createLocation = async(SQLClient, {name, street, number, additionalAddress, locality}) => {
     const query = "INSERT INTO location(name, street, number, additionalAddress, locality) VALUES ($1, $2, $3, $4, $5) RETURNING id"
 
@@ -16,12 +19,13 @@ export const doesLocationExist = async(SQLClient, id) => {
     const query = "SELECT COUNT(*) FROM location WHERE id = $1"
 
     const rows = await SQLClient.query(query, [id])
-    return rows[0]['COUNT(*)']
+    console.log(rows)
+    return rows[0][sqlAdapter.COUNT()]
 }
 
 export const doesLocationNameExist = async(SQLClient, name) => {
     const query = "SELECT COUNT(*) FROM location WHERE name = $1"
 
     const rows = await SQLClient.query(query, [name])
-    return rows[0]['COUNT(*)']
+    return rows[0][sqlAdapter.COUNT()]
 }

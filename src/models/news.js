@@ -2,7 +2,7 @@ import sqlAdapter from "../utils/sqlAdapter.js"
 
 
 export const allNews = async(SQLClient, limit) => {
-    let query = "SELECT id, title, dateRedaction, cover FROM news ORDER BY dateRedaction DESC"
+    let query = 'SELECT id, title, dateRedaction AS "dateRedaction", cover FROM news ORDER BY dateRedaction DESC'
     const queryValues = []
 
         if(limit) {
@@ -15,14 +15,14 @@ export const allNews = async(SQLClient, limit) => {
 }
 
 export const getSingleNews = async(SQLClient, id) => {
-    const query = 'SELECT * FROM news WHERE id = $1'
+    const query = 'SELECT id, title, content, dateRedaction AS "dateRedaction", cover, author FROM news WHERE id = $1'
 
     const rows = await SQLClient.query(query, [id])
     return rows[0]
 }
 
 export const getSingleEventNews = async(SQLClient, id) => {
-    const query = 'SELECT en.dateEvent, en.isCanceled, en.location AS locationId, l.name AS locationName, l.street AS locationStreet, l.number AS locationNumber, l.additionalAddress AS locationAdditionalAddress, ly.codePostal AS locationCodePostal, ly.city AS locationCity, ly.country AS locationCountry FROM eventNews en INNER JOIN location l ON en.location = l.id INNER JOIN locality ly ON l.locality = ly.codePostal WHERE en.id = $1'
+    const query = 'SELECT en.dateEvent AS "dateEvent", en.isCanceled AS "isCanceled", en.location AS "locationId", l.name AS "locationName", l.street AS "locationStreet", l.number AS "locationNumber", l.additionalAddress AS "locationAdditionalAddress", ly.codePostal AS "locationCodePostal", ly.city AS "locationCity", ly.country AS "locationCountry" FROM eventNews en INNER JOIN location l ON en.location = l.id INNER JOIN locality ly ON l.locality = ly.codePostal WHERE en.id = $1'
 
     const rows = await SQLClient.query(query, [id])
     return rows[0]

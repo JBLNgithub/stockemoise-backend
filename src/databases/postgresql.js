@@ -34,8 +34,7 @@ const pool = {
     },
     end: () => {
         return pgPool.end()
-    },
-    USERS_COLUMN_NAME: 'member'
+    }
 }
 
 

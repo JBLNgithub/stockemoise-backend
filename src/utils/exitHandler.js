@@ -1,5 +1,6 @@
 const terminatedLog = () => {
     console.log("server terminated")
+    exit()
 }
 
 

@@ -11,8 +11,8 @@ export const login = (req, res) => {
     
     res.cookie(cookies.auth.name, token, {
         httpOnly: true,
-        secure: process.env.NODE_ENV === 'PRODUCTION',      // secure ==> https
-        sameSite: process.env.NODE_ENV === 'PRODUCTION' ? 'Strict' : 'Lax',
+        secure: process.env.NODE_ENV === 'PROD',      // secure ==> https
+        sameSite: process.env.NODE_ENV === 'PROD' ? 'Strict' : 'Lax',
         maxAge: 3 * 24 * 60 * 60 * 1000                     // expiration in ms : days * hours * minutes * seconds * miliseconds
     })
 

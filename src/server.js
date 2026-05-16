@@ -14,14 +14,14 @@ const port = process.env.PORT || 3000
 const node_env = process.env.NODE_ENV
 
 // CORS
-if(node_env === 'DEVELOPMENT') app.use(CORS)
+if(node_env === 'DEV') app.use(CORS)
 
 // parser middleware
 app.use(express.json())
 app.use(cookieParser())
 
 // logger
-if(node_env === 'DEVELOPMENT') app.use(logger)
+if(node_env === 'DEV') app.use(logger)
 
 // routes
 app.use(router)
@@ -31,6 +31,7 @@ exitHandler()
 
 // launch server
 app.listen(port, () => {
-    console.log(`server start : ${host}${port}`);
-    console.log(`API docs : ${host}${port}/api-docs`)
+    const processURL = `${host}${ host === "http://localhost:" ? port : ""}`
+    console.log(`server start : ${processURL}`);
+    console.log(`API docs : ${processURL}/api-docs`)
 });

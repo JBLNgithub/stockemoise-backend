@@ -1,4 +1,5 @@
 # private files
+*.env
 src/scripts/js/generatePassword.js
 src/scripts/SQL/*/initUsers.sql
 

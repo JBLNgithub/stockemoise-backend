@@ -23,8 +23,8 @@ DATABASE_SQLITE=<path>
 
 #### NODE_ENV
 
-- "DEVELOPMENT"
-- "PRODUCTION"
+- "DEV"
+- "PROD"
 
 #### DATABASE
 

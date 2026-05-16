@@ -1,1 +1,0 @@
-see [frontend todo](https://github.com/JBLNgithub/stockemoise/blob/main/TODO.md)

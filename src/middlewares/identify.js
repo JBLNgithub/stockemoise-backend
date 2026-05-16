@@ -6,7 +6,6 @@ import cookies from '../utils/cookies.js'
 
 export const basicAuth = async(req, res, next) => {
     const auth = req.get("Authorization")
-    console.log(auth)
 
     if(auth && auth.substring(0, 5) === 'Basic') {
         const authFields = auth.split(' ')

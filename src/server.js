@@ -31,7 +31,7 @@ exitHandler()
 
 // launch server
 app.listen(port, () => {
-    const processURL = `${host}${ host === "http://localhost:" ? port : ""}`
+    const processURL = `${host}${ host === "http://localhost:" ? "" : "\t"}${port}`
     console.log(`server start : ${processURL}`);
     console.log(`API docs : ${processURL}/api-docs`)
 });

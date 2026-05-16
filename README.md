@@ -1,7 +1,7 @@
 # stockemoise-backend
-backend of the stockemoise website project, more information on my [portfolio](https://jblngithub.github.io/portfolio/)
+backend of the stockemoise website, more information on my [portfolio](http://portfolio.jbln.be)
 
-version : 0.5.2
+version : 0.6
 
 ## Environments variables
 

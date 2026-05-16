@@ -1,8 +1,7 @@
 {
   "name": "stockemoise-backend",
-  "version": "1.0.0",
-  "description": "backend of the stockemoise website project",
-  "main": "index.js",
+  "description": "backend of the stockemoise website",
+  "main": "server.js",
   "scripts": {
     "build": "npm install && npm run init",
     "start": "screen -d -m -S stockemoise node src/server.js",
@@ -20,8 +19,8 @@
     "url": "git+https://github.com/JBLNgithub/stockemoise-backend.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "JBLN",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/JBLNgithub/stockemoise-backend/issues"
   },

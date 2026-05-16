@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install && npm run init",
-    "start": "node src/server.js",
+    "start": "screen -d -m -S stockemoise node src/server.js",
+    "prod" : "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "node src/scripts/js/test.js",
     "init": "npm run initDB && npm run initUploads",

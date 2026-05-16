@@ -5,8 +5,10 @@ src/scripts/SQL/*/initUsers.sql
 # databases
 database.db
 
-# uploads
+# public directories
 uploads
+
+# ---
 
 # Logs
 logs

@@ -1,6 +1,6 @@
-const terminatedLog = () => {
-    console.log("server terminated")
-    exit()
+const terminatedLog = (code) => {
+    console.log("server terminated : ", code)
+    process.exit()
 }
 
 

@@ -1,5 +1,6 @@
 # private files
 src/scripts/js/generatePassword.js
+src/scripts/SQL/*/initUsers.sql
 
 # databases
 database.db

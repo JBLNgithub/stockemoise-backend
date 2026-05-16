@@ -15,7 +15,7 @@ let sqlTypeDirectory
 
 switch(DB) {
     case 'SQLITE':
-        sqlTypeDirectory = ''
+        sqlTypeDirectory = 'sqlite3/'
         break
     case 'POSTGRESQL':
         sqlTypeDirectory = 'postgresql/'
@@ -35,21 +35,10 @@ const exec = async() => {
             console.log(`init ${fileNames[i]} succed`)
         }
         catch(error) {
-            console.error(`init ${fileNames[i]} failed`, error)
+            console.error(`init ${fileNames[i]} failed\n`, error)
         }
     }
 }
 
+
 exec()
-
-/* fileNames.map(async(file) => {
-    const requests = readFileSync(`./src/scripts/SQL/${sqlTypeDirectory}${file}`, {encoding: 'utf-8'})
-
-    try {
-        await pool.queries(requests)
-        console.log(`init ${file} succed`)
-    }
-    catch(error) {
-        console.error(`init ${file} failed`, error)
-    }
-}) */

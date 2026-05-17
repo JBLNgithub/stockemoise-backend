@@ -36,6 +36,7 @@ const exec = async() => {
         }
         catch(error) {
             console.error(`init ${fileNames[i]} failed\n`, error)
+            process.exit(1)
         }
     }
 }

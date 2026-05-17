@@ -1,10 +1,20 @@
 import sqlite3 from 'sqlite3'
 import 'dotenv/config'
 
+
 /* const dbPath = 'database.db'
 const db = new sqlite3.Database(dbPath) */
 
-const db = new sqlite3.Database(process.env.DATABASE_SQLITE)
+let db
+try {
+    db = new sqlite3.Database(process.env.DATABASE_SQLITE)
+}
+catch(err) {
+    if(process.env.DATABASE === "SQLITE"){
+        console.log(error)
+        process.exit()
+    } 
+}
 
 async function dbQuery(database, query, params) {
     return new Promise((resolve, reject) => {

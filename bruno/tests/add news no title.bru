@@ -1,0 +1,23 @@
+meta {
+  name: add news no title
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/api/news
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "content": "lorem ipsum",
+    "cover": null
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

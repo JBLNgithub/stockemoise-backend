@@ -33,9 +33,8 @@ export const getSingleNews = async(req, res) => {
             const eventNews = await getSingleEventNews(pool, id)
 
             news.event = eventNews ? eventNews : null;
-            if(news.event) news.event.dateEvent = datetimeFormat(news.event.dateEvent)
-            console.log(news)
-    
+            if(news.event) news.event.dateEvent = datetimeFormat(news.event.dateEvent)      // TODO : formate elsewhere ?
+
             res.status(200).send(news)
         }
         else {

@@ -39,7 +39,27 @@ const sqlAdapter = {
             default:
                 console.error("DATABASE ENV NOT DEFINED")
         }
-    }
+    },
+    EN_DATE_EVENT: () => {
+        switch(DB) {
+            case "SQLITE":
+                return "en.dateEvent"
+            case "POSTGRESQL":
+                return "TO_CHAR(en.dateEvent, 'YYYY-MM-DD HH24:MI:SS')"
+            default:
+                console.error("DATABASE ENV NOT DEFINED")
+        }
+    },
+    C_DATE_EVENT: () => {
+        switch(DB) {
+            case "SQLITE":
+                return "c.dateEvent"
+            case "POSTGRESQL":
+                return "TO_CHAR(c.dateEvent, 'YYYY-MM-DD HH24:MI:SS')"
+            default:
+                console.error("DATABASE ENV NOT DEFINED")
+        }
+    },
 }
 
 

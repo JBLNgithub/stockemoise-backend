@@ -10,7 +10,6 @@ import {
 import { addNewsAndAddEvent } from '../business/eventNews.js'
 import { addLocation, addLocationAndLocality } from '../business/location.js'
 import {deleteNewsAndEventNewsIfExists, patchNewsAndEventNews} from '../business/news.js'
-import datetimeFormat from '../utils/datetimeFormat.js'
 
 
 export const getAllNews = async(req, res) => {
@@ -33,7 +32,6 @@ export const getSingleNews = async(req, res) => {
             const eventNews = await getSingleEventNews(pool, id)
 
             news.event = eventNews ? eventNews : null;
-            if(news.event) news.event.dateEvent = datetimeFormat(news.event.dateEvent)      // TODO : formate elsewhere ?
 
             res.status(200).send(news)
         }

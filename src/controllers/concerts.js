@@ -8,6 +8,7 @@ import {
 } from '../models/concerts.js'
 import {addLocation, addLocationAndLocality} from '../business/location.js'
 import isEmptyObject from '../utils/isEmptyObject.js'
+import datetimeFormat from '../utils/datetimeFormat.js'
 
 
 /**
@@ -36,6 +37,7 @@ export const getConcert = async(req, res) => {
     try {
         const concert = await readConcert(pool, req.val.id)
         if(concert) {
+            concert["dateEvent"] = datetimeFormat(concert.dateEvent)        // TODO : format elsewhere ?
             res.status(200).send(concert)
         }
         else {

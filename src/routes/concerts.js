@@ -1,29 +1,29 @@
 import {Router} from 'express'
 import multer from 'multer'
 import {
-    nextConcerts, 
+    nextConcerts,
     addConcert,
     addConcertAndLocation,
     addConcertAndLocationAndLocality,
-    getConcert, 
+    getConcert,
     setConcert,
     setNewCover,
     removeConcert
 } from '../controllers/concerts.js'
-import validateLimit from '../middlewares/validateLimit.js'
-import validateId from '../middlewares/validateId.js'
-import validateConcert from '../middlewares/validateConcert.js'
-import validateLocation from '../middlewares/validateLocation.js'
-import validateNewLocation from '../middlewares/validateNewLocation.js'
-import validateLocality from '../middlewares/validateLocality.js'
-import validateNewLocality from '../middlewares/validateNewLocality.js'
-import { locationMustExists, locationNameMustNotExists } from '../middlewares/locationExists.js'
-import { localityMustExists, localityMustNotExists } from '../middlewares/localityExists.js'
-import { countryMustExists } from '../middlewares/countryExists.js'
+import validateLimit from '../middlewares/dataValidation/validateLimit.js'
+import validateId from '../middlewares/dataValidation/validateId.js'
+import validateConcert from '../middlewares/dataValidation/validateConcert.js'
+import validateLocation from '../middlewares/dataValidation/validateLocation.js'
+import validateNewLocation from '../middlewares/dataValidation/validateNewLocation.js'
+import validateLocality from '../middlewares/dataValidation/validateLocality.js'
+import validateNewLocality from '../middlewares/dataValidation/validateNewLocality.js'
+import { locationMustExists, locationNameMustNotExists } from '../middlewares/dataValidation/locationExists.js'
+import { localityMustExists, localityMustNotExists } from '../middlewares/dataValidation/localityExists.js'
+import { countryMustExists } from '../middlewares/dataValidation/countryExists.js'
 import { mustBeLoggedIn } from '../middlewares/identify.js'
 import { mustBeOperator } from '../middlewares/permissions.js'
-import validateUpdatedConcert from '../middlewares/validateUpdatedConcert.js'
-import validateUpdatedLocation from '../middlewares/validateUpdatedLocation.js'
+import validateUpdatedConcert from '../middlewares/dataValidation/validateUpdatedConcert.js'
+import validateUpdatedLocation from '../middlewares/dataValidation/validateUpdatedLocation.js'
 
 
 const router = Router()
@@ -46,7 +46,7 @@ const router = Router()
  *              $ref : '#components/responses/validateLimit'
  *          500:
  *              description : error server
- *          
+ *
  */
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)

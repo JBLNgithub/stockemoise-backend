@@ -14,11 +14,11 @@ const validateConcert = async(req, res, next) => {
     const {locality} = req.body.location
 
     console.log('locality :', locality)
-    
+
     if(locality) {
         try {
             const val = await validator.validate(locality)
-            
+
             req.val.location.locality = val
             next()
         }
@@ -29,7 +29,7 @@ const validateConcert = async(req, res, next) => {
 
     }
     else {
-        res.status(400).send({success: false})
+        res.status(400).send({success: false, message: 'aucune nouvelle localité fourni'})
     }
 }
 

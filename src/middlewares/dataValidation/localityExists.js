@@ -1,5 +1,5 @@
-import pool from '../databases/database.js'
-import { doesLocalityExist } from '../models/locality.js'
+import pool from '../../databases/database.js'
+import { doesLocalityExist } from '../../models/locality.js'
 
 
 export const localityMustExists = async(req, res, next) => {
@@ -8,7 +8,7 @@ export const localityMustExists = async(req, res, next) => {
     }
     else {
         console.error('ERROR : locality does not exist')
-        res.status(403).send({success: false})
+        res.status(403).send({success: false, message: 'Cette localité n\'existe pas !'})
     }
 }
 
@@ -17,7 +17,6 @@ export const localityMustNotExists = async(req, res, next) => {
         next()
     }
     else {
-        console.error('ERROR : locality already exists')
-        res.status(403).send({success: false})
+        res.status(403).send({success: false, message: 'Cette localité existe déjà !'})
     }
 }

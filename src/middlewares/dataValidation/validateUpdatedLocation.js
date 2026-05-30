@@ -1,6 +1,6 @@
 import vine from '@vinejs/vine'
-import pool from '../databases/database.js'
-import { doesLocationExist } from '../models/locations.js'
+import pool from '../../databases/database.js'
+import { doesLocationExist } from '../../models/locations.js'
 
 
 const schema = vine.object({

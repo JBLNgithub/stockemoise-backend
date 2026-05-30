@@ -20,12 +20,18 @@ export const doesLocationExist = async(SQLClient, id) => {
 
     const rows = await SQLClient.query(query, [id])
     console.log(rows)
-    return rows[0][sqlAdapter.COUNT()]
+    let count =  rows[0][sqlAdapter.COUNT()]
+
+    if(process.env.DATABASE === "POSTGRESQL") count = parseInt(count)
+    return count
 }
 
 export const doesLocationNameExist = async(SQLClient, name) => {
     const query = "SELECT COUNT(*) FROM location WHERE name = $1"
 
     const rows = await SQLClient.query(query, [name])
-    return rows[0][sqlAdapter.COUNT()]
+    let count = rows[0][sqlAdapter.COUNT()]
+
+    if(process.env.DATABASE === "POSTGRESQL") count = parseInt(count)
+    return count
 }

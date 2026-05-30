@@ -1,5 +1,5 @@
-import pool from '../databases/database.js'
-import { doesCountryExist } from '../models/country.js'
+import pool from '../../databases/database.js'
+import { doesCountryExist } from '../../models/country.js'
 
 
 export const countryMustExists = async(req, res, next) => {
@@ -7,7 +7,6 @@ export const countryMustExists = async(req, res, next) => {
         next()
     }
     else {
-        console.error('ERROR : country does not exist')
         res.status(403).send({success: false, message: 'country does not exist'})
     }
 }

@@ -1,8 +1,8 @@
 import {Router} from 'express'
 import multer from 'multer'
-import { 
-    getAllNews, 
-    getSingleNews, 
+import {
+    getAllNews,
+    getSingleNews,
     nextEventNews,
     addNews,
     addNewsAndEvent,
@@ -12,21 +12,21 @@ import {
     setNewCover,
     removeNews
 } from '../controllers/news.js'
-import validateNews from '../middlewares/validateNews.js'
-import validateLimit from '../middlewares/validateLimit.js'
-import validateId from '../middlewares/validateId.js'
-import validateEventNews from '../middlewares/validateEventNews.js'
-import validateLocation from '../middlewares/validateLocation.js'
-import validateNewLocation from '../middlewares/validateNewLocation.js'
-import validateLocality from '../middlewares/validateLocality.js'
-import validateNewLocality from '../middlewares/validateNewLocality.js'
-import { locationMustExists, locationNameMustNotExists } from '../middlewares/locationExists.js'
-import { localityMustExists, localityMustNotExists } from '../middlewares/localityExists.js'
-import { countryMustExists } from '../middlewares/countryExists.js'
+import validateNews from '../middlewares/dataValidation/validateNews.js'
+import validateLimit from '../middlewares/dataValidation/validateLimit.js'
+import validateId from '../middlewares/dataValidation/validateId.js'
+import validateEventNews from '../middlewares/dataValidation/validateEventNews.js'
+import validateLocation from '../middlewares/dataValidation/validateLocation.js'
+import validateNewLocation from '../middlewares/dataValidation/validateNewLocation.js'
+import validateLocality from '../middlewares/dataValidation/validateLocality.js'
+import validateNewLocality from '../middlewares/dataValidation/validateNewLocality.js'
+import { locationMustExists, locationNameMustNotExists } from '../middlewares/dataValidation/locationExists.js'
+import { localityMustExists, localityMustNotExists } from '../middlewares/dataValidation/localityExists.js'
+import { countryMustExists } from '../middlewares/dataValidation/countryExists.js'
 import { mustBeLoggedIn } from '../middlewares/identify.js'
 import { mustBeOperator } from '../middlewares/permissions.js'
-import validateUpdatedNews from '../middlewares/validateUpdatedNews.js'
-import validateUpdatedLocation from '../middlewares/validateUpdatedLocation.js'
+import validateUpdatedNews from '../middlewares/dataValidation/validateUpdatedNews.js'
+import validateUpdatedLocation from '../middlewares/dataValidation/validateUpdatedLocation.js'
 
 
 const router = Router()

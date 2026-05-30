@@ -11,14 +11,14 @@ const schema = vine.object({
 const validator = vine.compile(schema)
 
 
-const validateConcert = async(req, res, next) => {
+const validateNewLocation = async(req, res, next) => {
     const {location} = req.body
 
-    
+
     if(location) {
         try {
             const val = await validator.validate(location)
-            
+
             req.val.location = val
             next()
         }
@@ -29,9 +29,9 @@ const validateConcert = async(req, res, next) => {
 
     }
     else {
-        res.status(400).send({success: false})
+        res.status(400).send({success: false, message: 'aucun nouveau lieu fourni'})
     }
 }
 
 
-export default validateConcert
+export default validateNewLocation

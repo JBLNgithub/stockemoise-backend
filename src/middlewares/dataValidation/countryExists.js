@@ -7,6 +7,6 @@ export const countryMustExists = async(req, res, next) => {
         next()
     }
     else {
-        res.status(403).send({success: false, message: 'country does not exist'})
+        res.status(403).send({success: false, message: 'Ce pays n\'existe pas !'})
     }
 }

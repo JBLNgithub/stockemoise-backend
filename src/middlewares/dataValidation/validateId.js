@@ -17,10 +17,9 @@ const validateId = async(req, res, next) => {
         next()
     }
     catch(err) {
-        console.log(err.messages)
-        res.sendStatus(412)
+        res.status(412).send({message: err.messages[0].message})
     }
-    
+
 }
 
 

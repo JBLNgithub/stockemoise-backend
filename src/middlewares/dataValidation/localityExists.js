@@ -7,7 +7,6 @@ export const localityMustExists = async(req, res, next) => {
         next()
     }
     else {
-        console.error('ERROR : locality does not exist')
         res.status(403).send({success: false, message: 'Cette localité n\'existe pas !'})
     }
 }

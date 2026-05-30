@@ -11,7 +11,7 @@ const validator = vine.compile(schema)
 const validateConcert = async(req, res, next) => {
     const {locality} = req.body.location
 
-    
+
     if(locality) {
         try {
             const val = await validator.validate({locality})
@@ -20,8 +20,7 @@ const validateConcert = async(req, res, next) => {
             next()
         }
         catch(err) {
-            console.log(err.messages)
-            res.status(412).send({success: false})
+            res.status(412).send({success: false, message: err.messages[0].message})
         }
 
     }

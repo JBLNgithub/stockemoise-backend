@@ -22,13 +22,12 @@ const validateUpdatedConcert = async(req, res, next) => {
             next()
         }
         catch(err) {
-            console.log(err.messages)
-            res.status(412).send({success: false})
+            res.status(412).send({success: false, message: err.messages[0].message})
         }
 
     }
     else {
-        res.status(400).send({success: false})
+        res.status(400).send({success: false, message: 'Aucun concert fourni'})
     }
 }
 

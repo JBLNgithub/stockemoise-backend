@@ -22,13 +22,12 @@ const validateUpdatedLocation = async(req, res, next) => {
                 next()
             }
             else {
-                console.error('ERROR : location does not exist')
-                res.status(403).send({success: false})
+                res.status(403).send({success: false, message: 'Ce lieu n\'existe pas !'})
             }
         }
         catch(err) {
             console.log(err.messages)
-            res.status(412).send({success: false})
+            res.status(412).send({success: false, message: 'Aucun lieu fourni'})
         }
 
     }

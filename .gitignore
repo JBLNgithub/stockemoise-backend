@@ -2,6 +2,7 @@
 *.env
 src/scripts/js/generatePassword.js
 src/scripts/SQL/*/initUsers.sql
+bruno/users/
 
 # databases
 database.db

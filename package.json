@@ -3,16 +3,19 @@
   "description": "backend of the stockemoise website",
   "main": "server.js",
   "scripts": {
-    "build": "npm install && npm run init",
     "start": "screen -d -m -S stock node src/server.js",
+    "stop": "screen -Xs stock quit",
     "prod" : "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "node src/scripts/js/test.js",
+    "genDoc": "node ./src/scripts/swagger/swagger_jsdoc.js"
+  },
+  "oldScripts": {
+    "build": "npm install && npm run init",
     "init": "npm run initDB && npm run initUploads",
     "initUploads": "node ./src/scripts/js/initUploads.js",
     "initDB": "node ./src/scripts/js/initDB.js",
-    "initPG": "docker run --name stockemoiseDB -e POSTGRES_PASSWORD=1234 -p 5433:5432 -d postgres",
-    "genDoc": "node ./src/scripts/swagger/swagger_jsdoc.js"
+    "initPG": "docker run --name stockemoiseDB -e POSTGRES_PASSWORD=1234 -p 5433:5432 -d postgres"
   },
   "repository": {
     "type": "git",

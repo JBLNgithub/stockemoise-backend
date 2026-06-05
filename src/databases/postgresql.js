@@ -19,7 +19,6 @@ const pool = {
             return res.rows
         }
         catch(err) {
-            console.error(err)
             throw err
         }
     },
@@ -28,7 +27,6 @@ const pool = {
             return await pgPool.query(query, params)
         }
         catch(err) {
-            console.error(err)
             throw err
         }
     },

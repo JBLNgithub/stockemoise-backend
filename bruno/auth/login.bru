@@ -1,0 +1,21 @@
+meta {
+  name: login
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/api/auth/login
+  body: none
+  auth: basic
+}
+
+auth:basic {
+  username: {{mail}}
+  password: {{pwd}}
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

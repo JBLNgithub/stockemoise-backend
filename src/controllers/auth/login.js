@@ -3,11 +3,12 @@ import pool from '../../databases/database.js'
 import { readUserByEmail } from '../../models/users.js'
 import {verify} from 'argon2'
 import AUTH_CONFIG from '../../config/auth.js'
+import payloadConstructor from '../../utils/payloadConstructor.js'
 
 
 export default function login(req, res) {
-    const refreshToken = jwt.sign(req.session, process.env.PRIVATE_KEY, {expiresIn: '1m'})
-    const accessToken = jwt.sign(req.session, process.env.PRIVATE_KEY, {expiresIn: '1m'})
+    const refreshToken = generateRefreshToken(req.session)
+    const accessToken = generateAccessToken(req.session)
 
     res.cookie(AUTH_CONFIG.cookieName, refreshToken, {
         httpOnly: true,
@@ -34,13 +35,16 @@ export const verifyCredentials = async(email, password) => {
         return null
     }
     else {
-        delete user.password
-        delete user.email
-        return user
+     	return payloadConstructor(user)
     }
 }
 
 
-export function generateAccessToken (payload) {
+export function generateAccessToken (user) {
+	return jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: '1m'})
+}
 
+
+export function generateRefreshToken (user) {
+	return jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: '1m'})
 }

@@ -4,6 +4,7 @@ const AUTH_CONFIG = {
 	accessTokenDuration: 15 * 60 * 1000,
 
 	cookieName: 'stockAuth',
+	payloadItems: ['id', 'username', 'level']
 }
 
 

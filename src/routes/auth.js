@@ -1,15 +1,18 @@
 import {Router} from 'express'
 import login from '../controllers/auth/login.js'
-import {basicAuth, mustBeLoggedIn} from '../middlewares/identify.js'
+import refresh from '../controllers/auth/refresh.js'
+import logout from '../controllers/auth/logout.js'
+import basicIdentify from '../middlewares/auth/basic.identify.js'
+import cookieIdentify from '../middlewares/auth/cookie.identify.js'
 
 
 const router = Router()
 
 
-router.post('/login', basicAuth, login)
-// router.post('/logout', mustBeLoggedIn, logout)
+router.post('/login', basicIdentify, login)
+router.post('/refresh', cookieIdentify, refresh)
+router.post('/logout', logout)
 // router.post('/change-password', mustBeLoggedIn, updatePassword)
-// router.post('/isLoggedIn', mustBeLoggedIn, isLoggedIn)    // TEMP before access/refresh token
 
 
 export default router

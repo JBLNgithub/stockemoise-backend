@@ -1,7 +1,8 @@
-import { generateAccessToken } from "./login.js"
+import { generateAccessToken, generateAndSetRefreshToken } from "./login.js"
 
 
 export default function refresh(req, res) {
+	generateAndSetRefreshToken(req.session, res)
 	const accessToken = generateAccessToken(req.session)
-	res.status(200).send(accessToken)
+	res.status(200).json({accessToken})
 }

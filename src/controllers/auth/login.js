@@ -7,17 +7,10 @@ import payloadConstructor from '../../utils/payloadConstructor.js'
 
 
 export default function login(req, res) {
-    const refreshToken = generateRefreshToken(req.session)
+	generateAndSetRefreshToken(req.session, res)
     const accessToken = generateAccessToken(req.session)
 
-    res.cookie(AUTH_CONFIG.cookieName, refreshToken, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === 'PROD',      // secure ==> https
-        sameSite: process.env.NODE_ENV === 'PROD' ? 'Strict' : 'Lax',
-        maxAge: AUTH_CONFIG.refreshTokenDuration
-    })
-
-    res.status(200).send(accessToken)
+    res.status(200).json({accessToken})
 }
 
 
@@ -41,10 +34,17 @@ export const verifyCredentials = async(email, password) => {
 
 
 export function generateAccessToken (user) {
-	return jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: '1m'})
+	return jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: AUTH_CONFIG.accessTokenDuration})
 }
 
 
-export function generateRefreshToken (user) {
-	return jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: '1m'})
+export function generateAndSetRefreshToken (user, res) {
+	const refreshToken = jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: AUTH_CONFIG.refreshTokenDuration})
+
+	res.cookie(AUTH_CONFIG.cookieName, refreshToken, {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === 'PROD',      // secure ==> https
+        sameSite: process.env.NODE_ENV === 'PROD' ? 'Strict' : 'Lax',
+        maxAge: AUTH_CONFIG.refreshTokenDuration
+    })
 }

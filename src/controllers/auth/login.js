@@ -24,6 +24,7 @@ export const verifyCredentials = async(email, password) => {
 		throw err
 	}
 
+	// TODO : swap secret key from PRIVATE_KEY to PASSWORD_KEY, WAIT I DONT USE ANY SCRET KEY ??
     if(!user || !await verify(user.password, password)) {
         return null
     }
@@ -34,12 +35,12 @@ export const verifyCredentials = async(email, password) => {
 
 
 export function generateAccessToken (user) {
-	return jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: AUTH_CONFIG.accessTokenDuration})
+	return jwt.sign(payloadConstructor(user), process.env.ACCESS_TOKEN_KEY, {expiresIn: AUTH_CONFIG.accessTokenDuration})
 }
 
 
 export function generateAndSetRefreshToken (user, res) {
-	const refreshToken = jwt.sign(payloadConstructor(user), process.env.PRIVATE_KEY, {expiresIn: AUTH_CONFIG.refreshTokenDuration})
+	const refreshToken = jwt.sign(payloadConstructor(user), process.env.REFRESH_TOKEN_KEY, {expiresIn: AUTH_CONFIG.refreshTokenDuration})
 
 	res.cookie(AUTH_CONFIG.cookieName, refreshToken, {
         httpOnly: true,

@@ -20,41 +20,23 @@ import validateNewLocality from '../middlewares/dataValidation/validateNewLocali
 import { locationMustExists, locationNameMustNotExists } from '../middlewares/dataValidation/locationExists.js'
 import { localityMustExists, localityMustNotExists } from '../middlewares/dataValidation/localityExists.js'
 import { countryMustExists } from '../middlewares/dataValidation/countryExists.js'
-import { mustBeLoggedIn } from '../middlewares/identify.js'
-import { mustBeOperator } from '../middlewares/permissions.js'
 import validateUpdatedConcert from '../middlewares/dataValidation/validateUpdatedConcert.js'
 import validateUpdatedLocation from '../middlewares/dataValidation/validateUpdatedLocation.js'
+import accessIdentify from '../middlewares/auth/accessToken.identify.js'
+import requiredAuth from '../middlewares/auth/required.authorize.js'
+import LEVELS from '../utils/LEVELS.js'
 
 
 const router = Router()
 
-/**
- * @swagger
- * /concerts/next:
- *  get:
- *      summary: return next concerts
- *      parameters:
- *      -   in: query
- *          name: limit
- *          description: maximum number of concerts to return
- *          schema:
- *              type: integer
- *      responses:
- *          200:
- *              $ref : '#components/responses/nextConcerts'
- *          412:
- *              $ref : '#components/responses/validateLimit'
- *          500:
- *              description : error server
- *
- */
 router.get('/next', validateLimit, nextConcerts)
 router.get('/:id', validateId, getConcert)
-router.post('/', mustBeLoggedIn, mustBeOperator, validateConcert, validateLocation, locationMustExists, addConcert)
-router.post('/with-location', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addConcertAndLocation)
-router.post('/with-location&locality', mustBeLoggedIn, mustBeOperator, validateConcert, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, countryMustExists, addConcertAndLocationAndLocality)
-router.patch('/:id', mustBeLoggedIn, mustBeOperator, validateId, validateUpdatedConcert, validateUpdatedLocation, setConcert)
-router.delete('/:id', mustBeLoggedIn, mustBeOperator, validateId, removeConcert)
+router.post('/', accessIdentify, requiredAuth(LEVELS.operator), validateConcert, validateLocation, locationMustExists, addConcert)
+router.post('/with-location', accessIdentify, requiredAuth(LEVELS.operator), validateConcert, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addConcertAndLocation)
+router.post('/with-location&locality', accessIdentify, requiredAuth(LEVELS.operator), validateConcert, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, countryMustExists, addConcertAndLocationAndLocality)
+router.patch('/:id', accessIdentify, requiredAuth(LEVELS.operator), validateId, validateUpdatedConcert, validateUpdatedLocation, setConcert)
+router.delete('/:id', accessIdentify, requiredAuth(LEVELS.operator), validateId, removeConcert)
+
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -68,7 +50,7 @@ const storage = multer.diskStorage({
 
 const multerConfigs = multer({storage})
 
-router.post('/cover/:id', mustBeLoggedIn, mustBeOperator, validateId, multerConfigs.single('cover'), setNewCover)
+router.post('/cover/:id', accessIdentify, requiredAuth(LEVELS.operator), validateId, multerConfigs.single('cover'), setNewCover)
 
 
 export default router

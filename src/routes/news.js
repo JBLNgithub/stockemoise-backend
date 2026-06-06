@@ -23,10 +23,11 @@ import validateNewLocality from '../middlewares/dataValidation/validateNewLocali
 import { locationMustExists, locationNameMustNotExists } from '../middlewares/dataValidation/locationExists.js'
 import { localityMustExists, localityMustNotExists } from '../middlewares/dataValidation/localityExists.js'
 import { countryMustExists } from '../middlewares/dataValidation/countryExists.js'
-import { mustBeLoggedIn } from '../middlewares/identify.js'
-import { mustBeOperator } from '../middlewares/permissions.js'
 import validateUpdatedNews from '../middlewares/dataValidation/validateUpdatedNews.js'
 import validateUpdatedLocation from '../middlewares/dataValidation/validateUpdatedLocation.js'
+import accessIdentify from '../middlewares/auth/accessToken.identify.js'
+import requiredAuth from '../middlewares/auth/required.authorize.js'
+import LEVELS from '../utils/LEVELS.js'
 
 
 const router = Router()
@@ -35,11 +36,11 @@ const router = Router()
 router.get('/', validateLimit, getAllNews)
 router.get('/next', validateLimit, nextEventNews)
 router.get('/:id', validateId, getSingleNews)
-router.post('/', mustBeLoggedIn, mustBeOperator, validateNews, addNews)
-router.post('/with-event', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateLocation, locationMustExists, addNewsAndEvent)
-router.post('/with-event&location', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addNewsAndEventAndLocation)
-router.post('/with-event&location&locality', mustBeLoggedIn, mustBeOperator, validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, countryMustExists, addNewsAndEventAndLocationAndLocality)
-router.patch('/:id', mustBeLoggedIn, mustBeOperator, validateId, validateUpdatedNews, validateUpdatedLocation, patchNews)
+router.post('/', accessIdentify, requiredAuth(LEVELS.operator), validateNews, addNews)
+router.post('/with-event', accessIdentify, requiredAuth(LEVELS.operator), validateNews, validateEventNews, validateLocation, locationMustExists, addNewsAndEvent)
+router.post('/with-event&location', accessIdentify, requiredAuth(LEVELS.operator), validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addNewsAndEventAndLocation)
+router.post('/with-event&location&locality', accessIdentify, requiredAuth(LEVELS.operator), validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, countryMustExists, addNewsAndEventAndLocationAndLocality)
+router.patch('/:id', accessIdentify, requiredAuth(LEVELS.operator), validateId, validateUpdatedNews, validateUpdatedLocation, patchNews)
 router.delete('/:id', validateId, removeNews)
 
 const storage = multer.diskStorage({
@@ -54,7 +55,7 @@ const storage = multer.diskStorage({
 
 const multerConfigs = multer({storage})
 
-router.post('/cover/:id', mustBeLoggedIn, mustBeOperator, validateId, multerConfigs.single('cover'), setNewCover)
+router.post('/cover/:id', accessIdentify, requiredAuth(LEVELS.operator), validateId, multerConfigs.single('cover'), setNewCover)
 
 
 export default router

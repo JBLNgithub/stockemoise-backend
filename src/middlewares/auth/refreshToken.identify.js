@@ -7,7 +7,7 @@ export default function (req, res, next) {
 
     if(refreshToken) {
         try {
-            const payload = jwt.verify(refreshToken, process.env.PRIVATE_KEY)
+            const payload = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_KEY)
             req.session = payload
             next()
         }

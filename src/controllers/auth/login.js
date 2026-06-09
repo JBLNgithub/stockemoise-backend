@@ -20,11 +20,7 @@ export const verifyCredentials = async({id, email}, password) => {
 	try {
 		if(email) user = await readUserByEmail(pool, email)
 		else if(id) user = await readUserById(pool, id)
-		else {
-			console.log('email', email)
-			console.log('id', id)
-			throw new Error('Neither id or email provided')
-		}
+		else throw new Error('Neither id or email provided')
 	}
 	catch(err) {
 		throw err

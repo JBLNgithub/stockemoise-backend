@@ -16,7 +16,7 @@ export default async function BasicIdentify (req, res, next) {
         	user = await verifyCredentials({email}, password)
         }
         catch {
-        	return res.sendStatus(500)
+        	return res.sendStatus(400)
         }
 
         if(!user) {

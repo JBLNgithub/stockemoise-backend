@@ -2,7 +2,7 @@ import {hash} from 'argon2'
 import pool from '../../databases/database.js'
 import { verifyCredentials } from './login.js'
 import { updatePassword } from '../../models/users.js'
-import logout from './logout.js'
+import { pepperPassword } from './login.js'
 
 
 export default async function changePWD(req, res) {
@@ -16,8 +16,8 @@ export default async function changePWD(req, res) {
 			res.status(401).send({message: 'Le mot de passe actuel ne correspond pas.'})
 		}
 		else {
-			await updatePassword(pool, id, (await hash(newPassword)))
-			logout(req, res)
+			await updatePassword(pool, id, (await hash(pepperPassword(newPassword))))
+			res.sendStatus(204)
 		}
 	}
 	catch(err) {

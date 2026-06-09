@@ -11,14 +11,14 @@ post {
 }
 
 auth:bearer {
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJKb3PDqSIsImxldmVsIjowLCJpYXQiOjE3ODEwMDcxNDksImV4cCI6MTc4MTkwNzE0OX0.A247JpZVSJsYv9ss9Pf6hBORf9xSLclNhqc6ROT1FGw
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJKb3PDqSIsImxldmVsIjowLCJpYXQiOjE3ODEwMTM4MDcsImV4cCI6MTc4MTA3MzgwN30.F4uEusSHI6Kn9YBhppuc1NKhAty0zijHTkm44L34yg8
 }
 
 body:json {
   {
-    "password": "test",
-    "newPassword": "test",
-    "newPassword_confirmation": "test"
+    "password": "aa",
+      "newPassword": "{{pwd}}",
+    "newPassword_confirmation": "{{pwd}}"
   }
 }
 

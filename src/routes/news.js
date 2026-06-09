@@ -41,7 +41,7 @@ router.post('/with-event', accessIdentify, requiredAuth(LEVELS.operator), valida
 router.post('/with-event&location', accessIdentify, requiredAuth(LEVELS.operator), validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateLocality, localityMustExists, addNewsAndEventAndLocation)
 router.post('/with-event&location&locality', accessIdentify, requiredAuth(LEVELS.operator), validateNews, validateEventNews, validateNewLocation, locationNameMustNotExists, validateNewLocality, localityMustNotExists, countryMustExists, addNewsAndEventAndLocationAndLocality)
 router.patch('/:id', accessIdentify, requiredAuth(LEVELS.operator), validateId, validateUpdatedNews, validateUpdatedLocation, patchNews)
-router.delete('/:id', validateId, removeNews)
+router.delete('/:id', accessIdentify, requiredAuth(LEVELS.operator), validateId, removeNews)
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {

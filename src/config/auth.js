@@ -1,7 +1,7 @@
 const AUTH_CONFIG = {
-	// duration : days * hours * minutes * seconds * miliseconds
-	refreshTokenDuration: 1 * 24 * 60 * 60 * 1000,
-	accessTokenDuration: 1 * 60 * 1000,
+	// duration : days * hours * minutes * seconds
+	refreshTokenDuration: 1 * 24 * 60 * 60,
+	accessTokenDuration: 15 * 60,
 
 	cookieName: 'stockAuth',
 	payloadItems: ['id', 'username', 'level']

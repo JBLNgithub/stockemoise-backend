@@ -58,6 +58,6 @@ export function generateAndSetRefreshToken (user, res) {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'PROD',      // secure ==> https
         sameSite: process.env.NODE_ENV === 'PROD' ? 'Strict' : 'Lax',
-        maxAge: AUTH_CONFIG.refreshTokenDuration
+        maxAge: AUTH_CONFIG.refreshTokenDuration * 1000
     })
 }

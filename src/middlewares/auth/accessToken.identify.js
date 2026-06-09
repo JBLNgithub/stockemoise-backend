@@ -7,8 +7,9 @@ export default function bearerToken(req, res, next) {
 
     if(auth && auth.substring(0,6) === 'Bearer') {
         const authFields = auth.split(' ')
+        const accessToken = authFields[1]
         try {
-            const payload = jwt.verify(authFields[1], process.env.ACCESS_TOKEN_KEY)
+            const payload = jwt.verify(accessToken, process.env.ACCESS_TOKEN_KEY)
             req.session = payloadConstructor(payload)
             next()
         }

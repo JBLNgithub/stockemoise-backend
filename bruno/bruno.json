@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "name": "stockemoise-backend",
+  "name": "stockemoise",
   "type": "collection",
   "ignore": [
     "node_modules",

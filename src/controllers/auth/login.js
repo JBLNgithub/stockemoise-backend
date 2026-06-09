@@ -1,6 +1,7 @@
 import jwt from 'jsonwebtoken'
+import crypto from 'crypto'
 import pool from '../../databases/database.js'
-import { readUserByEmail } from '../../models/users.js'
+import { readUserByEmail, readUserById } from '../../models/users.js'
 import {verify} from 'argon2'
 import AUTH_CONFIG from '../../config/auth.js'
 import payloadConstructor from '../../utils/payloadConstructor.js'
@@ -14,25 +15,40 @@ export default function login(req, res) {
 }
 
 
-export const verifyCredentials = async(email, password) => {
+export const verifyCredentials = async({id, email}, password) => {
 	let user
 	try {
-    	user = await readUserByEmail(pool, email)
+		if(email) user = await readUserByEmail(pool, email)
+		else if(id) user = await readUserById(pool, id)
+		else {
+			console.log('email', email)
+			console.log('id', id)
+			throw new Error('Neither id or email provided')
+		}
 	}
 	catch(err) {
-		console.error(err)
 		throw err
 	}
 
-	// TODO : swap secret key from PRIVATE_KEY to PASSWORD_KEY, WAIT I DONT USE ANY SCRET KEY ??
-    if(!user || !await verify(user.password, password)) {
-        return null
-    }
-    else {
-     	return payloadConstructor(user)
-    }
+	if(!user) return null
+
+	if(await verify(user.password, pepperPassword(password))) {
+		return payloadConstructor(user)
+	}
+	else {
+		return null
+	}
 }
 
+export function pepperPassword(password) {
+	const PEPPER = process.env.PASSWORD_KEY
+	if(!PEPPER) throw new Error('PASSWORD_KEY not defined')
+
+	return crypto
+		.createHmac('sha256', PEPPER)
+		.update(password)
+		.digest('hex')
+}
 
 export function generateAccessToken (user) {
 	return jwt.sign(payloadConstructor(user), process.env.ACCESS_TOKEN_KEY, {expiresIn: AUTH_CONFIG.accessTokenDuration})

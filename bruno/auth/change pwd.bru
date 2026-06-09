@@ -1,0 +1,28 @@
+meta {
+  name: change pwd
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/api/auth/change-password
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJKb3PDqSIsImxldmVsIjowLCJpYXQiOjE3ODEwMDcxNDksImV4cCI6MTc4MTkwNzE0OX0.A247JpZVSJsYv9ss9Pf6hBORf9xSLclNhqc6ROT1FGw
+}
+
+body:json {
+  {
+    "password": "test",
+    "newPassword": "test",
+    "newPassword_confirmation": "test"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -13,7 +13,7 @@ export default async function BasicIdentify (req, res, next) {
         // const user =  await loginGetUser(email, password)
         let user
         try {
-        	user = await verifyCredentials(email, password)
+        	user = await verifyCredentials({email}, password)
         }
         catch {
         	return res.sendStatus(500)

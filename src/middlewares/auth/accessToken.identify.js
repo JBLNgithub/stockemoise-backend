@@ -14,7 +14,7 @@ export default function bearerToken(req, res, next) {
             next()
         }
         catch(err) {
-        	console.log(err)
+        	console.error(err)
             res.sendStatus(401)
         }
     }

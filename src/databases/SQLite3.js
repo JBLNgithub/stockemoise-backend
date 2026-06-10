@@ -11,9 +11,9 @@ try {
 }
 catch(err) {
     if(process.env.DATABASE === "SQLITE"){
-        console.log(error)
+        console.error(error)
         process.exit()
-    } 
+    }
 }
 
 async function dbQuery(database, query, params) {

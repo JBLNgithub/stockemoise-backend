@@ -11,7 +11,7 @@ import cookieParser from 'cookie-parser'
 const app = express()
 const host = process.env.HOST || "http://localhost:"
 const port = process.env.PORT || 3000
-const node_env = process.env.NODE_ENV
+const node_env = process.env.NODE_ENV || 'PROD'
 
 // CORS
 if(node_env === 'DEV') app.use(CORS)
@@ -31,7 +31,8 @@ exitHandler()
 
 // launch server
 app.listen(port, () => {
+	console.log(`server env : ${node_env}`)
     const processURL = `${host}${ host === "http://localhost:" ? "" : "\t"}${port}`
-    console.log(`server start : ${processURL}`);
-    console.log(`API docs : ${processURL}/api-docs`)
+    console.log(`server start : ${processURL}`)
+    // console.log(`API docs : ${processURL}/api-docs`)
 });

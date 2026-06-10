@@ -19,7 +19,6 @@ export const doesLocationExist = async(SQLClient, id) => {
     const query = "SELECT COUNT(*) FROM location WHERE id = $1"
 
     const rows = await SQLClient.query(query, [id])
-    console.log(rows)
     let count =  rows[0][sqlAdapter.COUNT()]
 
     if(process.env.DATABASE === "POSTGRESQL") count = parseInt(count)

@@ -12,7 +12,6 @@ const validator = vine.compile(schema)
 
 export default async function changePWDValidation(req, res, next) {
 	const {body} = req
-	console.log('body', body)
 
 	if(!body) {
 		res.sendStatus(400)

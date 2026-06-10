@@ -3,13 +3,12 @@ import 'dotenv/config'
 import POSTGRESQL_POOL from './postgresql.js'
 
 
-const DB = process.env.DATABASE
-
+const DB = process.env.DATABASE || 'POSTGRESQL'
 
 let pool
 
 switch(DB) {
-    case "SQLITE": 
+    case "SQLITE":
         // pool = SQLITE_POOL
         break
     case "POSTGRESQL":

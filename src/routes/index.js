@@ -1,6 +1,6 @@
 import {Router} from 'express'
 import APIRouter from './API.js'
-import docs from './api-docs.js'
+// import docs from './api-docs.js'
 import express from 'express'
 import path from 'path'
 
@@ -9,7 +9,7 @@ const router = Router()
 
 // backend
 router.use('/api', APIRouter)
-router.use('/api-docs', docs)
+// router.use('/api-docs', docs)
 
 // frontend
 const __dirname= path.resolve()

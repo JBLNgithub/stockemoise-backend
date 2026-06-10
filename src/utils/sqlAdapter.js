@@ -1,12 +1,12 @@
 import 'dotenv/config'
 
 
-const DB = process.env.DATABASE
+const DB = process.env.DATABASE || 'POSTGRESQL'
 
 const sqlAdapter = {
     NOW: () => {
         switch(DB) {
-            case "SQLITE": 
+            case "SQLITE":
                 return "datetime('now')"
                 break
             case "POSTGRESQL":
@@ -18,7 +18,7 @@ const sqlAdapter = {
     },
     COUNT: () => {
         switch(DB) {
-            case "SQLITE": 
+            case "SQLITE":
                 return 'COUNT(*)'
                 break
             case "POSTGRESQL":
@@ -30,7 +30,7 @@ const sqlAdapter = {
     },
     USER: () => {
         switch(DB) {
-            case "SQLITE": 
+            case "SQLITE":
                 return 'user'
                 break
             case "POSTGRESQL":

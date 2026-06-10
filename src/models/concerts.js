@@ -1,24 +1,6 @@
 import sqlAdapter from "../utils/sqlAdapter.js"
 
 
-/**
- * @swagger
- * components:
- *  schemas:
- *      nextConcerts:
- *          type: object
- *          properties:
- *              id:
- *                  type: integer
- *              title:
- *                  type: string
- *              dateEvent:
- *                  type: string
- *              isCanceled:
- *                  type: boolean
- *              locationName:
- *                  type: string
- */
 export const nextConcerts = async(SQLClient, limit) => {
     let query = `SELECT c.id, c.title, ${sqlAdapter.C_DATE_EVENT()} AS "dateEvent", c.isCanceled AS "isCanceled", l.name AS "locationName" FROM concert c INNER JOIN location l ON (c.location = l.id) WHERE c.dateEvent > ${sqlAdapter.NOW()} ORDER BY dateEvent ASC`
     const queryValues = []

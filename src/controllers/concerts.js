@@ -1,5 +1,5 @@
 import pool from '../databases/database.js'
-import { 
+import {
     nextConcerts as nextConcertsModel,
     createConcert,
     readConcert,
@@ -18,7 +18,7 @@ import isEmptyObject from '../utils/isEmptyObject.js'
  *          description : list of concerts
  *          content:
  *              application/json:
- *                  schema: 
+ *                  schema:
  *                      $ref : '#components/schemas/nextConcerts'
  */
 export const nextConcerts = async(req, res) => {
@@ -98,7 +98,7 @@ export const setConcert = async(req, res) => {
         res.status(200).send({success: true})
     }
     else {
-        console.log('no valid field given')
+        console.error('no valid field given')
         res.sendStatus(404)
     }
 }
@@ -120,7 +120,7 @@ export const removeConcert = async(req, res) => {
         res.sendStatus(200)
     }
     catch(err) {
-        console.log(err)
+        console.error(err)
         res.sendStatus(500)
     }
 }

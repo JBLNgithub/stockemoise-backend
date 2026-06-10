@@ -26,7 +26,7 @@ const validateUpdatedLocation = async(req, res, next) => {
             }
         }
         catch(err) {
-            console.log(err.messages)
+            console.error(err.messages)
             res.status(412).send({success: false, message: 'Aucun lieu fourni'})
         }
 
